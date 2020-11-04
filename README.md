@@ -1,1 +1,24 @@
-# Merhaba Gencler
+dadasd
+asdas
+das
+das
+da
+da
+sd
+asd
+ad
+as
+da
+sd
+a
+sda
+sd
+asd
+
+as
+da
+sd
+as
+/mrb
+/mrbmbr
+/mrbmrbmrb
