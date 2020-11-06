@@ -1,5 +1,5 @@
 # UI Project
-## Adimlar
+## Task Distribution
 | Project | Low Fidelity | High Fidelity | JavaFX | Testing
 | :--- | :----: | :----: | :----: | :----:
 | Emre | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
