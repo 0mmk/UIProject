@@ -1,1 +1,10 @@
-# sdlsdsbenzafercokzekiyimmazlumköylüdür
+# UI Project
+## Adimlar
+| Project | Low Fidelity | High Fidelity | JavaFX | Testing
+| :--- | :----: | :----: | :----: | :----:
+| Emre | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
+| Enes | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
+| Mazlum | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
+| Mehmet | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
+| Yener | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
+| Zafer | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
