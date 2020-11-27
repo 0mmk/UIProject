@@ -1,0 +1,24 @@
+﻿Task Analysis
+
+Goal
+– Our goal is to create an application so that users can easily see their portfolios, net gross, money   status, shared market values and related news, which connects your shared market data, as well as all    the accounts you have so that all of your money applications can be reduced to one, so that you don’t have to use many applications.
+
+Preconditions
+– Our user interface must know name, surname, password and email to create account, phone number is optional. To make transations you need to login via E-Devlet and your bank account to enable, or you can use our application without any information about your bank accounts like a wallet app, but this means that you cannot do any transations or buy, sell a shared market.
+
+	Subtasks:
+– Login, sign up, forgot password → reset password, use QR code.
+– Main page that shows a summary of all pages (portfolios).
+– Bank Accounts → See bank accounts and credit cards details.
+– Stock Market → See/Buy/Sell/Order stock markets, related news and high/low pick of stock market.
+– Net Gross → Shows net gross of each month→ See net worth and spent details.
+– Expenses → Shows expenses for this month→ See net worth and spent details.
+– Scheduled Bills → Show Bills → Pay your bills and automate them.
+– Settings → Change password/e-mail/phone number/security preferences, set themes/language/time-zone and assistants, see history and backup data.
+
+Where is the task performed?
+– Tasks can be performed without internet connection, but if you want to refresh or do some transactions, buy/sell/order shared market or see detailed news you must be connected to the internet.
+	
+Similar Softwares
+– Ziraat Bank, IsBank etc. → They are limited in terms of news and showing all months information.
+– PaPara, Paribu etc. → They are limited in terms of transations, shared markets and news information.
