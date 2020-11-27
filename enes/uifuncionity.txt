@@ -1,0 +1,10 @@
+Project Functionity
+-These project provide us use different bank accounts in the same application. With that its easy to reach and execute processes about our accounts. 
+-We can access our account easily with QR code or for normal login includes mail and password . 
+-If you don’t have an account you can create new, if you forgot your password you can change your password after few security protocols. 
+-At the main screen we can see al menu details like summary. At the Expenses section we can see monthly spends and their kind (food,health,etc..) , total money we spend to them, for income and outcome we can see our saves on monthly. 
+-At the Bills section we can see and pay our bills, get information about them, create automatic pay. 
+-At Stock section we can manage our stocks, buy and sell, see instant change , read news about the firm we buy the stock. 
+-At Account section we can see our accounts and cards, see recent transactions we did that account, read the decont about that transaction, send money to IBAN or account. 
+-At settings section we can change security preferences.
+
