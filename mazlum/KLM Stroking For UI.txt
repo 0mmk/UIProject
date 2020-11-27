@@ -1,0 +1,20 @@
+KLM Stroking For UI
+All KLM assumes program runs (User does not have to open from their desktop)
+1-Sign Up Page
+Using Tab key to go next input and Enter to press button
+Sign up: M -> P -> B -> H ->6k -> K -> 6K ->  K -> 25K -> K -> 10K -> K-> 10K -> K-> K -> R
+Using mouse to go next input
+Sign up: M -> P ->  B ->  H -> 6K -> H -> P  -> B -> 6K -> H -> P -> B -> H-> 25K -> H -> P -> B -> H-> 10K -> H -> P -> B -> H -> 10K -> H -> P-> B -> R
+2-Log In Page
+Use Tab key to go next input and Enter to press button
+Log in: M -> P -> B -> H-> 25K-> K -> 10K -> K -> K -> R
+Using mouse to go next input
+Log in: M -> P ->  B ->  H -> 25K -> H -> P  -> B -> 10K -> H -> P -> B -> R
+2-Bill Pay Page
+Bill Pay: M -> P -> B(Dropdown menu) ->  M-> B(item select) -> P ->  B(Dropdown menu) -> M -> B -> P -> B(Text box selected)-> H ->10K -> H-> P -> B(Next Button) ->R -> M -> P -> B(Account Selected) -> R -> M -> P  -> B -> M -> P -> B (Verify Button) 
+2-Send Money Pay Page
+Money Send: M -> P -> B(decide to IBAN or ID) -> 
+If it’s IBAN:  P ->  B -> H -> 16K(IBAN) -> H -> P -> B -> H ->13K(name and surname) -> H-> P -> B(Next)
+If it’s ID:  P ->  B(Dropdown menu) -> M -> B(item selected) -> P -> B -> 16K(IBAN) -> H -> P -> B -> H ->13K(name and surname) -> H-> P -> B(Next)
+
+
