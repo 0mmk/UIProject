@@ -4,7 +4,7 @@
 | :--- | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----:
 | Progress |![Func Req.](https://progress-bar.dev/0/)|![User An.](https://progress-bar.dev/80/)|![Task An.](https://progress-bar.dev/80/)|![Flowchart](https://progress-bar.dev/80/)|![Low Fid.](https://progress-bar.dev/0/)|![High Fid.](https://progress-bar.dev/90/)|![Predictive Eval.](https://progress-bar.dev/0/)|![Usability Ins](https://progress-bar.dev/0/)|![Usability Test](https://progress-bar.dev/0/)
 | Emre | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ | :heavy_check_mark: | ⬜️ | ⬜️ | ⬜️ |
-| Enes | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ | :heavy_check_mark: | ⬜️ | ⬜️ | ⬜️ |
+| Enes | :heavy_check_mark: | ⬜️ | ⬜️ | ⬜️ | ⬜️ | :heavy_check_mark: | ⬜️ | ⬜️ | ⬜️ |
 | Mazlum | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ | :heavy_check_mark: | ⬜️ | ⬜️ | ⬜️ |
 | Mehmet | ⬜️ | ⬜️ | :heavy_check_mark: | ⬜️ | ⬜️ | :heavy_check_mark: | ⬜️ | ⬜️ | ⬜️ |
 | Yener | ⬜️ | ⬜️ | ⬜️ | :heavy_check_mark: | ⬜️ |:heavy_check_mark: | ⬜️ | ⬜️ | ⬜️ |
