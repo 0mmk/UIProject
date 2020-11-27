@@ -9,7 +9,7 @@ Preconditions
 	Subtasks:
 – Login, sign up, forgot password → reset password, use QR code.
 – Main page that shows a summary of all pages (portfolios).
-– Bank Accounts → See bank accounts and credit cards details.
+– Bank Accounts → See bank accounts and credit cards details, transfer money.
 – Stock Market → See/Buy/Sell/Order stock markets, related news and high/low pick of stock market.
 – Net Gross → Shows net gross of each month→ See net worth and spent details.
 – Expenses → Shows expenses for this month→ See net worth and spent details.
