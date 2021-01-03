@@ -279,18 +279,18 @@
                   <Font size="14.0" />
                </font>
             </Label>
-            <Button fx:id="add" layoutX="67.0" layoutY="317.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="35.0" prefWidth="41.0" style="-fx-background-color: #ededed;">
+            <Button fx:id="stockAddButton" layoutX="67.0" layoutY="317.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="35.0" prefWidth="41.0" style="-fx-background-color: #ededed;">
                <graphic>
-                  <ImageView fx:id="add" fitHeight="29.0" fitWidth="31.0">
+                  <ImageView fitHeight="29.0" fitWidth="31.0">
                      <image>
                         <Image url="@add.png" />
                      </image>
                   </ImageView>
                </graphic>
             </Button>
-            <Button layoutX="129.0" layoutY="316.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="41.0" style="-fx-background-color: #ededed;">
+            <Button fx:id="stockDeleteButton" layoutX="129.0" layoutY="316.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="41.0" style="-fx-background-color: #ededed;">
                <graphic>
-                  <ImageView fx:id="delete" fitHeight="30.0" fitWidth="34.0">
+                  <ImageView fitHeight="30.0" fitWidth="34.0">
                      <image>
                         <Image url="@delete.png" />
                      </image>
