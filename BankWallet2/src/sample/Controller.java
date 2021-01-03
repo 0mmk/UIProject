@@ -36,6 +36,9 @@ public class Controller {
             gotoSignUpLink,
             gotoForgotPasswordLink;
 
+    @FXML
+    Label dontHaveAccount;
+
     private LinkedList<TTuple> list = null;
 
     @FXML
@@ -73,5 +76,9 @@ public class Controller {
         } else if (src == pageRightButton) {
             Main.iteratePages(false);
         }
+    }
+
+    public void handleLoginClick() {
+        Main.gotoPage(Main.getDTuple(1));
     }
 }

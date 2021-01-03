@@ -61,7 +61,7 @@
                         <Font name="Inter Light" size="12.0" />
                      </font>
                   </Hyperlink>
-                  <Label layoutX="14.0" layoutY="251.0" text="Don't have an account yet?" textFill="#293a4b">
+                  <Label fx:id="dontHaveAccount" layoutX="14.0" layoutY="251.0" onMouseClicked="#handleLoginClick" text="Don't have an account yet?" textFill="#293a4b">
                      <font>
                         <Font name="Inter Light" size="12.0" />
                      </font>
