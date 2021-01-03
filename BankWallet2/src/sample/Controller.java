@@ -2,87 +2,74 @@ package sample;
 
 import javafx.event.*;
 import javafx.fxml.*;
-import javafx.scene.*;
-import javafx.scene.control.Button;
-import javafx.stage.*;
+import javafx.scene.control.*;
+import java.util.*;
 
-class Tuple {
-    Button button;
-    String fxml, title;
-    public Tuple(String fxml, Button button, String title) {
-        this.fxml = fxml;
-        this.button = button;
-        this.title = title;
+class TTuple {
+    final Object mainObject;
+    final DTuple dTuple;
+
+    public TTuple(Object mainObject, DTuple dTuple) {
+        this.mainObject = mainObject;
+        this.dTuple = dTuple;
     }
 }
 
 public class Controller {
-
     @FXML
-    Button homeButton, stockButton, expenseButton, billButton, accountButton, profileButton,
-            pageLeftButton, pageRightButton, loginButton, forgotPasswordButton, signUpButton;
+    Button
+            homeButton,
+            stockButton,
+            expenseButton,
+            billButton,
+            accountButton,
+            profileButton,
+            pageLeftButton,
+            pageRightButton,
+            loginButton,
+            forgotPasswordButton,
+            signUpButton;
+    @FXML
+    Hyperlink
+            gotoLoginLink,
+            gotoSignUpLink,
+            gotoForgotPasswordLink;
 
-    Stage currentStage;
-    Tuple[] tuples;
+    private LinkedList<TTuple> list = null;
 
     @FXML
     public void initialize() {
-        tuples = new Tuple[]{
-                new Tuple("homePage.fxml", homeButton, "Home"),
-                new Tuple("stockPage.fxml", stockButton, "Stock"),
-                new Tuple("expensePage.fxml", expenseButton, "Expenses and Gross"),
-                new Tuple("billPage.fxml", billButton, "Bills"),
-                new Tuple("accountPage.fxml", accountButton, "Account"),
-                new Tuple("profilePage.fxml", profileButton, "Profile")
-        };
+        list = new LinkedList<>(
+                Arrays.asList(
+                    new TTuple(homeButton,              Main.getDTuple(3)),
+                    new TTuple(stockButton,             Main.getDTuple(4)),
+                    new TTuple(expenseButton,           Main.getDTuple(5)),
+                    new TTuple(billButton,              Main.getDTuple(6)),
+                    new TTuple(accountButton,           Main.getDTuple(7)),
+                    new TTuple(profileButton,           Main.getDTuple(8)),
+                    new TTuple(loginButton,             Main.getDTuple(3)),
+                    new TTuple(signUpButton,            Main.getDTuple(3)),
+                    new TTuple(forgotPasswordButton,    Main.getDTuple(3)),
+                    new TTuple(gotoLoginLink,           Main.getDTuple(0)),
+                    new TTuple(gotoSignUpLink,          Main.getDTuple(1)),
+                    new TTuple(gotoForgotPasswordLink,  Main.getDTuple(2))
+        	    )
+        );
     }
 
     public void handlePress(ActionEvent event) throws Exception {
-        if (currentStage == null) {
-            if (event.getSource() == loginButton) {
-                currentStage = (Stage) loginButton.getScene().getWindow();
-            } else if (event.getSource() == signUpButton) {
-                currentStage = (Stage) signUpButton.getScene().getWindow();
-            } else if (event.getSource() == forgotPasswordButton) {
-                currentStage = (Stage) forgotPasswordButton.getScene().getWindow();
-            } else {
-                currentStage = (Stage) homeButton.getScene().getWindow();
+        Object src = event.getSource();
+        for (TTuple t: list) {
+            if (t.mainObject == src) {
+                Main.gotoPage(t.dTuple);
+                return;
             }
         }
 
-        if (event.getSource() == loginButton) {
-            gotoPage(tuples[0].fxml, "Welcome");
-        } else if (event.getSource() == signUpButton) {
-            gotoPage(tuples[0].fxml, "Welcome");
-        } else if (event.getSource() == forgotPasswordButton) {
-            gotoPage(tuples[0].fxml, "Welcome");
-        } else if (event.getSource() == pageLeftButton) {
-            Main.setTuplesIndex(Main.getTuplesIndex() == 0 ? tuples.length-1 : Main.getTuplesIndex() - 1);
-            gotoPage(tuples[Main.getTuplesIndex()].fxml, tuples[Main.getTuplesIndex()].title);
-        } else if (event.getSource() == pageRightButton) {
-            Main.setTuplesIndex(Main.getTuplesIndex() == tuples.length - 1 ? 0 : Main.getTuplesIndex() + 1);
-            gotoPage(tuples[Main.getTuplesIndex()].fxml, tuples[Main.getTuplesIndex()].title);
-        } else {
-            for (int i = 0; i < tuples.length; i++) {
-                if (event.getSource() == tuples[i].button) {
-                    Main.setTuplesIndex(i);
-                    break;
-                }
-            }
-            gotoPage(tuples[Main.getTuplesIndex()].fxml, tuples[Main.getTuplesIndex()].title);
+        if (src == pageLeftButton) {
+            Main.iteratePages(true);
+        } else if (src == pageRightButton) {
+            Main.iteratePages(false);
         }
-    }
-
-    private void gotoPage(String fileFXML, String title) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource(fileFXML));
-        Scene scene = new Scene(root, Main.getHeight(), Main.getWidth());
-        currentStage.setScene(scene);
-        if (!title.equals("")) currentStage.setTitle(title);
-        currentStage.setResizable(false);
-        currentStage.show();
-    }
-
-    private void gotoPage(String fileFXML) throws Exception {
-        gotoPage(fileFXML, "");
     }
 }
