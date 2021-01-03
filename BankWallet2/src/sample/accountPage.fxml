@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
-<?import javafx.scene.text.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="800.0" style="-fx-background-color: #ededed;" xmlns="http://javafx.com/javafx/11.0.3-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="800.0" style="-fx-background-color: #ededed;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
       <Pane fx:id="accountPane" prefHeight="150.0" prefWidth="800.0" style="-fx-background-color: #293a4b;" />
       <Pane layoutX="20.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="760.0" style="-fx-background-color: #293a4b; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);">
@@ -60,14 +61,209 @@
             </Button>
          </children>
       </Pane>
-      <Pane layoutX="20.0" layoutY="50.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="360.0" prefWidth="760.0" style="-fx-background-color: #ededed; -fx-border-color: #293a4b; -fx-border-width: 5; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" />
+      <Pane layoutX="20.0" layoutY="50.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="360.0" prefWidth="760.0" style="-fx-background-color: #ededed; -fx-border-color: #293a4b; -fx-border-width: 5; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);">
+         <children>
+            <Label layoutX="25.0" layoutY="25.0" text="Bank Accounts" textFill="#293a4b" />
+            <Pane layoutX="25.0" layoutY="45.0" prefHeight="2.0" prefWidth="700.0" style="-fx-background-color: #293a4b;" />
+            <Pane layoutX="25.0" layoutY="52.0" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #ededed; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8),2, 0 ,0, 0); -fx-border-width: 0;">
+               <children>
+                  <Button fx:id="accountDetail" layoutX="160.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 1, 0, 0, 0);" text="Detail ↪" textFill="#293a4b">
+                     <font>
+                        <Font size="8.0" />
+                     </font>
+                  </Button>
+                  <Label layoutX="5.0" layoutY="21.0" text="Bank Account-Drawing" textFill="#ae0000">
+                     <font>
+                        <Font size="5.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="5.0" layoutY="5.0" text="Ziraat Bankası" textFill="#293a4b" />
+                  <Pane layoutY="31.0" prefHeight="0.5" prefWidth="200.0" style="-fx-background-color: #293a4b;" />
+                  <Label layoutX="5.0" layoutY="43.0" text="Account ID : 123" textFill="#293a4b">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="5.0" layoutY="30.0" text="Name: Akdeniz University" textFill="#293a4b">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="5.0" layoutY="60.0" text="Amount" textFill="#293a4b">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="150.0" layoutY="75.0" text="\$140.000" textFill="#293a4b">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="5.0" layoutY="75.0" text="Aviable Amount" textFill="#293a4b">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="150.0" layoutY="65.0" text="\$300.000" textFill="#293a4b">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Pane layoutY="60.0" prefHeight="0.5" prefWidth="200.0" style="-fx-background-color: #293a4b;" />
+               </children>
+            </Pane>
+            <Pane layoutX="455.0" layoutY="52.0" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #ededed; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8),2, 0 ,0, 0); -fx-border-width: 0;">
+               <children>
+                  <Button fx:id="accountDetail1" layoutX="160.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 1, 0, 0, 0);" text="Detail ↪" textFill="#293a4b">
+                     <font>
+                        <Font size="8.0" />
+                     </font>
+                  </Button>
+                  <Label layoutX="5.0" layoutY="21.0" text="Bank Account-Drawing" textFill="#ae0000">
+                     <font>
+                        <Font size="5.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="5.0" layoutY="5.0" text="Ziraat Bankası" textFill="#293a4b" />
+                  <Pane layoutY="31.0" prefHeight="0.5" prefWidth="200.0" style="-fx-background-color: #293a4b;" />
+                  <Label layoutX="5.0" layoutY="43.0" text="Account ID : 123" textFill="#293a4b">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="5.0" layoutY="30.0" text="Name: Akdeniz University" textFill="#293a4b">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="5.0" layoutY="60.0" text="Amount" textFill="#293a4b">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="150.0" layoutY="75.0" text="\$140.000" textFill="#293a4b">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="5.0" layoutY="75.0" text="Aviable Amount" textFill="#293a4b">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="150.0" layoutY="65.0" text="\$300.000" textFill="#293a4b">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Pane layoutY="60.0" prefHeight="0.5" prefWidth="200.0" style="-fx-background-color: #293a4b;" />
+               </children>
+            </Pane>
+            <Pane layoutX="240.0" layoutY="52.0" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #ededed; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8),2, 0 ,0, 0); -fx-border-width: 0;">
+               <children>
+                  <Button fx:id="accountDetail2" layoutX="160.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 1, 0, 0, 0);" text="Detail ↪" textFill="#293a4b">
+                     <font>
+                        <Font size="8.0" />
+                     </font>
+                  </Button>
+                  <Label layoutX="5.0" layoutY="21.0" text="Bank Account-Drawing" textFill="#ae0000">
+                     <font>
+                        <Font size="5.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="5.0" layoutY="5.0" text="Ziraat Bankası" textFill="#293a4b" />
+                  <Pane layoutY="31.0" prefHeight="0.5" prefWidth="200.0" style="-fx-background-color: #293a4b;" />
+                  <Label layoutX="5.0" layoutY="43.0" text="Account ID : 123" textFill="#293a4b">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="5.0" layoutY="30.0" text="Name: Akdeniz University" textFill="#293a4b">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="5.0" layoutY="60.0" text="Amount" textFill="#293a4b">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="150.0" layoutY="75.0" text="\$140.000" textFill="#293a4b">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="5.0" layoutY="75.0" text="Aviable Amount" textFill="#293a4b">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="150.0" layoutY="65.0" text="\$300.000" textFill="#293a4b">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Pane layoutY="60.0" prefHeight="0.5" prefWidth="200.0" style="-fx-background-color: #293a4b;" />
+               </children>
+            </Pane>
+            <Pane layoutX="25.0" layoutY="170.0" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #ededed; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8),2, 0 ,0, 0); -fx-border-width: 0;">
+               <children>
+                  <Button fx:id="accountDetail3" layoutX="160.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 1, 0, 0, 0);" text="Detail ↪" textFill="#293a4b">
+                     <font>
+                        <Font size="8.0" />
+                     </font>
+                  </Button>
+                  <Label layoutX="5.0" layoutY="21.0" text="Bank Account-Drawing" textFill="#ae0000">
+                     <font>
+                        <Font size="5.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="5.0" layoutY="5.0" text="Ziraat Bankası" textFill="#293a4b" />
+                  <Pane layoutY="31.0" prefHeight="0.5" prefWidth="200.0" style="-fx-background-color: #293a4b;" />
+                  <Label layoutX="5.0" layoutY="43.0" text="Account ID : 123" textFill="#293a4b">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="5.0" layoutY="30.0" text="Name: Akdeniz University" textFill="#293a4b">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="5.0" layoutY="60.0" text="Amount" textFill="#293a4b">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="150.0" layoutY="75.0" text="\$140.000" textFill="#293a4b">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="5.0" layoutY="75.0" text="Aviable Amount" textFill="#293a4b">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="150.0" layoutY="65.0" text="\$300.000" textFill="#293a4b">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Pane layoutY="60.0" prefHeight="0.5" prefWidth="200.0" style="-fx-background-color: #293a4b;" />
+               </children>
+            </Pane>
+         </children>
+      </Pane>
       <Button fx:id="pageLeftButton" layoutX="20.0" layoutY="410.0" mnemonicParsing="false" onAction="#handlePress" style="-fx-background-color: #293a4b; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="↩" textFill="#ededed">
          <font>
             <Font name="Inter Semi Bold" size="13.0" />
-         </font></Button>
+         </font>
+      </Button>
       <Button fx:id="pageRightButton" layoutX="746.7" layoutY="410.0" mnemonicParsing="false" onAction="#handlePress" style="-fx-background-color: #293a4b; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="↪" textFill="#ededed">
          <font>
             <Font name="Inter Semi Bold" size="13.0" />
-         </font></Button>
+         </font>
+      </Button>
    </children>
 </Pane>
