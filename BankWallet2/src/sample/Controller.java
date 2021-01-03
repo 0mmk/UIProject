@@ -28,7 +28,8 @@ public class Controller {
             pageRightButton,
             loginButton,
             forgotPasswordButton,
-            signUpButton;
+            signUpButton,
+            billButtonNext;
     @FXML
     Hyperlink
             gotoLoginLink,
@@ -52,7 +53,8 @@ public class Controller {
                     new TTuple(forgotPasswordButton,    Main.getDTuple(3)),
                     new TTuple(gotoLoginLink,           Main.getDTuple(0)),
                     new TTuple(gotoSignUpLink,          Main.getDTuple(1)),
-                    new TTuple(gotoForgotPasswordLink,  Main.getDTuple(2))
+                    new TTuple(gotoForgotPasswordLink,  Main.getDTuple(2)),
+                    new TTuple(billButtonNext,          Main.getDTuple(0))
         	    )
         );
     }
