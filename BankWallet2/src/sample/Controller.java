@@ -50,7 +50,8 @@ public class Controller {
             buy3Button,
             buy1DetailButton,
             order1DetailButton,
-            sell1DetailButton;
+            sell1DetailButton,
+            exitButton;
     @FXML
     Hyperlink
             gotoLoginLink,
@@ -101,6 +102,9 @@ public class Controller {
 
     public void handlePress(ActionEvent event) throws Exception {
         Object src = event.getSource();
+        if (src == exitButton) {
+            System.exit(0);
+        }
         for (TTuple t: list) {
             if (t.mainObject == src) {
                 Main.gotoPage(t.dTuple);
@@ -118,5 +122,21 @@ public class Controller {
     public void handleLoginClick() throws Exception {
         Main.setScale(loginPane);
         //Main.gotoPage(Main.getDTuple(1));
+    }
+
+    public void gotoBankAccountsFunc() {
+        Main.gotoPage(Main.getDTuple(7));
+    }
+
+    public void gotoExpenseFunc() {
+        Main.gotoPage(Main.getDTuple(5));
+    }
+
+    public void gotoStockFunc() {
+        Main.gotoPage(Main.getDTuple(4));
+    }
+
+    public void gotoBillFunc() {
+        Main.gotoPage(Main.getDTuple(6));
     }
 }

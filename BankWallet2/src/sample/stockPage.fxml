@@ -118,7 +118,10 @@
                         <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="82.0" prefWidth="224.0" style="-fx-background-color: #ededed; -fx-border-color: BLACK; -fx-border-width: 1;">
                            <children>
                               <Button fx:id="showNew4Button" mnemonicParsing="false" onAction="#handlePress" prefHeight="82.0" prefWidth="230.0" style="-fx-background-color: #ededed; -fx-border-color: BLACK;" wrapText="true" />
-                              <Label layoutX="6.0" layoutY="23.0" prefHeight="55.0" prefWidth="215.0" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper viverra nam libero justo laoreet sit amet cursus sit. At tempor commodo ullamcorper a lacus vestibulum. Et netus et malesuada fames ac. Molestie at elementum eu facilisis sed odio morbi quis. Vel turpis nunc eget lorem dolor. Adipiscing enim eu turpis egestas pretium aenean pharetra magna ac. Vel quam elementum pulvinar etiam non quam lacus suspendisse. Pellentesque eu tincidunt tortor aliquam." textFill="#293a4b" wrapText="true" />
+                              <Label layoutX="6.0" layoutY="23.0" prefHeight="55.0" prefWidth="215.0" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper viverra nam libero justo laoreet sit amet cursus sit. At tempor commodo ullamcorper a lacus vestibulum. Et netus et malesuada fames ac. Molestie at elementum eu facilisis sed odio morbi quis. Vel turpis nunc eget lorem dolor. Adipiscing enim eu turpis egestas pretium aenean pharetra magna ac. Vel quam elementum pulvinar etiam non quam lacus suspendisse. Pellentesque eu tincidunt tortor aliquam." textFill="#293a4b" wrapText="true">
+                                 <font>
+                                    <Font name="Playfair Display Regular" size="13.0" />
+                                 </font></Label>
                               <Label layoutX="8.0" layoutY="5.0" text="New Iphone" textFill="#293a4b">
                                  <font>
                                     <Font name="Playfair Display Regular" size="12.0" />
@@ -146,23 +149,50 @@
                            <children>
                               <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="29.0" prefWidth="101.0" style="-fx-background-color: #ededed; -fx-border-color: #293a4b; -fx-border-width: 1;">
                                  <children>
-                                    <Label layoutX="43.0" layoutY="7.0" text="5.3%" textFill="RED" />
-                                    <Label layoutX="4.0" layoutY="7.0" text="AMZN" />
-                                    <Label layoutX="71.0" layoutY="7.0" text="192$" />
+                                    <Label layoutX="43.0" layoutY="7.0" text="5.3%" textFill="RED">
+                                       <font>
+                                          <Font name="Playfair Display Regular" size="13.0" />
+                                       </font></Label>
+                                    <Label layoutX="4.0" layoutY="7.0" text="AMZN">
+                                       <font>
+                                          <Font name="Playfair Display Regular" size="13.0" />
+                                       </font></Label>
+                                    <Label layoutX="71.0" layoutY="7.0" text="192$">
+                                       <font>
+                                          <Font name="Playfair Display Regular" size="13.0" />
+                                       </font></Label>
                                  </children>
                               </Pane>
                               <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="29.0" prefWidth="101.0" style="-fx-background-color: #ededed; -fx-border-color: #293a4b; -fx-border-width: 1;">
                                  <children>
-                                    <Label layoutX="43.0" layoutY="7.0" text="5.3%" textFill="RED" />
-                                    <Label layoutX="4.0" layoutY="7.0" text="AMZN" />
-                                    <Label layoutX="71.0" layoutY="7.0" text="192$" />
+                                    <Label layoutX="43.0" layoutY="7.0" text="5.3%" textFill="RED">
+                                       <font>
+                                          <Font name="Playfair Display Regular" size="13.0" />
+                                       </font></Label>
+                                    <Label layoutX="4.0" layoutY="7.0" text="AMZN">
+                                       <font>
+                                          <Font name="Playfair Display Regular" size="13.0" />
+                                       </font></Label>
+                                    <Label layoutX="71.0" layoutY="7.0" text="192$">
+                                       <font>
+                                          <Font name="Playfair Display Regular" size="13.0" />
+                                       </font></Label>
                                  </children>
                               </Pane>
                               <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="29.0" prefWidth="101.0" style="-fx-background-color: #ededed; -fx-border-color: #293a4b; -fx-border-width: 1;">
                                  <children>
-                                    <Label layoutX="43.0" layoutY="7.0" text="5.3%" textFill="RED" />
-                                    <Label layoutX="4.0" layoutY="7.0" text="AMZN" />
-                                    <Label layoutX="71.0" layoutY="7.0" text="192$" />
+                                    <Label layoutX="43.0" layoutY="7.0" text="5.3%" textFill="RED">
+                                       <font>
+                                          <Font name="Playfair Display Regular" size="13.0" />
+                                       </font></Label>
+                                    <Label layoutX="4.0" layoutY="7.0" text="AMZN">
+                                       <font>
+                                          <Font name="Playfair Display Regular" size="13.0" />
+                                       </font></Label>
+                                    <Label layoutX="71.0" layoutY="7.0" text="192$">
+                                       <font>
+                                          <Font name="Playfair Display Regular" size="13.0" />
+                                       </font></Label>
                                  </children>
                               </Pane>
                            </children>
@@ -171,23 +201,50 @@
                            <children>
                               <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="29.0" prefWidth="101.0" style="-fx-background-color: #ededed; -fx-border-color: #293a4b; -fx-border-width: 1;">
                                  <children>
-                                    <Label layoutX="43.0" layoutY="7.0" text="5.3%" textFill="RED" />
-                                    <Label layoutX="4.0" layoutY="7.0" text="AMZN" />
-                                    <Label layoutX="71.0" layoutY="7.0" text="192$" />
+                                    <Label layoutX="43.0" layoutY="7.0" text="5.3%" textFill="RED">
+                                       <font>
+                                          <Font name="Playfair Display Regular" size="13.0" />
+                                       </font></Label>
+                                    <Label layoutX="4.0" layoutY="7.0" text="AMZN">
+                                       <font>
+                                          <Font name="Playfair Display Regular" size="13.0" />
+                                       </font></Label>
+                                    <Label layoutX="71.0" layoutY="7.0" text="192$">
+                                       <font>
+                                          <Font name="Playfair Display Regular" size="13.0" />
+                                       </font></Label>
                                  </children>
                               </Pane>
                               <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="29.0" prefWidth="101.0" style="-fx-background-color: #ededed; -fx-border-color: #293a4b; -fx-border-width: 1;">
                                  <children>
-                                    <Label layoutX="43.0" layoutY="7.0" text="5.3%" textFill="RED" />
-                                    <Label layoutX="4.0" layoutY="7.0" text="AMZN" />
-                                    <Label layoutX="71.0" layoutY="7.0" text="192$" />
+                                    <Label layoutX="43.0" layoutY="7.0" text="5.3%" textFill="RED">
+                                       <font>
+                                          <Font name="Playfair Display Regular" size="13.0" />
+                                       </font></Label>
+                                    <Label layoutX="4.0" layoutY="7.0" text="AMZN">
+                                       <font>
+                                          <Font name="Playfair Display Regular" size="13.0" />
+                                       </font></Label>
+                                    <Label layoutX="71.0" layoutY="7.0" text="192$">
+                                       <font>
+                                          <Font name="Playfair Display Regular" size="13.0" />
+                                       </font></Label>
                                  </children>
                               </Pane>
                               <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="29.0" prefWidth="101.0" style="-fx-background-color: #ededed; -fx-border-color: #293a4b; -fx-border-width: 1;">
                                  <children>
-                                    <Label layoutX="43.0" layoutY="7.0" text="5.3%" textFill="RED" />
-                                    <Label layoutX="4.0" layoutY="7.0" text="AMZN" />
-                                    <Label layoutX="71.0" layoutY="7.0" text="192$" />
+                                    <Label layoutX="43.0" layoutY="7.0" text="5.3%" textFill="RED">
+                                       <font>
+                                          <Font name="Playfair Display Regular" size="13.0" />
+                                       </font></Label>
+                                    <Label layoutX="4.0" layoutY="7.0" text="AMZN">
+                                       <font>
+                                          <Font name="Playfair Display Regular" size="13.0" />
+                                       </font></Label>
+                                    <Label layoutX="71.0" layoutY="7.0" text="192$">
+                                       <font>
+                                          <Font name="Playfair Display Regular" size="13.0" />
+                                       </font></Label>
                                  </children>
                               </Pane>
                            </children>
@@ -220,23 +277,50 @@
                            <children>
                               <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="29.0" prefWidth="101.0" style="-fx-background-color: #ededed; -fx-border-color: #293a4b; -fx-border-width: 1;">
                                  <children>
-                                    <Label layoutX="43.0" layoutY="7.0" text="5.3%" textFill="RED" />
-                                    <Label layoutX="4.0" layoutY="7.0" text="AMZN" />
-                                    <Label layoutX="71.0" layoutY="7.0" text="192$" />
+                                    <Label layoutX="43.0" layoutY="7.0" text="5.3%" textFill="RED">
+                                       <font>
+                                          <Font name="Playfair Display Regular" size="13.0" />
+                                       </font></Label>
+                                    <Label layoutX="4.0" layoutY="7.0" text="AMZN">
+                                       <font>
+                                          <Font name="Playfair Display Regular" size="13.0" />
+                                       </font></Label>
+                                    <Label layoutX="71.0" layoutY="7.0" text="192$">
+                                       <font>
+                                          <Font name="Playfair Display Regular" size="13.0" />
+                                       </font></Label>
                                  </children>
                               </Pane>
                               <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="29.0" prefWidth="101.0" style="-fx-background-color: #ededed; -fx-border-color: #293a4b; -fx-border-width: 1;">
                                  <children>
-                                    <Label layoutX="43.0" layoutY="7.0" text="5.3%" textFill="RED" />
-                                    <Label layoutX="4.0" layoutY="7.0" text="AMZN" />
-                                    <Label layoutX="71.0" layoutY="7.0" text="192$" />
+                                    <Label layoutX="43.0" layoutY="7.0" text="5.3%" textFill="RED">
+                                       <font>
+                                          <Font name="Playfair Display Regular" size="13.0" />
+                                       </font></Label>
+                                    <Label layoutX="4.0" layoutY="7.0" text="AMZN">
+                                       <font>
+                                          <Font name="Playfair Display Regular" size="13.0" />
+                                       </font></Label>
+                                    <Label layoutX="71.0" layoutY="7.0" text="192$">
+                                       <font>
+                                          <Font name="Playfair Display Regular" size="13.0" />
+                                       </font></Label>
                                  </children>
                               </Pane>
                               <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="29.0" prefWidth="101.0" style="-fx-background-color: #ededed; -fx-border-color: #293a4b; -fx-border-width: 1;">
                                  <children>
-                                    <Label layoutX="43.0" layoutY="7.0" text="5.3%" textFill="RED" />
-                                    <Label layoutX="4.0" layoutY="7.0" text="AMZN" />
-                                    <Label layoutX="71.0" layoutY="7.0" text="192$" />
+                                    <Label layoutX="43.0" layoutY="7.0" text="5.3%" textFill="RED">
+                                       <font>
+                                          <Font name="Playfair Display Regular" size="13.0" />
+                                       </font></Label>
+                                    <Label layoutX="4.0" layoutY="7.0" text="AMZN">
+                                       <font>
+                                          <Font name="Playfair Display Regular" size="13.0" />
+                                       </font></Label>
+                                    <Label layoutX="71.0" layoutY="7.0" text="192$">
+                                       <font>
+                                          <Font name="Playfair Display Regular" size="13.0" />
+                                       </font></Label>
                                  </children>
                               </Pane>
                            </children>
@@ -245,23 +329,50 @@
                            <children>
                               <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="29.0" prefWidth="101.0" style="-fx-background-color: #ededed; -fx-border-color: #293a4b; -fx-border-width: 1;">
                                  <children>
-                                    <Label layoutX="43.0" layoutY="7.0" text="5.3%" textFill="RED" />
-                                    <Label layoutX="4.0" layoutY="7.0" text="AMZN" />
-                                    <Label layoutX="71.0" layoutY="7.0" text="192$" />
+                                    <Label layoutX="43.0" layoutY="7.0" text="5.3%" textFill="RED">
+                                       <font>
+                                          <Font name="Playfair Display Regular" size="13.0" />
+                                       </font></Label>
+                                    <Label layoutX="4.0" layoutY="7.0" text="AMZN">
+                                       <font>
+                                          <Font name="Playfair Display Regular" size="13.0" />
+                                       </font></Label>
+                                    <Label layoutX="71.0" layoutY="7.0" text="192$">
+                                       <font>
+                                          <Font name="Playfair Display Regular" size="13.0" />
+                                       </font></Label>
                                  </children>
                               </Pane>
                               <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="29.0" prefWidth="101.0" style="-fx-background-color: #ededed; -fx-border-color: #293a4b; -fx-border-width: 1;">
                                  <children>
-                                    <Label layoutX="43.0" layoutY="7.0" text="5.3%" textFill="RED" />
-                                    <Label layoutX="4.0" layoutY="7.0" text="AMZN" />
-                                    <Label layoutX="71.0" layoutY="7.0" text="192$" />
+                                    <Label layoutX="43.0" layoutY="7.0" text="5.3%" textFill="RED">
+                                       <font>
+                                          <Font name="Playfair Display Regular" size="13.0" />
+                                       </font></Label>
+                                    <Label layoutX="4.0" layoutY="7.0" text="AMZN">
+                                       <font>
+                                          <Font name="Playfair Display Regular" size="13.0" />
+                                       </font></Label>
+                                    <Label layoutX="71.0" layoutY="7.0" text="192$">
+                                       <font>
+                                          <Font name="Playfair Display Regular" size="13.0" />
+                                       </font></Label>
                                  </children>
                               </Pane>
                               <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="29.0" prefWidth="101.0" style="-fx-background-color: #ededed; -fx-border-color: #293a4b; -fx-border-width: 1;">
                                  <children>
-                                    <Label layoutX="43.0" layoutY="7.0" text="5.3%" textFill="RED" />
-                                    <Label layoutX="4.0" layoutY="7.0" text="AMZN" />
-                                    <Label layoutX="71.0" layoutY="7.0" text="192$" />
+                                    <Label layoutX="43.0" layoutY="7.0" text="5.3%" textFill="RED">
+                                       <font>
+                                          <Font name="Playfair Display Regular" size="13.0" />
+                                       </font></Label>
+                                    <Label layoutX="4.0" layoutY="7.0" text="AMZN">
+                                       <font>
+                                          <Font name="Playfair Display Regular" size="13.0" />
+                                       </font></Label>
+                                    <Label layoutX="71.0" layoutY="7.0" text="192$">
+                                       <font>
+                                          <Font name="Playfair Display Regular" size="13.0" />
+                                       </font></Label>
                                  </children>
                               </Pane>
                            </children>
@@ -295,6 +406,9 @@
                      </image>
                   </ImageView>
                </graphic>
+               <font>
+                  <Font name="Playfair Display Regular" size="8.0" />
+               </font>
             </Button>
             <Button layoutX="129.0" layoutY="316.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="41.0" style="-fx-background-color: #ededed;">
                <graphic>
@@ -304,6 +418,9 @@
                      </image>
                   </ImageView>
                </graphic>
+               <font>
+                  <Font name="Playfair Display Regular" size="8.0" />
+               </font>
             </Button>
             <VBox layoutX="14.0" layoutY="55.0" prefHeight="200.0" prefWidth="230.0" spacing="18.0">
                <children>

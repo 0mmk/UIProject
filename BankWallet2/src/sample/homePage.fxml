@@ -68,22 +68,22 @@
             <Line endX="-100.0" endY="352.79998779296875" layoutX="354.0" layoutY="3.0" startX="-100.0" stroke="#293a4b" strokeWidth="5.0" />
             <Line endX="-100.0" endY="352.79998779296875" layoutX="606.0" layoutY="4.0" startX="-100.0" stroke="#293a4b" strokeWidth="5.0" />
             <Line endX="392.5" endY="-7.199981689453125" layoutX="111.0" layoutY="181.0" startX="-106.5999755859375" startY="-7.199981689453125" stroke="#293a4b" strokeWidth="5.0" />
-            <Text fill="#293a4b" layoutX="74.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bank Accounts">
+            <Text fill="#293a4b" layoutX="74.0" layoutY="28.0" onMouseClicked="#gotoBankAccountsFunc" strokeType="OUTSIDE" strokeWidth="0.0" text="Bank Accounts">
                <font>
                   <Font name="Playfair Display Regular" size="17.0" />
                </font>
             </Text>
-            <Text fill="#293a4b" layoutX="94.0" layoutY="200.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Expenses">
+            <Text fill="#293a4b" layoutX="94.0" layoutY="200.0" onMouseClicked="#gotoExpenseFunc" strokeType="OUTSIDE" strokeWidth="0.0" text="Expenses">
                <font>
                   <Font name="Playfair Display Regular" size="17.0" />
                </font>
             </Text>
-            <Text fill="#293a4b" layoutX="330.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stock Market">
+            <Text fill="#293a4b" layoutX="330.0" layoutY="28.0" onMouseClicked="#gotoStockFunc" strokeType="OUTSIDE" strokeWidth="0.0" text="Stock Market">
                <font>
                   <Font name="Playfair Display Regular" size="17.0" />
                </font>
             </Text>
-            <Text fill="#293a4b" layoutX="324.0" layoutY="200.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Scheduled Bills">
+            <Text fill="#293a4b" layoutX="324.0" layoutY="200.0" onMouseClicked="#gotoBillFunc" strokeType="OUTSIDE" strokeWidth="0.0" text="Scheduled Bills">
                <font>
                   <Font name="Playfair Display Regular" size="17.0" />
                </font>
@@ -103,7 +103,7 @@
             </BarChart>
             <VBox layoutX="270.0" layoutY="34.0" prefHeight="130.0" prefWidth="220.0" spacing="6.0">
                <children>
-                  <Pane prefHeight="26.0" prefWidth="221.0" style="-fx-border-color: #293a4b; -fx-border-radius: 2;">
+                  <Pane onMouseClicked="#gotoStockFunc" prefHeight="26.0" prefWidth="221.0" style="-fx-border-color: #293a4b; -fx-border-radius: 2;">
                      <children>
                         <Label layoutX="8.0" layoutY="5.0" prefHeight="17.0" prefWidth="37.0" text="APPL ">
                            <font>
@@ -124,7 +124,7 @@
                            </font></Label>
                      </children>
                   </Pane>
-                  <Pane prefHeight="26.0" prefWidth="221.0" style="-fx-border-color: #293a4b; -fx-border-radius: 2;">
+                  <Pane onMouseClicked="#gotoStockFunc" prefHeight="26.0" prefWidth="221.0" style="-fx-border-color: #293a4b; -fx-border-radius: 2;">
                      <children>
                         <Label layoutX="8.0" layoutY="5.0" prefHeight="17.0" prefWidth="37.0" text="APPL ">
                            <font>
@@ -145,7 +145,7 @@
                            </font></Label>
                      </children>
                   </Pane>
-                  <Pane prefHeight="26.0" prefWidth="221.0" style="-fx-border-color: #293a4b; -fx-border-radius: 2;">
+                  <Pane onMouseClicked="#gotoStockFunc" prefHeight="26.0" prefWidth="221.0" style="-fx-border-color: #293a4b; -fx-border-radius: 2;">
                      <children>
                         <Label layoutX="8.0" layoutY="5.0" prefHeight="17.0" prefWidth="37.0" text="APPL ">
                            <font>
@@ -166,7 +166,7 @@
                            </font></Label>
                      </children>
                   </Pane>
-                  <Pane prefHeight="26.0" prefWidth="220.0" style="-fx-border-color: #293a4b; -fx-border-radius: 2;">
+                  <Pane onMouseClicked="#gotoStockFunc" prefHeight="26.0" prefWidth="220.0" style="-fx-border-color: #293a4b; -fx-border-radius: 2;">
                      <children>
                         <Label layoutX="8.0" layoutY="5.0" prefHeight="17.0" prefWidth="37.0" text="APPL ">
                            <font>
@@ -191,7 +191,7 @@
             </VBox>
             <VBox layoutX="270.0" layoutY="212.0" prefHeight="130.0" prefWidth="220.0" spacing="6.0">
                <children>
-                  <Pane prefHeight="26.0" prefWidth="221.0" style="-fx-border-color: #293a4b; -fx-border-radius: 2;">
+                  <Pane onMouseClicked="#gotoBillFunc" prefHeight="26.0" prefWidth="221.0" style="-fx-border-color: #293a4b; -fx-border-radius: 2;">
                      <children>
                         <CheckBox layoutX="10.0" layoutY="5.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="197.0" text="Pay the next months rent">
                            <font>
@@ -199,7 +199,7 @@
                            </font></CheckBox>
                      </children>
                   </Pane>
-                  <Pane prefHeight="26.0" prefWidth="221.0" style="-fx-border-color: #293a4b; -fx-border-radius: 2;">
+                  <Pane onMouseClicked="#gotoBillFunc" prefHeight="26.0" prefWidth="221.0" style="-fx-border-color: #293a4b; -fx-border-radius: 2;">
                      <children>
                         <CheckBox layoutX="10.0" layoutY="5.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="197.0" text="Pay your income tax">
                            <font>
@@ -207,7 +207,7 @@
                            </font></CheckBox>
                      </children>
                   </Pane>
-                  <Pane prefHeight="26.0" prefWidth="221.0" style="-fx-border-color: #293a4b; -fx-border-radius: 2;">
+                  <Pane onMouseClicked="#gotoBillFunc" prefHeight="26.0" prefWidth="221.0" style="-fx-border-color: #293a4b; -fx-border-radius: 2;">
                      <children>
                         <CheckBox layoutX="10.0" layoutY="5.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="197.0" text="Take somemoney from the bank">
                            <font>
@@ -215,7 +215,7 @@
                            </font></CheckBox>
                      </children>
                   </Pane>
-                  <Pane prefHeight="26.0" prefWidth="206.0" style="-fx-border-color: #293a4b; -fx-border-radius: 2;">
+                  <Pane onMouseClicked="#gotoBillFunc" prefHeight="26.0" prefWidth="206.0" style="-fx-border-color: #293a4b; -fx-border-radius: 2;">
                      <children>
                         <CheckBox layoutX="10.0" layoutY="4.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="197.0" text="Buy some appl stock">
                            <font>
@@ -227,7 +227,7 @@
             </VBox>
             <VBox layoutX="19.0" layoutY="34.0" prefHeight="129.0" prefWidth="220.0" spacing="6.0">
                <children>
-                  <Pane prefHeight="26.0" prefWidth="221.0" style="-fx-border-color: #293a4b; -fx-border-radius: 2;">
+                  <Pane onMouseClicked="#gotoBankAccountsFunc" prefHeight="26.0" prefWidth="221.0" style="-fx-border-color: #293a4b; -fx-border-radius: 2;">
                      <children>
                         <Label layoutX="8.0" layoutY="5.0" prefHeight="17.0" prefWidth="120.0" text="Ziraat">
                            <font>
@@ -244,7 +244,7 @@
                         </ImageView>
                      </children>
                   </Pane>
-                  <Pane prefHeight="26.0" prefWidth="221.0" style="-fx-border-color: #293a4b; -fx-border-radius: 2;">
+                  <Pane onMouseClicked="#gotoBankAccountsFunc" prefHeight="26.0" prefWidth="221.0" style="-fx-border-color: #293a4b; -fx-border-radius: 2;">
                      <children>
                         <Label layoutX="8.0" layoutY="5.0" prefHeight="17.0" prefWidth="122.0" text="YapiKredi">
                            <font>
@@ -261,7 +261,7 @@
                         </ImageView>
                      </children>
                   </Pane>
-                  <Pane prefHeight="26.0" prefWidth="221.0" style="-fx-border-color: #293a4b; -fx-border-radius: 2;">
+                  <Pane onMouseClicked="#gotoBankAccountsFunc" prefHeight="26.0" prefWidth="221.0" style="-fx-border-color: #293a4b; -fx-border-radius: 2;">
                      <children>
                         <Label layoutX="8.0" layoutY="5.0" prefHeight="17.0" prefWidth="111.0" text="Garanti">
                            <font>
@@ -278,7 +278,7 @@
                         </ImageView>
                      </children>
                   </Pane>
-                  <Pane prefHeight="26.0" prefWidth="221.0" style="-fx-border-color: #293a4b; -fx-border-radius: 2;">
+                  <Pane onMouseClicked="#gotoBankAccountsFunc" prefHeight="26.0" prefWidth="221.0" style="-fx-border-color: #293a4b; -fx-border-radius: 2;">
                      <children>
                         <Label layoutX="8.0" layoutY="5.0" prefHeight="17.0" prefWidth="111.0" text="Vakif">
                            <font>
@@ -299,7 +299,7 @@
             </VBox>
             <VBox layoutX="19.0" layoutY="212.0" prefHeight="127.0" prefWidth="220.0" spacing="6.0">
                <children>
-                  <Pane prefHeight="26.0" prefWidth="221.0" style="-fx-border-color: #293a4b; -fx-border-radius: 2;">
+                  <Pane onMouseClicked="#gotoExpenseFunc" prefHeight="26.0" prefWidth="221.0" style="-fx-border-color: #293a4b; -fx-border-radius: 2;">
                      <children>
                         <Label layoutX="8.0" layoutY="5.0" prefHeight="17.0" prefWidth="135.0" text="Automated Bills">
                            <font>
@@ -316,7 +316,7 @@
                         </ImageView>
                      </children>
                   </Pane>
-                  <Pane prefHeight="26.0" prefWidth="221.0" style="-fx-border-color: #293a4b; -fx-border-radius: 2;">
+                  <Pane onMouseClicked="#gotoExpenseFunc" prefHeight="26.0" prefWidth="221.0" style="-fx-border-color: #293a4b; -fx-border-radius: 2;">
                      <children>
                         <Label layoutX="8.0" layoutY="5.0" prefHeight="17.0" prefWidth="135.0" text="Groceries">
                            <font>
@@ -333,7 +333,7 @@
                         </ImageView>
                      </children>
                   </Pane>
-                  <Pane prefHeight="26.0" prefWidth="221.0" style="-fx-border-color: #293a4b; -fx-border-radius: 2;">
+                  <Pane onMouseClicked="#gotoExpenseFunc" prefHeight="26.0" prefWidth="221.0" style="-fx-border-color: #293a4b; -fx-border-radius: 2;">
                      <children>
                         <Label layoutX="8.0" layoutY="5.0" prefHeight="17.0" prefWidth="135.0" text="Taxes">
                            <font>
@@ -350,7 +350,7 @@
                         </ImageView>
                      </children>
                   </Pane>
-                  <Pane prefHeight="26.0" prefWidth="221.0" style="-fx-border-color: #293a4b; -fx-border-radius: 2;">
+                  <Pane onMouseClicked="#gotoExpenseFunc" prefHeight="26.0" prefWidth="221.0" style="-fx-border-color: #293a4b; -fx-border-radius: 2;">
                      <children>
                         <Label layoutX="8.0" layoutY="5.0" prefHeight="17.0" prefWidth="137.0" text="Rent Of House">
                            <font>

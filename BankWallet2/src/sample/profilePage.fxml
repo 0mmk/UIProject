@@ -182,7 +182,7 @@
                            </font></CheckBox>
                      </children>
                   </VBox>
-                  <Button fx:id="homeButton1231" alignment="CENTER" focusTraversable="false" layoutX="75.0" layoutY="249.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="28.0" prefWidth="108.0" style="-fx-background-color: red; -fx-border-radius: 0; -fx-background-radius: 3;" text="Safe Exit  -&gt;" textFill="WHITE">
+                  <Button fx:id="exitButton" alignment="CENTER" focusTraversable="false" layoutX="75.0" layoutY="249.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="28.0" prefWidth="108.0" style="-fx-background-color: red; -fx-border-radius: 0; -fx-background-radius: 3;" text="Safe Exit  -&gt;" textFill="WHITE">
                      <opaqueInsets>
                         <Insets />
                      </opaqueInsets>
