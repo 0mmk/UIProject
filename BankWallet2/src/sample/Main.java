@@ -4,6 +4,7 @@ import javafx.application.*;
 import javafx.fxml.*;
 import javafx.scene.*;
 import javafx.scene.layout.Pane;
+import javafx.scene.text.Font;
 import javafx.stage.*;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
@@ -42,6 +43,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
+        Font.loadFont(Main.class.getResource("PlayfairDisplay-Regular.ttf").toExternalForm(), 10);
         stage = primaryStage;
 
         for (DTuple dTuple : dTuples) {

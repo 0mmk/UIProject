@@ -94,8 +94,8 @@ public class Controller {
                     new TTuple(sell3Button,             Main.getDTuple(10)),
                     new TTuple(order3Button,            Main.getDTuple(10)),
                     new TTuple(sell1DetailButton,       Main.getDTuple(11)),
-                    new TTuple(order1DetailButton,       Main.getDTuple(11)),
-                    new TTuple(buy1DetailButton,       Main.getDTuple(11))
+                    new TTuple(order1DetailButton,      Main.getDTuple(11)),
+                    new TTuple(buy1DetailButton,        Main.getDTuple(11))
         	    )
         );
     }

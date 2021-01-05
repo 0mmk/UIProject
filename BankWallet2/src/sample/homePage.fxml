@@ -109,7 +109,7 @@
                            <font>
                               <Font name="Playfair Display Regular" size="13.0" />
                            </font></Label>
-                        <Label layoutX="179.0" layoutY="4.0" text="2000 $" textFill="GREEN">
+                        <Label layoutX="175.0" layoutY="4.0" text="2000 $" textFill="GREEN">
                            <font>
                               <Font name="Playfair Display Regular" size="13.0" />
                            </font></Label>
@@ -130,7 +130,7 @@
                            <font>
                               <Font name="Playfair Display Regular" size="13.0" />
                            </font></Label>
-                        <Label layoutX="179.0" layoutY="4.0" text="2000 $" textFill="GREEN">
+                        <Label layoutX="175.0" layoutY="4.0" text="2000 $" textFill="GREEN">
                            <font>
                               <Font name="Playfair Display Regular" size="13.0" />
                            </font></Label>
@@ -151,7 +151,7 @@
                            <font>
                               <Font name="Playfair Display Regular" size="13.0" />
                            </font></Label>
-                        <Label layoutX="179.0" layoutY="4.0" text="2000 $" textFill="GREEN">
+                        <Label layoutX="175.0" layoutY="4.0" text="2000 $" textFill="GREEN">
                            <font>
                               <Font name="Playfair Display Regular" size="13.0" />
                            </font></Label>
@@ -172,7 +172,7 @@
                            <font>
                               <Font name="Playfair Display Regular" size="13.0" />
                            </font></Label>
-                        <Label layoutX="179.0" layoutY="4.0" text="2000 $" textFill="GREEN">
+                        <Label layoutX="175.0" layoutY="4.0" text="2000 $" textFill="GREEN">
                            <font>
                               <Font name="Playfair Display Regular" size="13.0" />
                            </font></Label>

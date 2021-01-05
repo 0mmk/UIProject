@@ -140,7 +140,7 @@
                <children>
                   <VBox layoutX="27.0" layoutY="13.0" prefHeight="225.0" prefWidth="205.0" spacing="10.0">
                      <children>
-                        <Button fx:id="homeButton11" alignment="BASELINE_LEFT" focusTraversable="false" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="203.0" style="-fx-background-color: white; -fx-border-radius: 0; -fx-background-radius: 3;" text="Menu Design                         &gt;" textFill="#293a4b">
+                        <Button fx:id="homeButton11" alignment="BASELINE_LEFT" focusTraversable="false" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="203.0" style="-fx-background-color: white; -fx-border-radius: 0; -fx-background-radius: 3;" text="Menu Design                             &gt;" textFill="#293a4b">
                            <opaqueInsets>
                               <Insets />
                            </opaqueInsets>
@@ -148,7 +148,7 @@
                               <Font name="Playfair Display Regular" size="13.0" />
                            </font>
                         </Button>
-                        <Button fx:id="homeButton111" alignment="BASELINE_LEFT" focusTraversable="false" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="203.0" style="-fx-background-color: white; -fx-border-radius: 0; -fx-background-radius: 3;" text="Language                              &gt;" textFill="#293a4b">
+                        <Button fx:id="homeButton111" alignment="BASELINE_LEFT" focusTraversable="false" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="203.0" style="-fx-background-color: white; -fx-border-radius: 0; -fx-background-radius: 3;" text="Language                                    &gt;" textFill="#293a4b">
                            <opaqueInsets>
                               <Insets />
                            </opaqueInsets>
@@ -156,7 +156,7 @@
                               <Font name="Playfair Display Regular" size="13.0" />
                            </font>
                         </Button>
-                        <Button fx:id="homeButton121" alignment="BASELINE_LEFT" focusTraversable="false" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="203.0" style="-fx-background-color: white; -fx-border-radius: 0; -fx-background-radius: 3;" text="Time Settings                        &gt;" textFill="#293a4b">
+                        <Button fx:id="homeButton121" alignment="BASELINE_LEFT" focusTraversable="false" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="203.0" style="-fx-background-color: white; -fx-border-radius: 0; -fx-background-radius: 3;" text="Time Settings                            &gt;" textFill="#293a4b">
                            <opaqueInsets>
                               <Insets />
                            </opaqueInsets>
