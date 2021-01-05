@@ -99,7 +99,7 @@
                         <Font name="Playfair Display Regular" size="13.0" />
                      </font>
                   </Label>
-                  <Label layoutX="150.0" layoutY="75.0" text="\$140.000" textFill="#293a4b">
+                  <Label layoutX="143.0" layoutY="77.0" text="\$140.000" textFill="#293a4b">
                      <font>
                         <Font name="Playfair Display Regular" size="13.0" />
                      </font>
@@ -109,7 +109,7 @@
                         <Font name="Playfair Display Regular" size="13.0" />
                      </font>
                   </Label>
-                  <Label layoutX="150.0" layoutY="65.0" text="\$300.000" textFill="#293a4b">
+                  <Label layoutX="143.0" layoutY="61.0" text="\$300.000" textFill="#293a4b">
                      <font>
                         <Font name="Playfair Display Regular" size="13.0" />
                      </font>
@@ -149,7 +149,7 @@
                         <Font name="Playfair Display Regular" size="13.0" />
                      </font>
                   </Label>
-                  <Label layoutX="150.0" layoutY="75.0" text="\$140.000" textFill="#293a4b">
+                  <Label layoutX="144.0" layoutY="76.0" text="\$140.000" textFill="#293a4b">
                      <font>
                         <Font name="Playfair Display Regular" size="13.0" />
                      </font>
@@ -159,7 +159,7 @@
                         <Font name="Playfair Display Regular" size="13.0" />
                      </font>
                   </Label>
-                  <Label layoutX="150.0" layoutY="65.0" text="\$300.000" textFill="#293a4b">
+                  <Label layoutX="145.0" layoutY="59.0" text="\$300.000" textFill="#293a4b">
                      <font>
                         <Font name="Playfair Display Regular" size="13.0" />
                      </font>
@@ -199,7 +199,7 @@
                         <Font name="Playfair Display Regular" size="13.0" />
                      </font>
                   </Label>
-                  <Label layoutX="150.0" layoutY="75.0" text="\$140.000" textFill="#293a4b">
+                  <Label layoutX="145.0" layoutY="76.0" text="\$140.000" textFill="#293a4b">
                      <font>
                         <Font name="Playfair Display Regular" size="13.0" />
                      </font>
@@ -209,7 +209,7 @@
                         <Font name="Playfair Display Regular" size="13.0" />
                      </font>
                   </Label>
-                  <Label layoutX="150.0" layoutY="65.0" text="\$300.000" textFill="#293a4b">
+                  <Label layoutX="144.0" layoutY="61.0" text="\$300.000" textFill="#293a4b">
                      <font>
                         <Font name="Playfair Display Regular" size="13.0" />
                      </font>
@@ -249,7 +249,7 @@
                         <Font name="Playfair Display Regular" size="13.0" />
                      </font>
                   </Label>
-                  <Label layoutX="150.0" layoutY="75.0" text="\$140.000" textFill="#293a4b">
+                  <Label layoutX="145.0" layoutY="75.0" text="\$140.000" textFill="#293a4b">
                      <font>
                         <Font name="Playfair Display Regular" size="13.0" />
                      </font>
@@ -259,7 +259,7 @@
                         <Font name="Playfair Display Regular" size="13.0" />
                      </font>
                   </Label>
-                  <Label layoutX="150.0" layoutY="65.0" text="\$300.000" textFill="#293a4b">
+                  <Label layoutX="144.0" layoutY="60.0" text="\$300.000" textFill="#293a4b">
                      <font>
                         <Font name="Playfair Display Regular" size="13.0" />
                      </font>
