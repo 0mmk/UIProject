@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.image.Image?>
-<?import javafx.scene.image.ImageView?>
-<?import javafx.scene.layout.HBox?>
-<?import javafx.scene.layout.Pane?>
-<?import javafx.scene.layout.VBox?>
-<?import javafx.scene.shape.Arc?>
-<?import javafx.scene.text.Font?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.3-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
       <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="800.0" style="-fx-background-color: #ededed;">
          <children>
@@ -81,7 +77,7 @@
                            <children>
                               <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="63.0" prefWidth="224.0" style="-fx-background-color: #ededed; -fx-border-color: BLACK; -fx-border-width: 1;">
                                  <children>
-                                    <Button mnemonicParsing="false" prefHeight="66.0" prefWidth="230.0" style="-fx-background-color: #ededed; -fx-border-color: BLACK;" wrapText="true" />
+                                    <Button fx:id="showNew1Button" mnemonicParsing="false" onAction="#handlePress" prefHeight="66.0" prefWidth="230.0" style="-fx-background-color: #ededed; -fx-border-color: BLACK;" wrapText="true" />
                                     <Label layoutX="6.0" layoutY="23.0" prefHeight="40.0" prefWidth="215.0" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper viverra nam libero justo laoreet sit amet cursus sit. At tempor commodo ullamcorper a lacus vestibulum. Et netus et malesuada fames ac. Molestie at elementum eu facilisis sed odio morbi quis. Vel turpis nunc eget lorem dolor. Adipiscing enim eu turpis egestas pretium aenean pharetra magna ac. Vel quam elementum pulvinar etiam non quam lacus suspendisse. Pellentesque eu tincidunt tortor aliquam." textFill="#293a4b" wrapText="true" />
                                     <Label layoutX="8.0" layoutY="5.0" text="New Iphone" textFill="#293a4b">
                                        <font>
@@ -92,7 +88,7 @@
                               </Pane>
                               <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="63.0" prefWidth="224.0" style="-fx-background-color: #ededed; -fx-border-color: BLACK; -fx-border-width: 1;">
                                  <children>
-                                    <Button mnemonicParsing="false" prefHeight="66.0" prefWidth="230.0" style="-fx-background-color: #ededed; -fx-border-color: BLACK;" wrapText="true" />
+                                    <Button fx:id="showNew2Button" mnemonicParsing="false" onAction="#handlePress" prefHeight="66.0" prefWidth="230.0" style="-fx-background-color: #ededed; -fx-border-color: BLACK;" wrapText="true" />
                                     <Label layoutX="6.0" layoutY="23.0" prefHeight="40.0" prefWidth="215.0" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper viverra nam libero justo laoreet sit amet cursus sit. At tempor commodo ullamcorper a lacus vestibulum. Et netus et malesuada fames ac. Molestie at elementum eu facilisis sed odio morbi quis. Vel turpis nunc eget lorem dolor. Adipiscing enim eu turpis egestas pretium aenean pharetra magna ac. Vel quam elementum pulvinar etiam non quam lacus suspendisse. Pellentesque eu tincidunt tortor aliquam." textFill="#293a4b" wrapText="true" />
                                     <Label layoutX="8.0" layoutY="5.0" text="New Iphone" textFill="#293a4b">
                                        <font>
@@ -103,7 +99,7 @@
                               </Pane>
                               <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="63.0" prefWidth="224.0" style="-fx-background-color: #ededed; -fx-border-color: BLACK; -fx-border-width: 1;">
                                  <children>
-                                    <Button mnemonicParsing="false" prefHeight="66.0" prefWidth="230.0" style="-fx-background-color: #ededed; -fx-border-color: BLACK;" wrapText="true" />
+                                    <Button fx:id="showNew3Button" mnemonicParsing="false" onAction="#handlePress" prefHeight="66.0" prefWidth="230.0" style="-fx-background-color: #ededed; -fx-border-color: BLACK;" wrapText="true" />
                                     <Label layoutX="6.0" layoutY="23.0" prefHeight="40.0" prefWidth="215.0" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper viverra nam libero justo laoreet sit amet cursus sit. At tempor commodo ullamcorper a lacus vestibulum. Et netus et malesuada fames ac. Molestie at elementum eu facilisis sed odio morbi quis. Vel turpis nunc eget lorem dolor. Adipiscing enim eu turpis egestas pretium aenean pharetra magna ac. Vel quam elementum pulvinar etiam non quam lacus suspendisse. Pellentesque eu tincidunt tortor aliquam." textFill="#293a4b" wrapText="true" />
                                     <Label layoutX="8.0" layoutY="5.0" text="New Iphone" textFill="#293a4b">
                                        <font>
@@ -114,7 +110,7 @@
                               </Pane>
                               <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="82.0" prefWidth="224.0" style="-fx-background-color: #ededed; -fx-border-color: BLACK; -fx-border-width: 1;">
                                  <children>
-                                    <Button mnemonicParsing="false" prefHeight="82.0" prefWidth="230.0" style="-fx-background-color: #ededed; -fx-border-color: BLACK;" wrapText="true" />
+                                    <Button fx:id="showNew4Button" mnemonicParsing="false" onAction="#handlePress" prefHeight="82.0" prefWidth="230.0" style="-fx-background-color: #ededed; -fx-border-color: BLACK;" wrapText="true" />
                                     <Label layoutX="6.0" layoutY="23.0" prefHeight="55.0" prefWidth="215.0" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper viverra nam libero justo laoreet sit amet cursus sit. At tempor commodo ullamcorper a lacus vestibulum. Et netus et malesuada fames ac. Molestie at elementum eu facilisis sed odio morbi quis. Vel turpis nunc eget lorem dolor. Adipiscing enim eu turpis egestas pretium aenean pharetra magna ac. Vel quam elementum pulvinar etiam non quam lacus suspendisse. Pellentesque eu tincidunt tortor aliquam." textFill="#293a4b" wrapText="true" />
                                     <Label layoutX="8.0" layoutY="5.0" text="New Iphone" textFill="#293a4b">
                                        <font>
@@ -296,9 +292,9 @@
                                  </children>
                               </Pane>
                               <Label layoutX="7.0" layoutY="14.0" prefHeight="17.0" prefWidth="229.0" text="180$                      500 Stock  2.000.000$" textFill="#293a4b" />
-                              <Button fx:id="order1" layoutX="7.0" layoutY="40.0" mnemonicParsing="false" prefHeight="15.0" prefWidth="61.0" style="-fx-background-color: BLUE;" text="Order" textFill="#fafafa" />
-                              <Button fx:id="buy1" layoutX="85.0" layoutY="40.0" mnemonicParsing="false" prefHeight="15.0" prefWidth="61.0" style="-fx-background-color: GREEN;" text="Buy" textFill="WHITE" />
-                              <Button fx:id="sell1" layoutX="163.0" layoutY="40.0" mnemonicParsing="false" prefHeight="15.0" prefWidth="61.0" style="-fx-background-color: RED;" text="Sell" textFill="WHITE" />
+                              <Button fx:id="order1DetailButton" layoutX="7.0" layoutY="40.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="15.0" prefWidth="61.0" style="-fx-background-color: BLUE;" text="Order" textFill="#fafafa" />
+                              <Button fx:id="buy1DetailButton" layoutX="85.0" layoutY="40.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="15.0" prefWidth="61.0" style="-fx-background-color: GREEN;" text="Buy" textFill="WHITE" />
+                              <Button fx:id="sell1DetailButton" layoutX="163.0" layoutY="40.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="15.0" prefWidth="61.0" style="-fx-background-color: RED;" text="Sell" textFill="WHITE" />
                               <Arc layoutX="73.0" layoutY="23.0" length="270.0" radiusX="9.0" radiusY="5.0" startAngle="45.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
                               <ImageView fitHeight="111.0" fitWidth="152.0" layoutX="51.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
