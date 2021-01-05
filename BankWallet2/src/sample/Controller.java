@@ -3,6 +3,8 @@ package sample;
 import javafx.event.*;
 import javafx.fxml.*;
 import javafx.scene.control.*;
+import javafx.scene.layout.Pane;
+
 import java.util.*;
 
 class TTuple {
@@ -17,6 +19,9 @@ class TTuple {
 
 public class Controller {
     @FXML
+    Pane loginPane;
+
+    @FXML
     Button
             homeButton,
             stockButton,
@@ -29,7 +34,23 @@ public class Controller {
             loginButton,
             forgotPasswordButton,
             signUpButton,
-            billButtonNext;
+            billButtonNext,
+            showNew4Button,
+            showNew3Button,
+            showNew2Button,
+            showNew1Button,
+            order1Button,
+            sell1Button,
+            buy1Button,
+            order2Button,
+            sell2Button,
+            buy2Button,
+            order3Button,
+            sell3Button,
+            buy3Button,
+            buy1DetailButton,
+            order1DetailButton,
+            sell1DetailButton;
     @FXML
     Hyperlink
             gotoLoginLink,
@@ -57,7 +78,23 @@ public class Controller {
                     new TTuple(gotoLoginLink,           Main.getDTuple(0)),
                     new TTuple(gotoSignUpLink,          Main.getDTuple(1)),
                     new TTuple(gotoForgotPasswordLink,  Main.getDTuple(2)),
-                    new TTuple(billButtonNext,          Main.getDTuple(0))
+                    new TTuple(billButtonNext,          Main.getDTuple(0)),
+                    new TTuple(showNew4Button,          Main.getDTuple(9)),
+                    new TTuple(showNew3Button,          Main.getDTuple(9)),
+                    new TTuple(showNew2Button,          Main.getDTuple(9)),
+                    new TTuple(showNew1Button,          Main.getDTuple(9)),
+                    new TTuple(buy2Button,              Main.getDTuple(10)),
+                    new TTuple(sell2Button,             Main.getDTuple(10)),
+                    new TTuple(order2Button,            Main.getDTuple(10)),
+                    new TTuple(buy1Button,              Main.getDTuple(10)),
+                    new TTuple(sell1Button,             Main.getDTuple(10)),
+                    new TTuple(order1Button,            Main.getDTuple(10)),
+                    new TTuple(buy3Button,              Main.getDTuple(10)),
+                    new TTuple(sell3Button,             Main.getDTuple(10)),
+                    new TTuple(order3Button,            Main.getDTuple(10)),
+                    new TTuple(sell1DetailButton,       Main.getDTuple(11)),
+                    new TTuple(order1DetailButton,       Main.getDTuple(11)),
+                    new TTuple(buy1DetailButton,       Main.getDTuple(11))
         	    )
         );
     }
@@ -78,7 +115,8 @@ public class Controller {
         }
     }
 
-    public void handleLoginClick() {
-        Main.gotoPage(Main.getDTuple(1));
+    public void handleLoginClick() throws Exception {
+        Main.setScale(loginPane);
+        //Main.gotoPage(Main.getDTuple(1));
     }
 }

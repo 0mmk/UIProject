@@ -3,8 +3,10 @@ package sample;
 import javafx.application.*;
 import javafx.fxml.*;
 import javafx.scene.*;
+import javafx.scene.layout.Pane;
 import javafx.stage.*;
 import java.util.*;
+import java.util.concurrent.TimeUnit;
 
 public class Main extends Application {
     private static int idx = 0;
@@ -24,6 +26,9 @@ public class Main extends Application {
             new DTuple("billPage.fxml", "Automate Your Bills"),
             new DTuple("accountPage.fxml", "Accounts"),
             new DTuple("profilePage.fxml", "Profile"),
+            new DTuple("stock 4.fxml", "Stock News"),
+            new DTuple("stock 2.fxml", "Stock Extra"),
+            new DTuple("stock 3.fxml", "Stock 3")
     };
 
     private static final DTuple[] itPages = new DTuple[] {
@@ -71,6 +76,10 @@ public class Main extends Application {
 
     public static DTuple getDTuple(int idx) {
         return dTuples[idx];
+    }
+
+    public static void setScale(Pane loginPane) throws Exception {
+
     }
 }
 
