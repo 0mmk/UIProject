@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.chart.BarChart?>
-<?import javafx.scene.chart.CategoryAxis?>
-<?import javafx.scene.chart.NumberAxis?>
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.CheckBox?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.image.Image?>
-<?import javafx.scene.image.ImageView?>
-<?import javafx.scene.layout.Pane?>
-<?import javafx.scene.layout.VBox?>
-<?import javafx.scene.shape.Line?>
-<?import javafx.scene.text.Font?>
-<?import javafx.scene.text.Text?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="800.0" style="-fx-background-color: #ededed;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="800.0" style="-fx-background-color: #ededed;" xmlns="http://javafx.com/javafx/11.0.3-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
       <Pane fx:id="homePane" prefHeight="150.0" prefWidth="800.0" style="-fx-background-color: #293a4b;" />
       <Pane layoutX="20.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="760.0" style="-fx-background-color: #293a4b; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);">
@@ -25,7 +18,7 @@
                   <Insets />
                </opaqueInsets>
                <font>
-                  <Font name="Inter Light" size="13.0" />
+                  <Font name="Playfair Display Regular" size="13.0" />
                </font>
             </Button>
             <Button fx:id="stockButton" focusTraversable="false" layoutX="131.0" layoutY="5.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="Stock" textFill="#293a4b">
@@ -33,7 +26,7 @@
                   <Insets />
                </opaqueInsets>
                <font>
-                  <Font name="Inter Light" size="13.0" />
+                  <Font name="Playfair Display Regular" size="13.0" />
                </font>
             </Button>
             <Button fx:id="expenseButton" focusTraversable="false" layoutX="257.0" layoutY="5.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="Expense | Gross" textFill="#293a4b">
@@ -41,7 +34,7 @@
                   <Insets />
                </opaqueInsets>
                <font>
-                  <Font name="Inter Light" size="13.0" />
+                  <Font name="Playfair Display Regular" size="13.0" />
                </font>
             </Button>
             <Button fx:id="billButton" focusTraversable="false" layoutX="383.0" layoutY="5.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="Bills" textFill="#293a4b">
@@ -49,7 +42,7 @@
                   <Insets />
                </opaqueInsets>
                <font>
-                  <Font name="Inter Light" size="13.0" />
+                  <Font name="Playfair Display Regular" size="13.0" />
                </font>
             </Button>
             <Button fx:id="accountButton" focusTraversable="false" layoutX="509.0" layoutY="5.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="Account" textFill="#293a4b">
@@ -57,7 +50,7 @@
                   <Insets />
                </opaqueInsets>
                <font>
-                  <Font name="Inter Light" size="13.0" />
+                  <Font name="Playfair Display Regular" size="13.0" />
                </font>
             </Button>
             <Button fx:id="profileButton" focusTraversable="false" layoutX="635.0" layoutY="5.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="Profile" textFill="#293a4b">
@@ -65,7 +58,7 @@
                   <Insets />
                </opaqueInsets>
                <font>
-                  <Font name="Inter Light" size="13.0" />
+                  <Font name="Playfair Display Regular" size="13.0" />
                </font>
             </Button>
          </children>
@@ -77,27 +70,27 @@
             <Line endX="392.5" endY="-7.199981689453125" layoutX="111.0" layoutY="181.0" startX="-106.5999755859375" startY="-7.199981689453125" stroke="#293a4b" strokeWidth="5.0" />
             <Text fill="#293a4b" layoutX="74.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bank Accounts">
                <font>
-                  <Font size="17.0" />
+                  <Font name="Playfair Display Regular" size="17.0" />
                </font>
             </Text>
             <Text fill="#293a4b" layoutX="94.0" layoutY="200.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Expenses">
                <font>
-                  <Font size="17.0" />
+                  <Font name="Playfair Display Regular" size="17.0" />
                </font>
             </Text>
             <Text fill="#293a4b" layoutX="330.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stock Market">
                <font>
-                  <Font size="17.0" />
+                  <Font name="Playfair Display Regular" size="17.0" />
                </font>
             </Text>
             <Text fill="#293a4b" layoutX="324.0" layoutY="200.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Scheduled Bills">
                <font>
-                  <Font size="17.0" />
+                  <Font name="Playfair Display Regular" size="17.0" />
                </font>
             </Text>
             <Text fill="#293a4b" layoutX="599.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Net Gross">
                <font>
-                  <Font size="17.0" />
+                  <Font name="Playfair Display Regular" size="17.0" />
                </font>
             </Text>
             <BarChart alternativeColumnFillVisible="true" alternativeRowFillVisible="false" barGap="1.0" horizontalGridLinesVisible="false" layoutX="504.0" layoutY="41.0" prefHeight="269.0" prefWidth="232.0">
@@ -112,50 +105,86 @@
                <children>
                   <Pane prefHeight="26.0" prefWidth="221.0" style="-fx-border-color: #293a4b; -fx-border-radius: 2;">
                      <children>
-                        <Label layoutX="8.0" layoutY="5.0" prefHeight="17.0" prefWidth="37.0" text="APPL " />
-                        <Label layoutX="179.0" layoutY="4.0" text="2000 $" textFill="GREEN" />
+                        <Label layoutX="8.0" layoutY="5.0" prefHeight="17.0" prefWidth="37.0" text="APPL ">
+                           <font>
+                              <Font name="Playfair Display Regular" size="13.0" />
+                           </font></Label>
+                        <Label layoutX="179.0" layoutY="4.0" text="2000 $" textFill="GREEN">
+                           <font>
+                              <Font name="Playfair Display Regular" size="13.0" />
+                           </font></Label>
                         <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="150.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@increase.png" />
                            </image>
                         </ImageView>
-                        <Label layoutX="82.0" layoutY="5.0" text="500$ x 4" />
+                        <Label layoutX="82.0" layoutY="5.0" text="500$ x 4">
+                           <font>
+                              <Font name="Playfair Display Regular" size="13.0" />
+                           </font></Label>
                      </children>
                   </Pane>
                   <Pane prefHeight="26.0" prefWidth="221.0" style="-fx-border-color: #293a4b; -fx-border-radius: 2;">
                      <children>
-                        <Label layoutX="8.0" layoutY="5.0" prefHeight="17.0" prefWidth="37.0" text="APPL " />
-                        <Label layoutX="179.0" layoutY="4.0" text="2000 $" textFill="GREEN" />
+                        <Label layoutX="8.0" layoutY="5.0" prefHeight="17.0" prefWidth="37.0" text="APPL ">
+                           <font>
+                              <Font name="Playfair Display Regular" size="13.0" />
+                           </font></Label>
+                        <Label layoutX="179.0" layoutY="4.0" text="2000 $" textFill="GREEN">
+                           <font>
+                              <Font name="Playfair Display Regular" size="13.0" />
+                           </font></Label>
                         <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="150.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@increase.png" />
                            </image>
                         </ImageView>
-                        <Label layoutX="82.0" layoutY="5.0" text="500$ x 4" />
+                        <Label layoutX="82.0" layoutY="5.0" text="500$ x 4">
+                           <font>
+                              <Font name="Playfair Display Regular" size="13.0" />
+                           </font></Label>
                      </children>
                   </Pane>
                   <Pane prefHeight="26.0" prefWidth="221.0" style="-fx-border-color: #293a4b; -fx-border-radius: 2;">
                      <children>
-                        <Label layoutX="8.0" layoutY="5.0" prefHeight="17.0" prefWidth="37.0" text="APPL " />
-                        <Label layoutX="179.0" layoutY="4.0" text="2000 $" textFill="GREEN" />
+                        <Label layoutX="8.0" layoutY="5.0" prefHeight="17.0" prefWidth="37.0" text="APPL ">
+                           <font>
+                              <Font name="Playfair Display Regular" size="13.0" />
+                           </font></Label>
+                        <Label layoutX="179.0" layoutY="4.0" text="2000 $" textFill="GREEN">
+                           <font>
+                              <Font name="Playfair Display Regular" size="13.0" />
+                           </font></Label>
                         <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="150.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@increase.png" />
                            </image>
                         </ImageView>
-                        <Label layoutX="82.0" layoutY="5.0" text="500$ x 4" />
+                        <Label layoutX="82.0" layoutY="5.0" text="500$ x 4">
+                           <font>
+                              <Font name="Playfair Display Regular" size="13.0" />
+                           </font></Label>
                      </children>
                   </Pane>
                   <Pane prefHeight="26.0" prefWidth="220.0" style="-fx-border-color: #293a4b; -fx-border-radius: 2;">
                      <children>
-                        <Label layoutX="8.0" layoutY="5.0" prefHeight="17.0" prefWidth="37.0" text="APPL " />
-                        <Label layoutX="179.0" layoutY="4.0" text="2000 $" textFill="GREEN" />
+                        <Label layoutX="8.0" layoutY="5.0" prefHeight="17.0" prefWidth="37.0" text="APPL ">
+                           <font>
+                              <Font name="Playfair Display Regular" size="13.0" />
+                           </font></Label>
+                        <Label layoutX="179.0" layoutY="4.0" text="2000 $" textFill="GREEN">
+                           <font>
+                              <Font name="Playfair Display Regular" size="13.0" />
+                           </font></Label>
                         <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="150.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@increase.png" />
                            </image>
                         </ImageView>
-                        <Label layoutX="82.0" layoutY="5.0" text="500$ x 4" />
+                        <Label layoutX="82.0" layoutY="5.0" text="500$ x 4">
+                           <font>
+                              <Font name="Playfair Display Regular" size="13.0" />
+                           </font></Label>
                      </children>
                   </Pane>
                </children>
@@ -164,22 +193,34 @@
                <children>
                   <Pane prefHeight="26.0" prefWidth="221.0" style="-fx-border-color: #293a4b; -fx-border-radius: 2;">
                      <children>
-                        <CheckBox layoutX="10.0" layoutY="5.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="197.0" text="Pay the next months rent" />
+                        <CheckBox layoutX="10.0" layoutY="5.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="197.0" text="Pay the next months rent">
+                           <font>
+                              <Font name="Playfair Display Regular" size="13.0" />
+                           </font></CheckBox>
                      </children>
                   </Pane>
                   <Pane prefHeight="26.0" prefWidth="221.0" style="-fx-border-color: #293a4b; -fx-border-radius: 2;">
                      <children>
-                        <CheckBox layoutX="10.0" layoutY="5.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="197.0" text="Pay your income tax" />
+                        <CheckBox layoutX="10.0" layoutY="5.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="197.0" text="Pay your income tax">
+                           <font>
+                              <Font name="Playfair Display Regular" size="13.0" />
+                           </font></CheckBox>
                      </children>
                   </Pane>
                   <Pane prefHeight="26.0" prefWidth="221.0" style="-fx-border-color: #293a4b; -fx-border-radius: 2;">
                      <children>
-                        <CheckBox layoutX="10.0" layoutY="5.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="197.0" text="Take somemoney from the bank" />
+                        <CheckBox layoutX="10.0" layoutY="5.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="197.0" text="Take somemoney from the bank">
+                           <font>
+                              <Font name="Playfair Display Regular" size="13.0" />
+                           </font></CheckBox>
                      </children>
                   </Pane>
                   <Pane prefHeight="26.0" prefWidth="206.0" style="-fx-border-color: #293a4b; -fx-border-radius: 2;">
                      <children>
-                        <CheckBox layoutX="10.0" layoutY="4.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="197.0" text="Buy some appl stock" />
+                        <CheckBox layoutX="10.0" layoutY="4.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="197.0" text="Buy some appl stock">
+                           <font>
+                              <Font name="Playfair Display Regular" size="13.0" />
+                           </font></CheckBox>
                      </children>
                   </Pane>
                </children>
@@ -188,8 +229,14 @@
                <children>
                   <Pane prefHeight="26.0" prefWidth="221.0" style="-fx-border-color: #293a4b; -fx-border-radius: 2;">
                      <children>
-                        <Label layoutX="8.0" layoutY="5.0" prefHeight="17.0" prefWidth="120.0" text="Ziraat" />
-                        <Label layoutX="180.0" layoutY="5.0" text="2000" />
+                        <Label layoutX="8.0" layoutY="5.0" prefHeight="17.0" prefWidth="120.0" text="Ziraat">
+                           <font>
+                              <Font name="Playfair Display Regular" size="13.0" />
+                           </font></Label>
+                        <Label layoutX="180.0" layoutY="5.0" text="2000">
+                           <font>
+                              <Font name="Playfair Display Regular" size="13.0" />
+                           </font></Label>
                         <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="160.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@increase.png" />
@@ -199,8 +246,14 @@
                   </Pane>
                   <Pane prefHeight="26.0" prefWidth="221.0" style="-fx-border-color: #293a4b; -fx-border-radius: 2;">
                      <children>
-                        <Label layoutX="8.0" layoutY="5.0" prefHeight="17.0" prefWidth="122.0" text="YapiKredi" />
-                        <Label layoutX="180.0" layoutY="5.0" text="5000" />
+                        <Label layoutX="8.0" layoutY="5.0" prefHeight="17.0" prefWidth="122.0" text="YapiKredi">
+                           <font>
+                              <Font name="Playfair Display Regular" size="13.0" />
+                           </font></Label>
+                        <Label layoutX="180.0" layoutY="5.0" text="5000">
+                           <font>
+                              <Font name="Playfair Display Regular" size="13.0" />
+                           </font></Label>
                         <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="160.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@increase.png" />
@@ -210,8 +263,14 @@
                   </Pane>
                   <Pane prefHeight="26.0" prefWidth="221.0" style="-fx-border-color: #293a4b; -fx-border-radius: 2;">
                      <children>
-                        <Label layoutX="8.0" layoutY="5.0" prefHeight="17.0" prefWidth="111.0" text="Garanti" />
-                        <Label layoutX="180.0" layoutY="5.0" text="5000" />
+                        <Label layoutX="8.0" layoutY="5.0" prefHeight="17.0" prefWidth="111.0" text="Garanti">
+                           <font>
+                              <Font name="Playfair Display Regular" size="13.0" />
+                           </font></Label>
+                        <Label layoutX="180.0" layoutY="5.0" text="5000">
+                           <font>
+                              <Font name="Playfair Display Regular" size="13.0" />
+                           </font></Label>
                         <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="160.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@increase.png" />
@@ -221,8 +280,14 @@
                   </Pane>
                   <Pane prefHeight="26.0" prefWidth="221.0" style="-fx-border-color: #293a4b; -fx-border-radius: 2;">
                      <children>
-                        <Label layoutX="8.0" layoutY="5.0" prefHeight="17.0" prefWidth="111.0" text="Vakif" />
-                        <Label layoutX="180.0" layoutY="5.0" text="4524" />
+                        <Label layoutX="8.0" layoutY="5.0" prefHeight="17.0" prefWidth="111.0" text="Vakif">
+                           <font>
+                              <Font name="Playfair Display Regular" size="13.0" />
+                           </font></Label>
+                        <Label layoutX="180.0" layoutY="5.0" text="4524">
+                           <font>
+                              <Font name="Playfair Display Regular" size="13.0" />
+                           </font></Label>
                         <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="160.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@increase.png" />
@@ -236,8 +301,14 @@
                <children>
                   <Pane prefHeight="26.0" prefWidth="221.0" style="-fx-border-color: #293a4b; -fx-border-radius: 2;">
                      <children>
-                        <Label layoutX="8.0" layoutY="5.0" prefHeight="17.0" prefWidth="135.0" text="Automated Bills" />
-                        <Label layoutX="187.0" layoutY="5.0" text="7.60" />
+                        <Label layoutX="8.0" layoutY="5.0" prefHeight="17.0" prefWidth="135.0" text="Automated Bills">
+                           <font>
+                              <Font name="Playfair Display Regular" size="13.0" />
+                           </font></Label>
+                        <Label layoutX="187.0" layoutY="5.0" text="7.60">
+                           <font>
+                              <Font name="Playfair Display Regular" size="13.0" />
+                           </font></Label>
                         <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="162.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@increase.png" />
@@ -247,8 +318,14 @@
                   </Pane>
                   <Pane prefHeight="26.0" prefWidth="221.0" style="-fx-border-color: #293a4b; -fx-border-radius: 2;">
                      <children>
-                        <Label layoutX="8.0" layoutY="5.0" prefHeight="17.0" prefWidth="135.0" text="Groceries" />
-                        <Label layoutX="187.0" layoutY="5.0" text="7.60" />
+                        <Label layoutX="8.0" layoutY="5.0" prefHeight="17.0" prefWidth="135.0" text="Groceries">
+                           <font>
+                              <Font name="Playfair Display Regular" size="13.0" />
+                           </font></Label>
+                        <Label layoutX="187.0" layoutY="5.0" text="7.60">
+                           <font>
+                              <Font name="Playfair Display Regular" size="13.0" />
+                           </font></Label>
                         <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="162.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@increase.png" />
@@ -258,8 +335,14 @@
                   </Pane>
                   <Pane prefHeight="26.0" prefWidth="221.0" style="-fx-border-color: #293a4b; -fx-border-radius: 2;">
                      <children>
-                        <Label layoutX="8.0" layoutY="5.0" prefHeight="17.0" prefWidth="135.0" text="Taxes" />
-                        <Label layoutX="187.0" layoutY="5.0" text="7.60" />
+                        <Label layoutX="8.0" layoutY="5.0" prefHeight="17.0" prefWidth="135.0" text="Taxes">
+                           <font>
+                              <Font name="Playfair Display Regular" size="13.0" />
+                           </font></Label>
+                        <Label layoutX="187.0" layoutY="5.0" text="7.60">
+                           <font>
+                              <Font name="Playfair Display Regular" size="13.0" />
+                           </font></Label>
                         <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="162.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@increase.png" />
@@ -269,8 +352,14 @@
                   </Pane>
                   <Pane prefHeight="26.0" prefWidth="221.0" style="-fx-border-color: #293a4b; -fx-border-radius: 2;">
                      <children>
-                        <Label layoutX="8.0" layoutY="5.0" prefHeight="17.0" prefWidth="137.0" text="Rent Of House" />
-                        <Label layoutX="187.0" layoutY="5.0" text="7.60" />
+                        <Label layoutX="8.0" layoutY="5.0" prefHeight="17.0" prefWidth="137.0" text="Rent Of House">
+                           <font>
+                              <Font name="Playfair Display Regular" size="13.0" />
+                           </font></Label>
+                        <Label layoutX="187.0" layoutY="5.0" text="7.60">
+                           <font>
+                              <Font name="Playfair Display Regular" size="13.0" />
+                           </font></Label>
                         <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="162.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@increase.png" />
@@ -284,11 +373,11 @@
       </Pane>
       <Button fx:id="pageLeftButton" layoutX="20.0" layoutY="410.0" mnemonicParsing="false" onAction="#handlePress" style="-fx-background-color: #293a4b; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="↩" textFill="#ededed">
          <font>
-            <Font name="Inter Semi Bold" size="13.0" />
+            <Font name="Playfair Display Regular" size="13.0" />
          </font></Button>
       <Button fx:id="pageRightButton" layoutX="755.0" layoutY="410.0" mnemonicParsing="false" onAction="#handlePress" style="-fx-background-color: #293a4b; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="↪" textFill="#ededed">
          <font>
-            <Font name="Inter Semi Bold" size="13.0" />
+            <Font name="Playfair Display Regular" size="13.0" />
          </font></Button>
    </children>
 </Pane>

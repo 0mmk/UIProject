@@ -15,7 +15,7 @@
                   <Insets />
                </opaqueInsets>
                <font>
-                  <Font name="Inter Light" size="13.0" />
+                  <Font name="Playfair Display Regular" size="13.0" />
                </font>
             </Button>
             <Button fx:id="stockButton" focusTraversable="false" layoutX="131.0" layoutY="5.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="Stock" textFill="#293a4b">
@@ -23,7 +23,7 @@
                   <Insets />
                </opaqueInsets>
                <font>
-                  <Font name="Inter Light" size="13.0" />
+                  <Font name="Playfair Display Regular" size="13.0" />
                </font>
             </Button>
             <Button fx:id="expenseButton" focusTraversable="false" layoutX="257.0" layoutY="5.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="Expense | Gross" textFill="#293a4b">
@@ -31,7 +31,7 @@
                   <Insets />
                </opaqueInsets>
                <font>
-                  <Font name="Inter Light" size="13.0" />
+                  <Font name="Playfair Display Regular" size="13.0" />
                </font>
             </Button>
             <Button fx:id="billButton" focusTraversable="false" layoutX="383.0" layoutY="5.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #293a4b; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="Bills" textFill="#ededed">
@@ -39,7 +39,7 @@
                   <Insets />
                </opaqueInsets>
                <font>
-                  <Font name="Inter Light" size="13.0" />
+                  <Font name="Playfair Display Regular" size="13.0" />
                </font>
             </Button>
             <Button fx:id="accountButton" focusTraversable="false" layoutX="509.0" layoutY="5.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="Account" textFill="#293a4b">
@@ -47,7 +47,7 @@
                   <Insets />
                </opaqueInsets>
                <font>
-                  <Font name="Inter Light" size="13.0" />
+                  <Font name="Playfair Display Regular" size="13.0" />
                </font>
             </Button>
             <Button fx:id="profileButton" focusTraversable="false" layoutX="635.0" layoutY="5.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="Profile" textFill="#293a4b">
@@ -55,7 +55,7 @@
                   <Insets />
                </opaqueInsets>
                <font>
-                  <Font name="Inter Light" size="13.0" />
+                  <Font name="Playfair Display Regular" size="13.0" />
                </font>
             </Button>
          </children>
@@ -67,15 +67,24 @@
                 <MenuItem mnemonicParsing="false" text="Action 1" />
                 <MenuItem mnemonicParsing="false" text="Action 2" />
               </items>
+               <font>
+                  <Font name="Playfair Display Regular" size="13.0" />
+               </font>
             </SplitMenuButton>
-            <TextField layoutX="152.0" layoutY="207.0" prefHeight="25.0" prefWidth="279.0" promptText="ID" />
-            <CheckBox layoutX="152.0" layoutY="242.0" mnemonicParsing="false" text="Pay Automaticly" />
+            <TextField layoutX="152.0" layoutY="207.0" prefHeight="25.0" prefWidth="279.0" promptText="ID">
+               <font>
+                  <Font name="Playfair Display Regular" size="13.0" />
+               </font></TextField>
+            <CheckBox layoutX="152.0" layoutY="242.0" mnemonicParsing="false" text="Pay Automaticly">
+               <font>
+                  <Font name="Playfair Display Regular" size="13.0" />
+               </font></CheckBox>
             <Button fx:id="billButtonNext" focusTraversable="false" layoutX="152.0" layoutY="267.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="279.0" style="-fx-background-color: #293a4b; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="NEXT" textFill="#ededed">
                <opaqueInsets>
                   <Insets />
                </opaqueInsets>
                <font>
-                  <Font name="Inter Light" size="13.0" />
+                  <Font name="Playfair Display Regular" size="13.0" />
                </font>
             </Button>
             <SplitMenuButton layoutX="152.0" layoutY="124.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="279.0" text="Bill Type">
@@ -83,43 +92,76 @@
                   <MenuItem mnemonicParsing="false" text="Action 1" />
                   <MenuItem mnemonicParsing="false" text="Action 2" />
                </items>
+               <font>
+                  <Font name="Playfair Display Regular" size="13.0" />
+               </font>
             </SplitMenuButton>
             <Text fill="#293a4b" layoutX="246.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bill Pay">
                <font>
-                  <Font name="Cambria" size="23.0" />
+                  <Font name="Playfair Display Regular" size="23.0" />
                </font>
             </Text>
             <VBox layoutX="518.0" layoutY="129.0" prefHeight="129.0" prefWidth="120.0">
                <children>
-                  <TextField />
-                  <TextField />
-                  <TextField />
-                  <TextField />
-                  <TextField />
+                  <TextField>
+                     <font>
+                        <Font name="Playfair Display Regular" size="13.0" />
+                     </font></TextField>
+                  <TextField>
+                     <font>
+                        <Font name="Playfair Display Regular" size="13.0" />
+                     </font></TextField>
+                  <TextField>
+                     <font>
+                        <Font name="Playfair Display Regular" size="13.0" />
+                     </font></TextField>
+                  <TextField>
+                     <font>
+                        <Font name="Playfair Display Regular" size="13.0" />
+                     </font></TextField>
+                  <TextField>
+                     <font>
+                        <Font name="Playfair Display Regular" size="13.0" />
+                     </font></TextField>
                </children>
             </VBox>
             <VBox layoutX="638.0" layoutY="129.0" prefHeight="129.0" prefWidth="83.0">
                <children>
-                  <TextField />
-                  <TextField />
-                  <TextField />
-                  <TextField />
-                  <TextField />
+                  <TextField>
+                     <font>
+                        <Font name="Playfair Display Regular" size="13.0" />
+                     </font></TextField>
+                  <TextField>
+                     <font>
+                        <Font name="Playfair Display Regular" size="13.0" />
+                     </font></TextField>
+                  <TextField>
+                     <font>
+                        <Font name="Playfair Display Regular" size="13.0" />
+                     </font></TextField>
+                  <TextField>
+                     <font>
+                        <Font name="Playfair Display Regular" size="13.0" />
+                     </font></TextField>
+                  <TextField>
+                     <font>
+                        <Font name="Playfair Display Regular" size="13.0" />
+                     </font></TextField>
                </children>
             </VBox>
-            <Text fill="#293a4b" layoutX="518.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Description">
+            <Text fill="#293a4b" layoutX="518.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Description">
                <font>
-                  <Font name="Cambria" size="11.0" />
+                  <Font name="Playfair Display Regular" size="12.0" />
                </font>
             </Text>
-            <Text fill="#293a4b" layoutX="518.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Automatic Pays">
+            <Text fill="#293a4b" layoutX="550.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Automatic Pays">
                <font>
-                  <Font name="Cambria" size="15.0" />
+                  <Font name="Playfair Display Regular" size="20.0" />
                </font>
             </Text>
-            <Text fill="#293a4b" layoutX="643.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last Paid Date">
+            <Text fill="#293a4b" layoutX="642.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last Paid Date">
                <font>
-                  <Font name="Cambria" size="11.0" />
+                  <Font name="Playfair Display Regular" size="12.0" />
                </font>
             </Text>
             <Separator layoutX="518.0" layoutY="106.0" prefHeight="5.0" prefWidth="202.0" style="-fx-background-color: #293a4b;" />
@@ -132,11 +174,11 @@
       </Pane>
       <Button fx:id="pageLeftButton" layoutX="20.0" layoutY="410.0" mnemonicParsing="false" onAction="#handlePress" style="-fx-background-color: #293a4b; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="↩" textFill="#ededed">
          <font>
-            <Font name="Inter Semi Bold" size="13.0" />
+            <Font name="Playfair Display Regular" size="13.0" />
          </font></Button>
       <Button fx:id="pageRightButton" layoutX="746.7" layoutY="410.0" mnemonicParsing="false" onAction="#handlePress" style="-fx-background-color: #293a4b; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="↪" textFill="#ededed">
          <font>
-            <Font name="Inter Semi Bold" size="13.0" />
+            <Font name="Playfair Display Regular" size="13.0" />
          </font></Button>
    </children>
 </Pane>
