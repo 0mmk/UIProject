@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="accountPane1" prefHeight="200.0" prefWidth="450.0" style="-fx-background-color: #ededed;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="25.0" layoutY="25.0" text="Bank: Ziraat Bank" textFill="#293a4b">
+         <font>
+            <Font name="DejaVu Serif" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="40.0" text="Date: 12.03.2020 19:00" textFill="#293a4b">
+         <font>
+            <Font name="DejaVu Serif" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="122.0" text="Account ID : 123" textFill="#293a4b">
+         <font>
+            <Font name="DejaVu Serif" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="107.0" text="Value: $6540.000" textFill="#293a4b">
+         <font>
+            <Font name="DejaVu Serif" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="137.0" text="Description: 123-123123-Wuhan-China" textFill="#293a4b">
+         <font>
+            <Font name="DejaVu Sans" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="152.0" text="Queue Number: 00001" textFill="#293a4b">
+         <font>
+            <Font name="DejaVu Sans" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="167.0" text="Receipt Number: 00001 " textFill="#293a4b">
+         <font>
+            <Font name="DejaVu Sans" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="187.0" layoutY="5.0" text="Decont" textFill="#293a4b" underline="true">
+         <font>
+            <Font name="DejaVu Serif" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="13.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ziraatbankasi.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="270.0" layoutY="25.0" text="Mr.Nobody" textFill="#293a4b">
+         <font>
+            <Font name="DejaVu Serif" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="270.0" layoutY="40.0" text="Beşiktaş Istanbul" textFill="#293a4b">
+         <font>
+            <Font name="DejaVu Serif" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="270.0" layoutY="55.0" text="Turkey" textFill="#293a4b">
+         <font>
+            <Font name="DejaVu Serif" size="12.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="52.0" fitWidth="163.0" layoutX="278.0" layoutY="148.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@output-onlinepngtools.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

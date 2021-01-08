@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitMenuButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="800.0" style="-fx-background-color: #ededed;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Pane fx:id="billPane" prefHeight="150.0" prefWidth="800.0" style="-fx-background-color: #293a4b;" />
+      <Pane layoutX="20.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="760.0" style="-fx-background-color: #293a4b; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);">
+         <children>
+            <Button fx:id="homeButton" focusTraversable="false" layoutX="5.0" layoutY="5.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="Home" textFill="#293a4b">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <font>
+                  <Font name="Inter Light" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="stockButton" focusTraversable="false" layoutX="131.0" layoutY="5.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="Stock" textFill="#293a4b">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <font>
+                  <Font name="Inter Light" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="expenseButton" focusTraversable="false" layoutX="257.0" layoutY="5.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="Expense | Gross" textFill="#293a4b">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <font>
+                  <Font name="Inter Light" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="billButton" focusTraversable="false" layoutX="383.0" layoutY="5.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #293a4b; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="Bills" textFill="#ededed">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <font>
+                  <Font name="Inter Light" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="accountButton" focusTraversable="false" layoutX="509.0" layoutY="5.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="Account" textFill="#293a4b">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <font>
+                  <Font name="Inter Light" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="profileButton" focusTraversable="false" layoutX="635.0" layoutY="5.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="Profile" textFill="#293a4b">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <font>
+                  <Font name="Inter Light" size="13.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Pane layoutX="20.0" layoutY="50.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="360.0" prefWidth="760.0" style="-fx-background-color: #ededed; -fx-border-color: #293a4b; -fx-border-width: 5; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);">
+         <children>
+            <Pane layoutX="100.0" layoutY="40.0" prefHeight="258.0" prefWidth="313.0" style="-fx-border-color: #dddddd; -fx-border-width: 2;">
+               <children>
+                  <TextField fx:id="iban" layoutX="15.0" layoutY="120.0" prefHeight="25.0" prefWidth="279.0" promptText="ID" text="IBAN">
+                     <font>
+                        <Font name="DejaVu Serif" size="10.0" />
+                     </font></TextField>
+                  <CheckBox fx:id="rememberThis" layoutX="17.0" layoutY="150.0" mnemonicParsing="false" text="Remember This">
+                     <font>
+                        <Font name="DejaVu Serif" size="10.0" />
+                     </font></CheckBox>
+                  <Button fx:id="next" focusTraversable="false" layoutX="15.0" layoutY="184.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="279.0" style="-fx-background-color: #293a4b; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="NEXT" textFill="#ededed">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <font>
+                        <Font name="DejaVu Serif" size="13.0" />
+                     </font>
+                  </Button>
+                  <SplitMenuButton fx:id="Banks" layoutX="15.0" layoutY="90.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="279.0" text="Bank">
+                     <items>
+                        <MenuItem mnemonicParsing="false" text="Action 1" />
+                        <MenuItem mnemonicParsing="false" text="Action 2" />
+                     </items>
+                     <font>
+                        <Font name="DejaVu Serif" size="10.0" />
+                     </font>
+                  </SplitMenuButton>
+                  <Text fill="#293a4b" layoutX="98.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Send Money">
+                     <font>
+                        <Font name="DejaVu Serif" size="18.0" />
+                     </font>
+                  </Text>
+                  <Button fx:id="WithIban" focusTraversable="false" layoutX="15.0" layoutY="45.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="126.0" style="-fx-background-color: #293a4b; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="With IBAN" textFill="#ededed">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <font>
+                        <Font name="DejaVu Serif" size="11.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="wihtBankAccount" focusTraversable="false" layoutX="160.0" layoutY="45.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="130.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="With Bank Account" textFill="#293a4b">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <font>
+                        <Font name="DejaVu Serif" size="11.0" />
+                     </font>
+                  </Button>
+               </children>
+            </Pane>
+            <Line endX="23.0" endY="253.0" layoutX="462.0" layoutY="101.0" startX="23.0" startY="-95.66667175292969" stroke="#293a4b" strokeWidth="4.0" />
+            <VBox layoutX="520.0" layoutY="40.0" prefHeight="241.0" prefWidth="189.0" spacing="3.0">
+               <children>
+                  <Text fill="#293a4b" strokeType="OUTSIDE" strokeWidth="0.0" text="Saved Accounts">
+                     <font>
+                        <Font name="DejaVu Serif" size="10.0" />
+                     </font>
+                  </Text>
+                  <Line endX="179.2928924560547" endY="0.6213234066963196" stroke="#293a4b" />
+                  <Text fill="#293a4b" strokeType="OUTSIDE" strokeWidth="0.0" text="Desciption                              Date" wrappingWidth="181.5015869140625">
+                     <font>
+                        <Font name="DejaVu Serif" size="10.0" />
+                     </font>
+                  </Text>
+                  <Pane prefHeight="22.0" prefWidth="0.0" style="-fx-border-color: #293a4b; -fx-border-width: 1;">
+                     <children>
+                        <Text fill="#293a4b" layoutX="2.0" layoutY="14.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Eminem" wrappingWidth="64.16827392578125">
+                           <font>
+                              <Font name="DejaVu Serif" size="10.0" />
+                           </font>
+                        </Text>
+                        <Text fill="#293a4b" layoutX="127.0" layoutY="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="02-Feb-2020" wrappingWidth="64.16827392578125">
+                           <font>
+                              <Font name="Cambria" size="10.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="520.0" prefHeight="22.0" prefWidth="0.0" style="-fx-border-color: #293a4b; -fx-border-width: 1;">
+                     <children>
+                        <Text fill="#293a4b" layoutX="2.0" layoutY="14.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Memoli" wrappingWidth="64.16827392578125">
+                           <font>
+                              <Font name="DejaVu Serif" size="10.0" />
+                           </font>
+                        </Text>
+                        <Text fill="#293a4b" layoutX="127.0" layoutY="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="02-Dec-2019" wrappingWidth="64.16827392578125">
+                           <font>
+                              <Font name="Cambria" size="10.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="22.0" prefWidth="0.0" style="-fx-border-color: #293a4b; -fx-border-width: 1;">
+                     <children>
+                        <Text fill="#293a4b" layoutX="2.0" layoutY="14.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Eminem" wrappingWidth="64.16827392578125">
+                           <font>
+                              <Font name="DejaVu Serif" size="10.0" />
+                           </font>
+                        </Text>
+                        <Text fill="#293a4b" layoutX="127.0" layoutY="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="11-Nay-2012" wrappingWidth="64.16827392578125">
+                           <font>
+                              <Font name="Cambria" size="10.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="22.0" prefWidth="0.0" style="-fx-border-color: #293a4b; -fx-border-width: 1;">
+                     <children>
+                        <Text fill="#293a4b" layoutX="2.0" layoutY="14.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Eminem" wrappingWidth="64.16827392578125">
+                           <font>
+                              <Font name="DejaVu Serif" size="10.0" />
+                           </font>
+                        </Text>
+                        <Text fill="#293a4b" layoutX="127.0" layoutY="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="01-Feb-2001" wrappingWidth="64.16827392578125">
+                           <font>
+                              <Font name="Cambria" size="10.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+               </children>
+            </VBox>
+         </children>
+      </Pane>
+      <Button fx:id="pageLeftButton" layoutX="20.0" layoutY="410.0" mnemonicParsing="false" onAction="#handlePress" style="-fx-background-color: #293a4b; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="↩" textFill="#ededed">
+         <font>
+            <Font name="Inter Semi Bold" size="13.0" />
+         </font></Button>
+      <Button fx:id="pageRightButton" layoutX="746.7" layoutY="410.0" mnemonicParsing="false" onAction="#handlePress" style="-fx-background-color: #293a4b; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="↪" textFill="#ededed">
+         <font>
+            <Font name="Inter Semi Bold" size="13.0" />
+         </font></Button>
+   </children>
+</Pane>
