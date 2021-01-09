@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="800.0" style="-fx-background-color: #ededed;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Pane fx:id="expensePane" prefHeight="150.0" prefWidth="800.0" style="-fx-background-color: #293a4b;" />
+      <Pane layoutX="20.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="760.0" style="-fx-background-color: #293a4b; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);">
+         <children>
+            <Button fx:id="homeButton" focusTraversable="false" layoutX="5.0" layoutY="5.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="Home" textFill="#293a4b">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <font>
+                  <Font name="Inter Light" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="stockButton" focusTraversable="false" layoutX="131.0" layoutY="5.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="Stock" textFill="#293a4b">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <font>
+                  <Font name="Inter Light" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="expenseButton" focusTraversable="false" layoutX="257.0" layoutY="5.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #293a4b; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="Expense | Gross" textFill="#ededed">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <font>
+                  <Font name="Inter Light" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="billButton" focusTraversable="false" layoutX="383.0" layoutY="5.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="Bills" textFill="#293a4b">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <font>
+                  <Font name="Inter Light" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="accountButton" focusTraversable="false" layoutX="509.0" layoutY="5.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="Account" textFill="#293a4b">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <font>
+                  <Font name="Inter Light" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="profileButton" focusTraversable="false" layoutX="635.0" layoutY="5.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="Profile" textFill="#293a4b">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <font>
+                  <Font name="Inter Light" size="13.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Pane layoutX="20.0" layoutY="50.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="360.0" prefWidth="760.0" style="-fx-background-color: #ededed; -fx-border-color: #293a4b; -fx-border-width: 5; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);">
+         <children>
+            <Pane layoutY="-8.0" prefHeight="367.0" prefWidth="380.0">
+               <children>
+                  <Text layoutX="133.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your Net Worth" wrappingWidth="106.93673706054688">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Text>
+                  <Button fx:id="breakdown" layoutX="54.0" layoutY="21.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="136.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="Breakdown" textFill="#293a4b" />
+                  <Button fx:id="history" layoutX="190.0" layoutY="21.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="136.0" style="-fx-background-color: #293a4b; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="History" textFill="#ededed" />
+                  <Text fill="#33a42f" layoutX="110.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$5.000,00">
+                     <font>
+                        <Font size="36.0" />
+                     </font>
+                  </Text>
+                  <Button fx:id="changeLira" layoutX="71.0" layoutY="77.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="34.0" style="-fx-background-color: #293a4b; -fx-background-radius: 20; -fx-background-radius: 20; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="₺" textFill="#ededed">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+                  <ProgressBar fx:id="progressTotal" layoutX="52.0" layoutY="176.0" prefHeight="18.0" prefWidth="270.0" progress="0.5" style="-fx-background-radius: 20;" styleClass="-fx-accent" />
+                  <Button fx:id="changeDollar" layoutX="71.0" layoutY="134.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="34.0" style="-fx-background-color: #293a4b; -fx-background-radius: 20; -fx-background-radius: 20; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="\$" textFill="#ededed">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="changeEuro" layoutX="271.0" layoutY="77.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="34.0" style="-fx-background-color: #293a4b; -fx-background-radius: 20; -fx-background-radius: 20; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="€" textFill="#ededed">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="changePound" layoutX="272.0" layoutY="134.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="34.0" style="-fx-background-color: #293a4b; -fx-background-radius: 20; -fx-background-radius: 20; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="£" textFill="#ededed">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+                  <VBox layoutX="51.0" layoutY="207.0" prefHeight="122.0" prefWidth="270.0">
+                     <children>
+                        <Pane prefHeight="29.0" prefWidth="270.0">
+                           <children>
+                              <ImageView fitHeight="29.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@85964e955839ddc8d94f39f20734df0a.png" />
+                                 </image>
+                              </ImageView>
+                              <Text layoutX="42.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Yapıkredi Bankası" />
+                              <Text layoutX="219.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$1.000,00" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="29.0" prefWidth="270.0">
+                           <children>
+                              <ImageView fitHeight="30.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@85964e955839ddc8d94f39f20734df0a.png" />
+                                 </image>
+                              </ImageView>
+                              <Text layoutX="42.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ziraat Bankası" />
+                              <Text layoutX="219.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$1.000,00" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="29.0" prefWidth="270.0">
+                           <children>
+                              <ImageView fitHeight="30.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@85964e955839ddc8d94f39f20734df0a.png" />
+                                 </image>
+                              </ImageView>
+                              <Text layoutX="42.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Teb Bankası" />
+                              <Text layoutX="219.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$1.000,00" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="29.0" prefWidth="270.0">
+                           <children>
+                              <Text layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total Assets" />
+                              <Text layoutX="219.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$3.000,00" />
+                           </children>
+                        </Pane>
+                     </children>
+                  </VBox>
+                  <Text layoutX="325.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="50%" />
+                  <Button fx:id="bankAdd" layoutX="294.0" layoutY="327.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="36.0">
+                     <graphic>
+                        <ImageView fitHeight="23.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@add_box.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="bankRemove" layoutX="336.0" layoutY="327.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="36.0">
+                     <graphic>
+                        <ImageView fitHeight="27.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@trash-alt.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Text layoutX="264.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$2.500,00" />
+               </children>
+            </Pane>
+            <HBox layoutX="376.0" prefHeight="360.0" prefWidth="7.0" style="-fx-background-color: #293a4b;" />
+            <Pane layoutX="383.0" layoutY="7.0" prefHeight="350.0" prefWidth="372.0">
+               <children>
+                  <Text layoutX="120.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Spent in January">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <Text fill="RED" layoutX="110.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$4.800,00">
+                     <font>
+                        <Font size="36.0" />
+                     </font>
+                  </Text>
+                  <ProgressBar fx:id="progress1" layoutX="36.0" layoutY="175.0" prefHeight="18.0" prefWidth="270.0" progress="0.47" style="-fx-background-radius: 20;" />
+                  <Text layoutX="36.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Other">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="312.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="47%">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="245.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$2.250,00">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Text>
+                  <ProgressBar fx:id="progress2" layoutX="35.0" layoutY="212.0" prefHeight="18.0" prefWidth="270.0" progress="0.26" style="-fx-background-radius: 20;" />
+                  <Text layoutX="35.0" layoutY="207.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Home Rent">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="311.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="26%">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="248.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$1.250,00">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Text>
+                  <ProgressBar fx:id="progress3" layoutX="36.0" layoutY="249.0" prefHeight="18.0" prefWidth="270.0" progress="0.15" style="-fx-background-radius: 20;" />
+                  <Text layoutX="36.0" layoutY="244.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bills">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="312.0" layoutY="264.0" strokeType="OUTSIDE" strokeWidth="0.0" text="20%">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="257.0" layoutY="263.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$950,00">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Text>
+                  <ProgressBar fx:id="progress4" layoutX="35.0" layoutY="286.0" prefHeight="18.0" prefWidth="270.0" progress="0.05" style="-fx-background-radius: 20;" />
+                  <Text layoutX="35.0" layoutY="281.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Shopping">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="311.0" layoutY="300.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7%">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="257.0" layoutY="300.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$350,00">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="167.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2020">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="33.0" layoutY="330.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You saved $200 this month, well done!">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Button fx:id="pageLeftButton" layoutX="20.0" layoutY="410.0" mnemonicParsing="false" onAction="#handlePress" style="-fx-background-color: #293a4b; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="↩" textFill="#ededed">
+         <font>
+            <Font name="Inter Semi Bold" size="13.0" />
+         </font></Button>
+      <Button fx:id="pageRightButton" layoutX="746.7" layoutY="410.0" mnemonicParsing="false" onAction="#handlePress" style="-fx-background-color: #293a4b; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="↪" textFill="#ededed">
+         <font>
+            <Font name="Inter Semi Bold" size="13.0" />
+         </font></Button>
+      <Button fx:id="yearInc" layoutX="614.0" layoutY="70.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="0.0">
+         <graphic>
+            <ImageView fitHeight="11.0" fitWidth="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@chevron-right.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="yearDec" layoutX="543.0" layoutY="69.0" mnemonicParsing="false">
+         <graphic>
+            <ImageView fitHeight="8.0" fitWidth="9.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@chevron-left.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Text layoutX="647.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2021">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="503.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2019">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="469.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2018" />
+   </children>
+</Pane>
