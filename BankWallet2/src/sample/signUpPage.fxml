@@ -14,30 +14,30 @@
                <children>
                   <TextField layoutX="14.0" layoutY="98.0" prefHeight="27.0" prefWidth="140.0" promptText="Name">
                      <font>
-                        <Font name="Playfair Display Regular" size="13.0" />
+                        <Font name="DejaVu Serif" size="13.0" />
                      </font></TextField>
                   <TextField layoutX="170.0" layoutY="98.0" prefHeight="27.0" prefWidth="140.0" promptText="Surname">
                      <font>
-                        <Font name="Playfair Display Regular" size="13.0" />
+                        <Font name="DejaVu Serif" size="13.0" />
                      </font></TextField>
                   <TextField layoutX="13.0" layoutY="134.0" prefHeight="27.0" prefWidth="297.0" promptText="Email">
                      <font>
-                        <Font name="Playfair Display Regular" size="13.0" />
+                        <Font name="DejaVu Serif" size="13.0" />
                      </font></TextField>
                   <PasswordField layoutX="13.0" layoutY="168.0" prefHeight="27.0" prefWidth="297.0" promptText="Password">
                      <font>
-                        <Font name="Playfair Display Regular" size="13.0" />
+                        <Font name="DejaVu Serif" size="13.0" />
                      </font></PasswordField>
                   <PasswordField layoutX="13.0" layoutY="202.0" prefHeight="27.0" prefWidth="297.0" promptText="Retype Password">
                      <font>
-                        <Font name="Playfair Display Regular" size="13.0" />
+                        <Font name="DejaVu Serif" size="13.0" />
                      </font></PasswordField>
                   <Button fx:id="signUpButton" layoutX="13.0" layoutY="238.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="27.0" prefWidth="297.0" style="-fx-background-radius: 0; -fx-border-radius: 0; -fx-background-color: #293a4b;" text="Sign Up" textFill="#ededed">
                      <font>
-                        <Font name="Playfair Display Regular" size="13.0" />
+                        <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Button>
-                  <Hyperlink fx:id="gotoLoginLink" layoutX="159.0" layoutY="268.0" onAction="#handlePress" text="Login" textFill="#293a4b" underline="true" />
+                  <Hyperlink fx:id="gotoLoginLink" layoutX="166.0" layoutY="268.0" onAction="#handlePress" text="Login" textFill="#293a4b" underline="true" />
                   <ImageView fitHeight="150.0" fitWidth="20.0" layoutX="285.0" layoutY="137.5" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@email.png" />
@@ -55,12 +55,12 @@
                   </ImageView>
                   <Label layoutX="110.0" layoutY="50.0" text="Sign Up" textFill="#293a4b">
                      <font>
-                        <Font name="Playfair Display Regular" size="28.0" />
+                        <Font name="DejaVu Serif" size="28.0" />
                      </font>
                   </Label>
                   <Label layoutX="13.0" layoutY="273.0" text="Do you have an account?" textFill="#293a4b">
                      <font>
-                        <Font name="Playfair Display Regular" size="12.0" />
+                        <Font name="DejaVu Serif" size="12.0" />
                      </font>
                   </Label>
                   <ImageView fitHeight="150.0" fitWidth="20.0" layoutX="129.0" layoutY="101.0" pickOnBounds="true" preserveRatio="true">

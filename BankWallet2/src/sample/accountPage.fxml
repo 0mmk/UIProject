@@ -15,7 +15,7 @@
                   <Insets />
                </opaqueInsets>
                <font>
-                  <Font name="Playfair Display Regular" size="13.0" />
+                  <Font name="DejaVu Serif" size="13.0" />
                </font>
             </Button>
             <Button fx:id="stockButton" focusTraversable="false" layoutX="131.0" layoutY="5.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="Stock" textFill="#293a4b">
@@ -23,15 +23,15 @@
                   <Insets />
                </opaqueInsets>
                <font>
-                  <Font name="Playfair Display Regular" size="13.0" />
+                  <Font name="DejaVu Serif" size="13.0" />
                </font>
             </Button>
-            <Button fx:id="expenseButton" focusTraversable="false" layoutX="257.0" layoutY="5.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="Expense | Gross" textFill="#293a4b">
+            <Button fx:id="expenseButton" focusTraversable="false" layoutX="257.0" layoutY="5.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="Expense" textFill="#293a4b">
                <opaqueInsets>
                   <Insets />
                </opaqueInsets>
                <font>
-                  <Font name="Playfair Display Regular" size="13.0" />
+                  <Font name="DejaVu Serif" size="13.0" />
                </font>
             </Button>
             <Button fx:id="billButton" focusTraversable="false" layoutX="383.0" layoutY="5.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="Bills" textFill="#293a4b">
@@ -39,7 +39,7 @@
                   <Insets />
                </opaqueInsets>
                <font>
-                  <Font name="Playfair Display Regular" size="13.0" />
+                  <Font name="DejaVu Serif" size="13.0" />
                </font>
             </Button>
             <Button fx:id="accountButton" focusTraversable="false" layoutX="509.0" layoutY="5.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #293a4b; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="Account" textFill="#ededed">
@@ -47,7 +47,7 @@
                   <Insets />
                </opaqueInsets>
                <font>
-                  <Font name="Playfair Display Regular" size="13.0" />
+                  <Font name="DejaVu Serif" size="13.0" />
                </font>
             </Button>
             <Button fx:id="profileButton" focusTraversable="false" layoutX="635.0" layoutY="5.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="Profile" textFill="#293a4b">
@@ -55,7 +55,7 @@
                   <Insets />
                </opaqueInsets>
                <font>
-                  <Font name="Playfair Display Regular" size="13.0" />
+                  <Font name="DejaVu Serif" size="13.0" />
                </font>
             </Button>
          </children>
@@ -64,54 +64,54 @@
          <children>
             <Label layoutX="25.0" layoutY="20.0" text="Bank Accounts" textFill="#293a4b">
                <font>
-                  <Font name="Playfair Display Regular" size="20.0" />
+                  <Font name="DejaVu Serif" size="20.0" />
                </font></Label>
             <Pane layoutX="25.0" layoutY="45.0" prefHeight="2.0" prefWidth="700.0" style="-fx-background-color: #293a4b;" />
             <Pane layoutX="25.0" layoutY="52.0" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #ededed; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8),2, 0 ,0, 0); -fx-border-width: 0;">
                <children>
                   <Button fx:id="accountDetail" layoutX="147.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="53.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 1, 0, 0, 0);" text="Detail" textFill="#293a4b">
                      <font>
-                        <Font name="Playfair Display Regular" size="12.0" />
+                        <Font name="DejaVu Serif" size="12.0" />
                      </font>
                   </Button>
                   <Label layoutX="5.0" layoutY="17.0" text="Bank Account-Drawing" textFill="#ae0000">
                      <font>
-                        <Font name="Playfair Display Regular" size="11.0" />
+                        <Font name="DejaVu Serif" size="11.0" />
                      </font>
                   </Label>
                   <Label layoutX="4.0" layoutY="2.0" text="Ziraat Bankası" textFill="#293a4b">
                      <font>
-                        <Font name="Playfair Display Regular" size="13.0" />
+                        <Font name="DejaVu Serif" size="13.0" />
                      </font></Label>
                   <Pane layoutY="31.0" prefHeight="0.5" prefWidth="200.0" style="-fx-background-color: #293a4b;" />
                   <Label layoutX="5.0" layoutY="43.0" text="Account ID : 123" textFill="#293a4b">
                      <font>
-                        <Font name="Playfair Display Regular" size="13.0" />
+                        <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Label>
                   <Label layoutX="5.0" layoutY="30.0" text="Name: Akdeniz University" textFill="#293a4b">
                      <font>
-                        <Font name="Playfair Display Regular" size="13.0" />
+                        <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Label>
                   <Label layoutX="5.0" layoutY="60.0" text="Amount" textFill="#293a4b">
                      <font>
-                        <Font name="Playfair Display Regular" size="13.0" />
+                        <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Label>
                   <Label layoutX="143.0" layoutY="77.0" text="\$140.000" textFill="#293a4b">
                      <font>
-                        <Font name="Playfair Display Regular" size="13.0" />
+                        <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Label>
                   <Label layoutX="5.0" layoutY="75.0" text="Aviable Amount" textFill="#293a4b">
                      <font>
-                        <Font name="Playfair Display Regular" size="13.0" />
+                        <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Label>
                   <Label layoutX="143.0" layoutY="61.0" text="\$300.000" textFill="#293a4b">
                      <font>
-                        <Font name="Playfair Display Regular" size="13.0" />
+                        <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Label>
                   <Pane layoutY="60.0" prefHeight="0.5" prefWidth="200.0" style="-fx-background-color: #293a4b;" />
@@ -121,47 +121,47 @@
                <children>
                   <Button fx:id="accountDetail1" layoutX="147.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="53.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 1, 0, 0, 0);" text="Detail" textFill="#293a4b">
                      <font>
-                        <Font name="Playfair Display Regular" size="12.0" />
+                        <Font name="DejaVu Serif" size="12.0" />
                      </font>
                   </Button>
                   <Label layoutX="5.0" layoutY="17.0" text="Bank Account-Drawing" textFill="#ae0000">
                      <font>
-                        <Font name="Playfair Display Regular" size="11.0" />
+                        <Font name="DejaVu Serif" size="11.0" />
                      </font>
                   </Label>
                   <Label layoutX="4.0" layoutY="1.0" text="Ziraat Bankası" textFill="#293a4b">
                      <font>
-                        <Font name="Playfair Display Regular" size="13.0" />
+                        <Font name="DejaVu Serif" size="13.0" />
                      </font></Label>
                   <Pane layoutY="31.0" prefHeight="0.5" prefWidth="200.0" style="-fx-background-color: #293a4b;" />
                   <Label layoutX="5.0" layoutY="43.0" text="Account ID : 123" textFill="#293a4b">
                      <font>
-                        <Font name="Playfair Display Regular" size="13.0" />
+                        <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Label>
                   <Label layoutX="5.0" layoutY="30.0" text="Name: Akdeniz University" textFill="#293a4b">
                      <font>
-                        <Font name="Playfair Display Regular" size="13.0" />
+                        <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Label>
                   <Label layoutX="5.0" layoutY="60.0" text="Amount" textFill="#293a4b">
                      <font>
-                        <Font name="Playfair Display Regular" size="13.0" />
+                        <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Label>
                   <Label layoutX="144.0" layoutY="76.0" text="\$140.000" textFill="#293a4b">
                      <font>
-                        <Font name="Playfair Display Regular" size="13.0" />
+                        <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Label>
                   <Label layoutX="5.0" layoutY="75.0" text="Aviable Amount" textFill="#293a4b">
                      <font>
-                        <Font name="Playfair Display Regular" size="13.0" />
+                        <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Label>
                   <Label layoutX="145.0" layoutY="59.0" text="\$300.000" textFill="#293a4b">
                      <font>
-                        <Font name="Playfair Display Regular" size="13.0" />
+                        <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Label>
                   <Pane layoutY="60.0" prefHeight="0.5" prefWidth="200.0" style="-fx-background-color: #293a4b;" />
@@ -171,47 +171,47 @@
                <children>
                   <Button fx:id="accountDetail2" layoutX="145.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="55.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 1, 0, 0, 0);" text="Detail" textFill="#293a4b">
                      <font>
-                        <Font name="Playfair Display Regular" size="12.0" />
+                        <Font name="DejaVu Serif" size="12.0" />
                      </font>
                   </Button>
                   <Label layoutX="5.0" layoutY="17.0" text="Bank Account-Drawing" textFill="#ae0000">
                      <font>
-                        <Font name="Playfair Display Regular" size="11.0" />
+                        <Font name="DejaVu Serif" size="11.0" />
                      </font>
                   </Label>
                   <Label layoutX="4.0" layoutY="2.0" text="Ziraat Bankası" textFill="#293a4b">
                      <font>
-                        <Font name="Playfair Display Regular" size="13.0" />
+                        <Font name="DejaVu Serif" size="13.0" />
                      </font></Label>
                   <Pane layoutY="31.0" prefHeight="0.5" prefWidth="200.0" style="-fx-background-color: #293a4b;" />
                   <Label layoutX="5.0" layoutY="43.0" text="Account ID : 123" textFill="#293a4b">
                      <font>
-                        <Font name="Playfair Display Regular" size="13.0" />
+                        <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Label>
                   <Label layoutX="5.0" layoutY="30.0" text="Name: Akdeniz University" textFill="#293a4b">
                      <font>
-                        <Font name="Playfair Display Regular" size="13.0" />
+                        <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Label>
                   <Label layoutX="5.0" layoutY="60.0" text="Amount" textFill="#293a4b">
                      <font>
-                        <Font name="Playfair Display Regular" size="13.0" />
+                        <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Label>
                   <Label layoutX="145.0" layoutY="76.0" text="\$140.000" textFill="#293a4b">
                      <font>
-                        <Font name="Playfair Display Regular" size="13.0" />
+                        <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Label>
                   <Label layoutX="5.0" layoutY="75.0" text="Aviable Amount" textFill="#293a4b">
                      <font>
-                        <Font name="Playfair Display Regular" size="13.0" />
+                        <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Label>
                   <Label layoutX="144.0" layoutY="61.0" text="\$300.000" textFill="#293a4b">
                      <font>
-                        <Font name="Playfair Display Regular" size="13.0" />
+                        <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Label>
                   <Pane layoutY="60.0" prefHeight="0.5" prefWidth="200.0" style="-fx-background-color: #293a4b;" />
@@ -221,47 +221,47 @@
                <children>
                   <Button fx:id="accountDetail3" layoutX="145.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="55.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 1, 0, 0, 0);" text="Detail" textFill="#293a4b">
                      <font>
-                        <Font name="Playfair Display Regular" size="12.0" />
+                        <Font name="DejaVu Serif" size="12.0" />
                      </font>
                   </Button>
                   <Label layoutX="5.0" layoutY="17.0" text="Bank Account-Drawing" textFill="#ae0000">
                      <font>
-                        <Font name="Playfair Display Regular" size="11.0" />
+                        <Font name="DejaVu Serif" size="11.0" />
                      </font>
                   </Label>
                   <Label layoutX="4.0" layoutY="2.0" text="Ziraat Bankası" textFill="#293a4b">
                      <font>
-                        <Font name="Playfair Display Regular" size="13.0" />
+                        <Font name="DejaVu Serif" size="13.0" />
                      </font></Label>
                   <Pane layoutY="31.0" prefHeight="0.5" prefWidth="200.0" style="-fx-background-color: #293a4b;" />
                   <Label layoutX="5.0" layoutY="43.0" text="Account ID : 123" textFill="#293a4b">
                      <font>
-                        <Font name="Playfair Display Regular" size="13.0" />
+                        <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Label>
                   <Label layoutX="5.0" layoutY="30.0" text="Name: Akdeniz University" textFill="#293a4b">
                      <font>
-                        <Font name="Playfair Display Regular" size="13.0" />
+                        <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Label>
                   <Label layoutX="5.0" layoutY="60.0" text="Amount" textFill="#293a4b">
                      <font>
-                        <Font name="Playfair Display Regular" size="13.0" />
+                        <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Label>
                   <Label layoutX="145.0" layoutY="75.0" text="\$140.000" textFill="#293a4b">
                      <font>
-                        <Font name="Playfair Display Regular" size="13.0" />
+                        <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Label>
                   <Label layoutX="5.0" layoutY="75.0" text="Aviable Amount" textFill="#293a4b">
                      <font>
-                        <Font name="Playfair Display Regular" size="13.0" />
+                        <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Label>
                   <Label layoutX="144.0" layoutY="60.0" text="\$300.000" textFill="#293a4b">
                      <font>
-                        <Font name="Playfair Display Regular" size="13.0" />
+                        <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Label>
                   <Pane layoutY="60.0" prefHeight="0.5" prefWidth="200.0" style="-fx-background-color: #293a4b;" />
@@ -271,12 +271,12 @@
       </Pane>
       <Button fx:id="pageLeftButton" layoutX="20.0" layoutY="410.0" mnemonicParsing="false" onAction="#handlePress" style="-fx-background-color: #293a4b; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="↩" textFill="#ededed">
          <font>
-            <Font name="Playfair Display Regular" size="13.0" />
+            <Font name="DejaVu Serif" size="13.0" />
          </font>
       </Button>
-      <Button fx:id="pageRightButton" layoutX="746.7" layoutY="410.0" mnemonicParsing="false" onAction="#handlePress" style="-fx-background-color: #293a4b; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="↪" textFill="#ededed">
+      <Button fx:id="pageRightButton" layoutX="751" layoutY="410" mnemonicParsing="false" onAction="#handlePress" style="-fx-background-color: #293a4b; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="↪" textFill="#ededed">
          <font>
-            <Font name="Playfair Display Regular" size="13.0" />
+            <Font name="DejaVu Serif" size="13.0" />
          </font>
       </Button>
    </children>

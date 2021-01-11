@@ -30,17 +30,17 @@
       </Label>
       <Label layoutX="25.0" layoutY="137.0" text="Description: 123-123123-Wuhan-China" textFill="#293a4b">
          <font>
-            <Font name="DejaVu Sans" size="12.0" />
+            <Font name="DejaVu Serif" size="12.0" />
          </font>
       </Label>
       <Label layoutX="25.0" layoutY="152.0" text="Queue Number: 00001" textFill="#293a4b">
          <font>
-            <Font name="DejaVu Sans" size="12.0" />
+            <Font name="DejaVu Serif" size="12.0" />
          </font>
       </Label>
       <Label layoutX="25.0" layoutY="167.0" text="Receipt Number: 00001 " textFill="#293a4b">
          <font>
-            <Font name="DejaVu Sans" size="12.0" />
+            <Font name="DejaVu Serif" size="12.0" />
          </font>
       </Label>
       <Label layoutX="187.0" layoutY="5.0" text="Decont" textFill="#293a4b" underline="true">
@@ -70,7 +70,7 @@
       </Label>
       <ImageView fitHeight="52.0" fitWidth="163.0" layoutX="278.0" layoutY="148.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@output-onlinepngtools.png" />
+            <Image url="@85964e955839ddc8d94f39f20734df0a.png" />
          </image>
       </ImageView>
    </children>

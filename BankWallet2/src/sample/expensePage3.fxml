@@ -65,43 +65,37 @@
          <children>
             <Pane layoutY="-8.0" prefHeight="367.0" prefWidth="380.0">
                <children>
-                  <Text layoutX="133.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your Net Worth" wrappingWidth="117.76171875">
+                  <Text layoutX="133.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your Net Worth" wrappingWidth="119.99999999999997">
                      <font>
                         <Font name="DejaVu Serif" size="14.0" />
                      </font>
                   </Text>
-                  <Button fx:id="gotoExpenseButton" layoutX="54.0" layoutY="21.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="40.0" prefWidth="136.0" style="-fx-background-color: #293a4b; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="Breakdown" textFill="#ededed">
+                  <Button fx:id="breakdown" layoutX="54.0" layoutY="21.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="136.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="Breakdown" textFill="#293a4b" />
+                  <Button fx:id="history" layoutX="190.0" layoutY="21.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="136.0" style="-fx-background-color: #293a4b; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="History" textFill="#ededed" />
+                  <Text fill="#33a42f" layoutX="118.0" layoutY="128.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$5.000,00">
                      <font>
-                        <Font name="DejaVu Serif" size="13.0" />
-                     </font></Button>
-                  <Button fx:id="gotoHistoryButton" layoutX="190.0" layoutY="21.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="40.0" prefWidth="136.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="History" textFill="#293a4b">
-                     <font>
-                        <Font name="DejaVu Serif" size="13.0" />
-                     </font></Button>
-                  <Text fill="#33a42f" layoutX="118.0" layoutY="128.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$5.000,00" wrappingWidth="146.16162109375">
-                     <font>
-                        <Font name="DejaVu Serif" size="27.0" />
+                        <Font name="DejaVu Serif" size="28.0" />
                      </font>
                   </Text>
                   <Button fx:id="changeLira" layoutX="71.0" layoutY="77.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="34.0" style="-fx-background-color: #293a4b; -fx-background-radius: 20; -fx-background-radius: 20; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="₺" textFill="#ededed">
                      <font>
-                        <Font name="DejaVu Serif" size="13.0" />
+                        <Font name="DejaVu Serif" size="14.0" />
                      </font>
                   </Button>
                   <ProgressBar fx:id="progressTotal" layoutX="52.0" layoutY="176.0" prefHeight="18.0" prefWidth="270.0" progress="0.5" style="-fx-background-radius: 20;" styleClass="-fx-accent" />
                   <Button fx:id="changeDollar" layoutX="71.0" layoutY="134.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="34.0" style="-fx-background-color: #293a4b; -fx-background-radius: 20; -fx-background-radius: 20; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="\$" textFill="#ededed">
                      <font>
-                        <Font name="DejaVu Serif" size="13.0" />
+                        <Font name="DejaVu Serif" size="14.0" />
                      </font>
                   </Button>
                   <Button fx:id="changeEuro" layoutX="271.0" layoutY="77.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="34.0" style="-fx-background-color: #293a4b; -fx-background-radius: 20; -fx-background-radius: 20; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="€" textFill="#ededed">
                      <font>
-                        <Font name="DejaVu Serif" size="13.0" />
+                        <Font name="DejaVu Serif" size="14.0" />
                      </font>
                   </Button>
                   <Button fx:id="changePound" layoutX="272.0" layoutY="134.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="34.0" style="-fx-background-color: #293a4b; -fx-background-radius: 20; -fx-background-radius: 20; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="£" textFill="#ededed">
                      <font>
-                        <Font name="DejaVu Serif" size="13.0" />
+                        <Font name="DejaVu Serif" size="14.0" />
                      </font>
                   </Button>
                   <VBox layoutX="51.0" layoutY="207.0" prefHeight="122.0" prefWidth="270.0">
@@ -171,6 +165,10 @@
                         </Pane>
                      </children>
                   </VBox>
+                  <Text layoutX="325.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="50%">
+                     <font>
+                        <Font name="DejaVu Serif" size="13.0" />
+                     </font></Text>
                   <Button fx:id="bankAdd" layoutX="294.0" layoutY="327.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="36.0">
                      <graphic>
                         <ImageView fitHeight="23.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
@@ -195,126 +193,97 @@
                         <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Button>
-                  <Text layoutX="255.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$2.500,00">
+                  <Text layoutX="264.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$2.500,00">
                      <font>
                         <Font name="DejaVu Serif" size="13.0" />
                      </font></Text>
-                  <Text fill="GREEN" layoutX="326.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="50%" wrappingWidth="34.0">
-                     <font>
-                        <Font name="DejaVu Serif" size="13.0" />
-                     </font>
-                  </Text>
                </children>
             </Pane>
             <HBox layoutX="376.0" prefHeight="360.0" prefWidth="7.0" style="-fx-background-color: #293a4b;" />
             <Pane layoutX="383.0" layoutY="7.0" prefHeight="350.0" prefWidth="372.0">
                <children>
-                  <Text layoutX="141.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5 January 2020">
+                  <Text fx:id="spentInText" layoutX="120.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Spent in January">
+                     <font>
+                        <Font name="DejaVu Serif" size="18.0" />
+                     </font>
+                  </Text>
+                  <Text fill="RED" layoutX="110.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$4.800,00">
+                     <font>
+                        <Font name="DejaVu Serif" size="36.0" />
+                     </font>
+                  </Text>
+                  <ProgressBar fx:id="progress1" layoutX="36.0" layoutY="175.0" prefHeight="18.0" prefWidth="270.0" progress="0.47" style="-fx-background-radius: 20;" />
+                  <Text layoutX="36.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Other">
                      <font>
                         <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Text>
-                  <Text layoutX="116.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Spent This Month">
-                     <font>
-                        <Font name="DejaVu Serif" size="17.0" />
-                     </font>
-                  </Text>
-                  <Text fill="RED" layoutX="104.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$2.500,00">
-                     <font>
-                        <Font name="DejaVu Serif" size="34.0" />
-                     </font>
-                  </Text>
-                  <Text layoutX="151.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="26 days left ">
+                  <Text layoutX="312.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="47%">
                      <font>
                         <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Text>
-                  <ProgressBar fx:id="progress1" layoutX="36.0" layoutY="175.0" prefHeight="18.0" prefWidth="270.0" progress="0.7" style="-fx-background-radius: 20;" />
-                  <Text layoutX="36.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Home Rent">
+                  <Text layoutX="238.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$2.250,00">
                      <font>
                         <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Text>
-                  <Text layoutX="236.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$1.250,00">
+                  <ProgressBar fx:id="progress2" layoutX="35.0" layoutY="212.0" prefHeight="18.0" prefWidth="270.0" progress="0.26" style="-fx-background-radius: 20;" />
+                  <Text layoutX="35.0" layoutY="207.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Home Rent">
                      <font>
                         <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Text>
-                  <ProgressBar fx:id="progress2" layoutX="35.0" layoutY="212.0" prefHeight="18.0" prefWidth="270.0" progress="0.3" style="-fx-background-radius: 20;" />
-                  <Text layoutX="35.0" layoutY="207.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bills">
+                  <Text layoutX="311.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="26%">
                      <font>
                         <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Text>
-                  <Text layoutX="250.0" layoutY="225.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$750,00">
+                  <Text layoutX="235.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$1.250,00">
                      <font>
                         <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Text>
-                  <ProgressBar fx:id="progress3" layoutX="36.0" layoutY="249.0" prefHeight="18.0" prefWidth="270.0" progress="0.1" style="-fx-background-radius: 20;" />
-                  <Text layoutX="36.0" layoutY="244.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Shopping">
+                  <ProgressBar fx:id="progress3" layoutX="36.0" layoutY="249.0" prefHeight="18.0" prefWidth="270.0" progress="0.15" style="-fx-background-radius: 20;" />
+                  <Text layoutX="36.0" layoutY="244.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bills">
                      <font>
                         <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Text>
-                  <Text layoutX="250.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$250,00">
+                  <Text layoutX="312.0" layoutY="264.0" strokeType="OUTSIDE" strokeWidth="0.0" text="20%">
                      <font>
                         <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Text>
-                  <ProgressBar fx:id="progress4" layoutX="35.0" layoutY="286.0" prefHeight="18.0" prefWidth="270.0" progress="0.1" style="-fx-background-radius: 20;" />
-                  <Text layoutX="35.0" layoutY="281.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Other">
+                  <Text layoutX="251.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$950,00">
                      <font>
                         <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Text>
-                  <Text layoutX="250.0" layoutY="299.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$250,00">
+                  <ProgressBar fx:id="progress4" layoutX="35.0" layoutY="286.0" prefHeight="18.0" prefWidth="270.0" progress="0.05" style="-fx-background-radius: 20;" />
+                  <Text layoutX="35.0" layoutY="281.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Shopping">
                      <font>
                         <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Text>
-                  <Button fx:id="expenseAdd" layoutX="293.0" layoutY="312.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="36.0">
-                     <graphic>
-                        <ImageView fitHeight="23.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@add_box.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                     <font>
-                        <Font name="DejaVu Serif" size="13.0" />
-                     </font>
-                  </Button>
-                  <Button fx:id="expenseRemove" layoutX="334.0" layoutY="311.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="36.0">
-                     <graphic>
-                        <ImageView fitHeight="27.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@trash-alt.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                     <font>
-                        <Font name="DejaVu Serif" size="13.0" />
-                     </font>
-                  </Button>
-                  <Text fill="RED" layoutX="310.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="50%" wrappingWidth="34.0">
+                  <Text layoutX="311.0" layoutY="300.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7%">
                      <font>
                         <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Text>
-                  <Text fill="RED" layoutX="310.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" text="30%" wrappingWidth="34.0">
+                  <Text layoutX="251.0" layoutY="300.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$350,00">
                      <font>
                         <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Text>
-                  <Text fill="RED" layoutX="310.0" layoutY="261.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10%" wrappingWidth="34.0">
+                  <Text layoutX="167.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2020">
                      <font>
-                        <Font name="DejaVu Serif" size="13.0" />
+                        <Font name="DejaVu Serif" size="18.0" />
                      </font>
                   </Text>
-                  <Text fill="RED" layoutX="310.0" layoutY="298.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10%" wrappingWidth="34.0">
+                  <Text layoutX="33.0" layoutY="330.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You saved $200 this month, well done!">
                      <font>
-                        <Font name="DejaVu Serif" size="13.0" />
+                        <Font name="DejaVu Serif" size="16.0" />
                      </font>
                   </Text>
                </children>
@@ -329,5 +298,34 @@
          <font>
             <Font name="DejaVu Serif" size="13.0" />
          </font></Button>
+      <Button fx:id="yearInc" layoutX="614.0" layoutY="70.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="0.0">
+         <graphic>
+            <ImageView fitHeight="11.0" fitWidth="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@chevron-right.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="yearDec" layoutX="543.0" layoutY="69.0" mnemonicParsing="false">
+         <graphic>
+            <ImageView fitHeight="8.0" fitWidth="9.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@chevron-left.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Text layoutX="647.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2021">
+         <font>
+            <Font name="DejaVu Serif" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="503.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2019">
+         <font>
+            <Font name="DejaVu Serif" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="469.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2018" />
    </children>
 </Pane>

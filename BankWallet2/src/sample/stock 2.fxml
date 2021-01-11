@@ -19,7 +19,7 @@
                         <Insets />
                      </opaqueInsets>
                      <font>
-                        <Font name="Playfair Display Regular" size="13.0" />
+                        <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Button>
                   <Button fx:id="stockButton" focusTraversable="false" layoutX="131.0" layoutY="5.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #293a4b; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="Stock" textFill="#ededed">
@@ -27,15 +27,15 @@
                         <Insets />
                      </opaqueInsets>
                      <font>
-                        <Font name="Playfair Display Regular" size="13.0" />
+                        <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Button>
-                  <Button fx:id="expenseButton" focusTraversable="false" layoutX="257.0" layoutY="5.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="Expense | Gross" textFill="#293a4b">
+                  <Button fx:id="expenseButton" focusTraversable="false" layoutX="257.0" layoutY="5.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="Expense" textFill="#293a4b">
                      <opaqueInsets>
                         <Insets />
                      </opaqueInsets>
                      <font>
-                        <Font name="Playfair Display Regular" size="13.0" />
+                        <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Button>
                   <Button fx:id="billButton" focusTraversable="false" layoutX="383.0" layoutY="5.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="Bills" textFill="#293a4b">
@@ -43,7 +43,7 @@
                         <Insets />
                      </opaqueInsets>
                      <font>
-                        <Font name="Playfair Display Regular" size="13.0" />
+                        <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Button>
                   <Button fx:id="accountButton" focusTraversable="false" layoutX="509.0" layoutY="5.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="Account" textFill="#293a4b">
@@ -51,7 +51,7 @@
                         <Insets />
                      </opaqueInsets>
                      <font>
-                        <Font name="Playfair Display Regular" size="13.0" />
+                        <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Button>
                   <Button fx:id="profileButton" focusTraversable="false" layoutX="635.0" layoutY="5.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="Profile" textFill="#293a4b">
@@ -59,7 +59,7 @@
                         <Insets />
                      </opaqueInsets>
                      <font>
-                        <Font name="Playfair Display Regular" size="13.0" />
+                        <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Button>
                </children>
@@ -70,7 +70,7 @@
                      <children>
                         <Label alignment="TOP_CENTER" layoutX="91.0" layoutY="14.0" text="Related News" textFill="#293a4b">
                            <font>
-                              <Font name="Playfair Display Regular" size="14.0" />
+                              <Font name="DejaVu Serif" size="14.0" />
                            </font>
                         </Label>
                         <VBox layoutX="13.0" layoutY="48.0" prefHeight="279.0" prefWidth="230.0" spacing="10.0">
@@ -78,13 +78,13 @@
                               <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="63.0" prefWidth="224.0" style="-fx-background-color: #ededed; -fx-border-color: BLACK; -fx-border-width: 1;">
                                  <children>
                                     <Button fx:id="showNew1Button" mnemonicParsing="false" onAction="#handlePress" prefHeight="66.0" prefWidth="230.0" style="-fx-background-color: #ededed; -fx-border-color: BLACK;" wrapText="true" />
-                                    <Label layoutX="6.0" layoutY="23.0" prefHeight="40.0" prefWidth="215.0" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper viverra nam libero justo laoreet sit amet cursus sit. At tempor commodo ullamcorper a lacus vestibulum. Et netus et malesuada fames ac. Molestie at elementum eu facilisis sed odio morbi quis. Vel turpis nunc eget lorem dolor. Adipiscing enim eu turpis egestas pretium aenean pharetra magna ac. Vel quam elementum pulvinar etiam non quam lacus suspendisse. Pellentesque eu tincidunt tortor aliquam." textFill="#293a4b" wrapText="true">
+                                    <Label layoutX="6.0" layoutY="23.0" prefHeight="40.0" prefWidth="215.0" text="Apple has released their new iPhone and it may result an increase over the next month." textFill="#293a4b" wrapText="true">
                                        <font>
-                                          <Font name="Playfair Display Regular" size="13.0" />
+                                          <Font name="DejaVu Serif" size="13.0" />
                                        </font></Label>
-                                    <Label layoutX="8.0" layoutY="5.0" text="New Iphone" textFill="#293a4b">
+                                    <Label layoutX="8.0" layoutY="5.0" text="iPhone 11 Pro - APPL" textFill="#293a4b">
                                        <font>
-                                          <Font name="Playfair Display Regular" size="12.0" />
+                                          <Font name="DejaVu Serif" size="12.0" />
                                        </font>
                                     </Label>
                                  </children>
@@ -92,13 +92,13 @@
                               <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="63.0" prefWidth="224.0" style="-fx-background-color: #ededed; -fx-border-color: BLACK; -fx-border-width: 1;">
                                  <children>
                                     <Button fx:id="showNew2Button" mnemonicParsing="false" onAction="#handlePress" prefHeight="66.0" prefWidth="230.0" style="-fx-background-color: #ededed; -fx-border-color: BLACK;" wrapText="true" />
-                                    <Label layoutX="6.0" layoutY="23.0" prefHeight="40.0" prefWidth="215.0" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper viverra nam libero justo laoreet sit amet cursus sit. At tempor commodo ullamcorper a lacus vestibulum. Et netus et malesuada fames ac. Molestie at elementum eu facilisis sed odio morbi quis. Vel turpis nunc eget lorem dolor. Adipiscing enim eu turpis egestas pretium aenean pharetra magna ac. Vel quam elementum pulvinar etiam non quam lacus suspendisse. Pellentesque eu tincidunt tortor aliquam." textFill="#293a4b" wrapText="true">
+                                    <Label layoutX="6.0" layoutY="23.0" prefHeight="40.0" prefWidth="215.0" text="Tesla Model X is released but many people reported that the car burns on the stage" textFill="#293a4b" wrapText="true">
                                        <font>
-                                          <Font name="Playfair Display Regular" size="13.0" />
+                                          <Font name="DejaVu Serif" size="13.0" />
                                        </font></Label>
-                                    <Label layoutX="8.0" layoutY="5.0" text="New Iphone" textFill="#293a4b">
+                                    <Label layoutX="8.0" layoutY="5.0" text="Tesla Model X - TESLA" textFill="#293a4b">
                                        <font>
-                                          <Font name="Playfair Display Regular" size="12.0" />
+                                          <Font name="DejaVu Serif" size="12.0" />
                                        </font>
                                     </Label>
                                  </children>
@@ -106,13 +106,13 @@
                               <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="63.0" prefWidth="224.0" style="-fx-background-color: #ededed; -fx-border-color: BLACK; -fx-border-width: 1;">
                                  <children>
                                     <Button fx:id="showNew3Button" mnemonicParsing="false" onAction="#handlePress" prefHeight="66.0" prefWidth="230.0" style="-fx-background-color: #ededed; -fx-border-color: BLACK;" wrapText="true" />
-                                    <Label layoutX="6.0" layoutY="23.0" prefHeight="40.0" prefWidth="215.0" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper viverra nam libero justo laoreet sit amet cursus sit. At tempor commodo ullamcorper a lacus vestibulum. Et netus et malesuada fames ac. Molestie at elementum eu facilisis sed odio morbi quis. Vel turpis nunc eget lorem dolor. Adipiscing enim eu turpis egestas pretium aenean pharetra magna ac. Vel quam elementum pulvinar etiam non quam lacus suspendisse. Pellentesque eu tincidunt tortor aliquam." textFill="#293a4b" wrapText="true">
+                                    <Label layoutX="6.0" layoutY="23.0" prefHeight="40.0" prefWidth="215.0" text="Many customers report that shipment of Amazon delays regularly, customers are not happy.Many customers report that shipment of Amazon delays regularly, customers are not happy." textFill="#293a4b" wrapText="true">
                                        <font>
-                                          <Font name="Playfair Display Regular" size="13.0" />
+                                          <Font name="DejaVu Serif" size="13.0" />
                                        </font></Label>
-                                    <Label layoutX="8.0" layoutY="5.0" text="New Iphone" textFill="#293a4b">
+                                    <Label layoutX="8.0" layoutY="5.0" text="Amazon's Shipment Issue - AMZN" textFill="#293a4b">
                                        <font>
-                                          <Font name="Playfair Display Regular" size="12.0" />
+                                          <Font name="DejaVu Serif" size="12.0" />
                                        </font>
                                     </Label>
                                  </children>
@@ -120,13 +120,13 @@
                               <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="82.0" prefWidth="224.0" style="-fx-background-color: #ededed; -fx-border-color: BLACK; -fx-border-width: 1;">
                                  <children>
                                     <Button fx:id="showNew4Button" mnemonicParsing="false" onAction="#handlePress" prefHeight="82.0" prefWidth="230.0" style="-fx-background-color: #ededed; -fx-border-color: BLACK;" wrapText="true" />
-                                    <Label layoutX="6.0" layoutY="23.0" prefHeight="55.0" prefWidth="215.0" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper viverra nam libero justo laoreet sit amet cursus sit. At tempor commodo ullamcorper a lacus vestibulum. Et netus et malesuada fames ac. Molestie at elementum eu facilisis sed odio morbi quis. Vel turpis nunc eget lorem dolor. Adipiscing enim eu turpis egestas pretium aenean pharetra magna ac. Vel quam elementum pulvinar etiam non quam lacus suspendisse. Pellentesque eu tincidunt tortor aliquam." textFill="#293a4b" wrapText="true">
+                                    <Label layoutX="6.0" layoutY="23.0" prefHeight="55.0" prefWidth="215.0" text="Google's new privacy terms violates our privacy. Snowden said 'use DuckDuckGo' if you don't want to be spiedGoogle's new privacy terms violates our privacy. Snowden said 'use DuckDuckGo' if you don't want to be spied" textFill="#293a4b" wrapText="true">
                                        <font>
-                                          <Font name="Playfair Display Regular" size="13.0" />
+                                          <Font name="DejaVu Serif" size="13.0" />
                                        </font></Label>
-                                    <Label layoutX="8.0" layoutY="5.0" text="New Iphone" textFill="#293a4b">
+                                    <Label layoutX="8.0" layoutY="5.0" text="Does Google Spy on Us? - ALPH" textFill="#293a4b">
                                        <font>
-                                          <Font name="Playfair Display Regular" size="12.0" />
+                                          <Font name="DejaVu Serif" size="12.0" />
                                        </font>
                                     </Label>
                                  </children>
@@ -139,7 +139,7 @@
                      <children>
                         <Label alignment="TOP_CENTER" layoutX="103.0" layoutY="14.0" prefHeight="20.0" prefWidth="57.0" text="Highest" textAlignment="CENTER" textFill="#293a4b">
                            <font>
-                              <Font name="Playfair Display Regular" size="14.0" />
+                              <Font name="DejaVu Serif" size="14.0" />
                            </font>
                         </Label>
                         <Label layoutX="14.0" layoutY="26.0" prefHeight="17.0" prefWidth="41.0" text="Day" textFill="#293a4b" />
@@ -153,15 +153,15 @@
                                        <children>
                                           <Label layoutX="43.0" layoutY="7.0" text="5.3%" textFill="RED">
                                              <font>
-                                                <Font name="Playfair Display Regular" size="13.0" />
+                                                <Font name="DejaVu Serif" size="11.0" />
                                              </font></Label>
                                           <Label layoutX="4.0" layoutY="7.0" text="AMZN">
                                              <font>
-                                                <Font name="Playfair Display Regular" size="13.0" />
+                                                <Font name="DejaVu Serif" size="11.0" />
                                              </font></Label>
                                           <Label layoutX="71.0" layoutY="7.0" text="192$">
                                              <font>
-                                                <Font name="Playfair Display Regular" size="13.0" />
+                                                <Font name="DejaVu Serif" size="11.0" />
                                              </font></Label>
                                        </children>
                                     </Pane>
@@ -169,15 +169,15 @@
                                        <children>
                                           <Label layoutX="43.0" layoutY="7.0" text="5.3%" textFill="RED">
                                              <font>
-                                                <Font name="Playfair Display Regular" size="13.0" />
+                                                <Font name="DejaVu Serif" size="11.0" />
                                              </font></Label>
                                           <Label layoutX="4.0" layoutY="7.0" text="AMZN">
                                              <font>
-                                                <Font name="Playfair Display Regular" size="13.0" />
+                                                <Font name="DejaVu Serif" size="11.0" />
                                              </font></Label>
                                           <Label layoutX="71.0" layoutY="7.0" text="192$">
                                              <font>
-                                                <Font name="Playfair Display Regular" size="13.0" />
+                                                <Font name="DejaVu Serif" size="11.0" />
                                              </font></Label>
                                        </children>
                                     </Pane>
@@ -185,15 +185,15 @@
                                        <children>
                                           <Label layoutX="43.0" layoutY="7.0" text="5.3%" textFill="RED">
                                              <font>
-                                                <Font name="Playfair Display Regular" size="13.0" />
+                                                <Font name="DejaVu Serif" size="11.0" />
                                              </font></Label>
                                           <Label layoutX="4.0" layoutY="7.0" text="AMZN">
                                              <font>
-                                                <Font name="Playfair Display Regular" size="13.0" />
+                                                <Font name="DejaVu Serif" size="11.0" />
                                              </font></Label>
                                           <Label layoutX="71.0" layoutY="7.0" text="192$">
                                              <font>
-                                                <Font name="Playfair Display Regular" size="13.0" />
+                                                <Font name="DejaVu Serif" size="11.0" />
                                              </font></Label>
                                        </children>
                                     </Pane>
@@ -205,15 +205,15 @@
                                        <children>
                                           <Label layoutX="43.0" layoutY="7.0" text="5.3%" textFill="RED">
                                              <font>
-                                                <Font name="Playfair Display Regular" size="13.0" />
+                                                <Font name="DejaVu Serif" size="11.0" />
                                              </font></Label>
                                           <Label layoutX="4.0" layoutY="7.0" text="AMZN">
                                              <font>
-                                                <Font name="Playfair Display Regular" size="13.0" />
+                                                <Font name="DejaVu Serif" size="11.0" />
                                              </font></Label>
                                           <Label layoutX="71.0" layoutY="7.0" text="192$">
                                              <font>
-                                                <Font name="Playfair Display Regular" size="13.0" />
+                                                <Font name="DejaVu Serif" size="11.0" />
                                              </font></Label>
                                        </children>
                                     </Pane>
@@ -221,15 +221,15 @@
                                        <children>
                                           <Label layoutX="43.0" layoutY="7.0" text="5.3%" textFill="RED">
                                              <font>
-                                                <Font name="Playfair Display Regular" size="13.0" />
+                                                <Font name="DejaVu Serif" size="11.0" />
                                              </font></Label>
                                           <Label layoutX="4.0" layoutY="7.0" text="AMZN">
                                              <font>
-                                                <Font name="Playfair Display Regular" size="13.0" />
+                                                <Font name="DejaVu Serif" size="11.0" />
                                              </font></Label>
                                           <Label layoutX="71.0" layoutY="7.0" text="192$">
                                              <font>
-                                                <Font name="Playfair Display Regular" size="13.0" />
+                                                <Font name="DejaVu Serif" size="11.0" />
                                              </font></Label>
                                        </children>
                                     </Pane>
@@ -237,15 +237,15 @@
                                        <children>
                                           <Label layoutX="43.0" layoutY="7.0" text="5.3%" textFill="RED">
                                              <font>
-                                                <Font name="Playfair Display Regular" size="13.0" />
+                                                <Font name="DejaVu Serif" size="11.0" />
                                              </font></Label>
                                           <Label layoutX="4.0" layoutY="7.0" text="AMZN">
                                              <font>
-                                                <Font name="Playfair Display Regular" size="13.0" />
+                                                <Font name="DejaVu Serif" size="11.0" />
                                              </font></Label>
                                           <Label layoutX="71.0" layoutY="7.0" text="192$">
                                              <font>
-                                                <Font name="Playfair Display Regular" size="13.0" />
+                                                <Font name="DejaVu Serif" size="11.0" />
                                              </font></Label>
                                        </children>
                                     </Pane>
@@ -267,7 +267,7 @@
                      <children>
                         <Label alignment="TOP_CENTER" layoutX="103.0" layoutY="14.0" prefHeight="20.0" prefWidth="57.0" text="Lowest" textAlignment="CENTER" textFill="#293a4b">
                            <font>
-                              <Font name="Playfair Display Regular" size="14.0" />
+                              <Font name="DejaVu Serif" size="14.0" />
                            </font>
                         </Label>
                         <Label layoutX="14.0" layoutY="26.0" prefHeight="17.0" prefWidth="41.0" text="Day" textFill="#293a4b" />
@@ -281,15 +281,15 @@
                                        <children>
                                           <Label layoutX="43.0" layoutY="7.0" text="5.3%" textFill="RED">
                                              <font>
-                                                <Font name="Playfair Display Regular" size="13.0" />
+                                                <Font name="DejaVu Serif" size="11.0" />
                                              </font></Label>
                                           <Label layoutX="4.0" layoutY="7.0" text="AMZN">
                                              <font>
-                                                <Font name="Playfair Display Regular" size="13.0" />
+                                                <Font name="DejaVu Serif" size="11.0" />
                                              </font></Label>
                                           <Label layoutX="71.0" layoutY="7.0" text="192$">
                                              <font>
-                                                <Font name="Playfair Display Regular" size="13.0" />
+                                                <Font name="DejaVu Serif" size="11.0" />
                                              </font></Label>
                                        </children>
                                     </Pane>
@@ -297,15 +297,15 @@
                                        <children>
                                           <Label layoutX="43.0" layoutY="7.0" text="5.3%" textFill="RED">
                                              <font>
-                                                <Font name="Playfair Display Regular" size="13.0" />
+                                                <Font name="DejaVu Serif" size="11.0" />
                                              </font></Label>
                                           <Label layoutX="4.0" layoutY="7.0" text="AMZN">
                                              <font>
-                                                <Font name="Playfair Display Regular" size="13.0" />
+                                                <Font name="DejaVu Serif" size="11.0" />
                                              </font></Label>
                                           <Label layoutX="71.0" layoutY="7.0" text="192$">
                                              <font>
-                                                <Font name="Playfair Display Regular" size="13.0" />
+                                                <Font name="DejaVu Serif" size="11.0" />
                                              </font></Label>
                                        </children>
                                     </Pane>
@@ -313,15 +313,15 @@
                                        <children>
                                           <Label layoutX="43.0" layoutY="7.0" text="5.3%" textFill="RED">
                                              <font>
-                                                <Font name="Playfair Display Regular" size="13.0" />
+                                                <Font name="DejaVu Serif" size="11.0" />
                                              </font></Label>
                                           <Label layoutX="4.0" layoutY="7.0" text="AMZN">
                                              <font>
-                                                <Font name="Playfair Display Regular" size="13.0" />
+                                                <Font name="DejaVu Serif" size="11.0" />
                                              </font></Label>
                                           <Label layoutX="71.0" layoutY="7.0" text="192$">
                                              <font>
-                                                <Font name="Playfair Display Regular" size="13.0" />
+                                                <Font name="DejaVu Serif" size="11.0" />
                                              </font></Label>
                                        </children>
                                     </Pane>
@@ -333,15 +333,15 @@
                                        <children>
                                           <Label layoutX="43.0" layoutY="7.0" text="5.3%" textFill="RED">
                                              <font>
-                                                <Font name="Playfair Display Regular" size="13.0" />
+                                                <Font name="DejaVu Serif" size="11.0" />
                                              </font></Label>
                                           <Label layoutX="4.0" layoutY="7.0" text="AMZN">
                                              <font>
-                                                <Font name="Playfair Display Regular" size="13.0" />
+                                                <Font name="DejaVu Serif" size="11.0" />
                                              </font></Label>
                                           <Label layoutX="71.0" layoutY="7.0" text="192$">
                                              <font>
-                                                <Font name="Playfair Display Regular" size="13.0" />
+                                                <Font name="DejaVu Serif" size="11.0" />
                                              </font></Label>
                                        </children>
                                     </Pane>
@@ -349,15 +349,15 @@
                                        <children>
                                           <Label layoutX="43.0" layoutY="7.0" text="5.3%" textFill="RED">
                                              <font>
-                                                <Font name="Playfair Display Regular" size="13.0" />
+                                                <Font name="DejaVu Serif" size="11.0" />
                                              </font></Label>
                                           <Label layoutX="4.0" layoutY="7.0" text="AMZN">
                                              <font>
-                                                <Font name="Playfair Display Regular" size="13.0" />
+                                                <Font name="DejaVu Serif" size="11.0" />
                                              </font></Label>
                                           <Label layoutX="71.0" layoutY="7.0" text="192$">
                                              <font>
-                                                <Font name="Playfair Display Regular" size="13.0" />
+                                                <Font name="DejaVu Serif" size="11.0" />
                                              </font></Label>
                                        </children>
                                     </Pane>
@@ -365,15 +365,15 @@
                                        <children>
                                           <Label layoutX="43.0" layoutY="7.0" text="5.3%" textFill="RED">
                                              <font>
-                                                <Font name="Playfair Display Regular" size="13.0" />
+                                                <Font name="DejaVu Serif" size="11.0" />
                                              </font></Label>
                                           <Label layoutX="4.0" layoutY="7.0" text="AMZN">
                                              <font>
-                                                <Font name="Playfair Display Regular" size="13.0" />
+                                                <Font name="DejaVu Serif" size="11.0" />
                                              </font></Label>
                                           <Label layoutX="71.0" layoutY="7.0" text="192$">
                                              <font>
-                                                <Font name="Playfair Display Regular" size="13.0" />
+                                                <Font name="DejaVu Serif" size="11.0" />
                                              </font></Label>
                                        </children>
                                     </Pane>
@@ -387,19 +387,19 @@
             </Pane>
             <Button fx:id="pageLeftButton" layoutX="20.0" layoutY="410.0" mnemonicParsing="false" onAction="#handlePress" style="-fx-background-color: #293a4b; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="↩" textFill="#ededed">
                <font>
-                  <Font name="Playfair Display Regular" size="13.0" />
+                  <Font name="DejaVu Serif" size="13.0" />
                </font>
             </Button>
-            <Button fx:id="pageRightButton" layoutX="746.7" layoutY="410.0" mnemonicParsing="false" onAction="#handlePress" style="-fx-background-color: #293a4b; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="↪" textFill="#ededed">
+            <Button fx:id="pageRightButton" layoutX="751" layoutY="410" mnemonicParsing="false" onAction="#handlePress" style="-fx-background-color: #293a4b; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="↪" textFill="#ededed">
                <font>
-                  <Font name="Playfair Display Regular" size="13.0" />
+                  <Font name="DejaVu Serif" size="13.0" />
                </font>
             </Button>
             <Pane layoutX="22.0" layoutY="49.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="360.0" prefWidth="256.3" style="-fx-background-color: #ededed; -fx-border-color: #293a4b; -fx-border-width: 5;">
                <children>
                   <Label alignment="TOP_CENTER" layoutX="93.0" layoutY="14.0" text="Stock Market" textFill="#293a4b">
                      <font>
-                        <Font name="Playfair Display Regular" size="14.0" />
+                        <Font name="DejaVu Serif" size="14.0" />
                      </font>
                   </Label>
                   <VBox layoutX="14.0" layoutY="55.0" prefHeight="294.0" prefWidth="230.0" spacing="18.0">
@@ -410,25 +410,25 @@
                                  <children>
                                     <Label layoutX="9.0" layoutY="2.0" prefHeight="17.0" prefWidth="229.0" text="APPL    192$   D 5.3%   W 1.3%   M 5.3%" textFill="#293a4b">
                                        <font>
-                                          <Font name="Playfair Display Regular" size="13.0" />
+                                          <Font name="DejaVu Serif" size="10.0" />
                                        </font></Label>
                                  </children>
                               </Pane>
                               <Label layoutX="7.0" layoutY="14.0" prefHeight="17.0" prefWidth="229.0" text="180$                      500 Stock  2.000.000$" textFill="#293a4b">
                                  <font>
-                                    <Font name="Playfair Display Regular" size="12.5" />
+                                    <Font name="DejaVu Serif" size="10.0" />
                                  </font></Label>
                               <Button fx:id="order1DetailButton" layoutX="7.0" layoutY="40.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="15.0" prefWidth="61.0" style="-fx-background-color: BLUE;" text="Order" textFill="#fafafa">
                                  <font>
-                                    <Font name="Playfair Display Regular" size="13.0" />
+                                    <Font name="DejaVu Serif" size="13.0" />
                                  </font></Button>
                               <Button fx:id="buy1DetailButton" layoutX="85.0" layoutY="40.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="15.0" prefWidth="61.0" style="-fx-background-color: GREEN;" text="Buy" textFill="WHITE">
                                  <font>
-                                    <Font name="Playfair Display Regular" size="13.0" />
+                                    <Font name="DejaVu Serif" size="13.0" />
                                  </font></Button>
                               <Button fx:id="sell1DetailButton" layoutX="163.0" layoutY="40.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="15.0" prefWidth="61.0" style="-fx-background-color: RED;" text="Sell" textFill="WHITE">
                                  <font>
-                                    <Font name="Playfair Display Regular" size="13.0" />
+                                    <Font name="DejaVu Serif" size="13.0" />
                                  </font></Button>
                               <Arc layoutX="73.0" layoutY="23.0" length="270.0" radiusX="9.0" radiusY="5.0" startAngle="45.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
                               <ImageView fitHeight="111.0" fitWidth="152.0" layoutX="51.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
@@ -443,11 +443,11 @@
                                  <children>
                                     <Label layoutX="12.0" layoutY="4.0" text="2.1%" textFill="GREEN">
                                        <font>
-                                          <Font name="Playfair Display Regular" size="13.0" />
+                                          <Font name="DejaVu Serif" size="13.0" />
                                        </font></Label>
                                     <Label layoutX="48.0" layoutY="4.0" text="192$">
                                        <font>
-                                          <Font name="Playfair Display Regular" size="13.0" />
+                                          <Font name="DejaVu Serif" size="13.0" />
                                        </font></Label>
                                  </children>
                               </Pane>
@@ -455,11 +455,11 @@
                                  <children>
                                     <Label layoutX="11.0" layoutY="4.0" text="5.3%" textFill="RED">
                                        <font>
-                                          <Font name="Playfair Display Regular" size="13.0" />
+                                          <Font name="DejaVu Serif" size="13.0" />
                                        </font></Label>
                                     <Label layoutX="46.0" layoutY="4.0" text="180$">
                                        <font>
-                                          <Font name="Playfair Display Regular" size="13.0" />
+                                          <Font name="DejaVu Serif" size="13.0" />
                                        </font></Label>
                                  </children>
                               </Pane>
@@ -467,7 +467,7 @@
                                  <children>
                                     <Label layoutX="9.0" layoutY="3.0" text="12,000,000" textFill="#293a4b">
                                        <font>
-                                          <Font name="Playfair Display Regular" size="12.0" />
+                                          <Font name="DejaVu Serif" size="12.0" />
                                        </font>
                                     </Label>
                                  </children>
@@ -476,11 +476,11 @@
                                  <children>
                                     <Label layoutX="12.0" layoutY="4.0" text="2.1%" textFill="GREEN">
                                        <font>
-                                          <Font name="Playfair Display Regular" size="13.0" />
+                                          <Font name="DejaVu Serif" size="13.0" />
                                        </font></Label>
                                     <Label layoutX="48.0" layoutY="4.0" text="192$">
                                        <font>
-                                          <Font name="Playfair Display Regular" size="13.0" />
+                                          <Font name="DejaVu Serif" size="13.0" />
                                        </font></Label>
                                  </children>
                               </Pane>
@@ -488,11 +488,11 @@
                                  <children>
                                     <Label layoutX="11.0" layoutY="4.0" text="5.3%" textFill="RED">
                                        <font>
-                                          <Font name="Playfair Display Regular" size="13.0" />
+                                          <Font name="DejaVu Serif" size="13.0" />
                                        </font></Label>
                                     <Label layoutX="46.0" layoutY="4.0" text="180$">
                                        <font>
-                                          <Font name="Playfair Display Regular" size="13.0" />
+                                          <Font name="DejaVu Serif" size="13.0" />
                                        </font></Label>
                                  </children>
                               </Pane>
@@ -500,7 +500,7 @@
                                  <children>
                                     <Label layoutX="10.0" layoutY="3.0" text="23,000,000" textFill="#293a4b">
                                        <font>
-                                          <Font name="Playfair Display Regular" size="12.0" />
+                                          <Font name="DejaVu Serif" size="12.0" />
                                        </font>
                                     </Label>
                                  </children>

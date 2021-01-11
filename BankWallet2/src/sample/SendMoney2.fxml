@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.Pane?>
-<?import javafx.scene.text.Font?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="800.0" style="-fx-background-color: #ededed;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="800.0" style="-fx-background-color: #ededed;" xmlns="http://javafx.com/javafx/11.0.3-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
       <Pane fx:id="accountPane" prefHeight="150.0" prefWidth="800.0" style="-fx-background-color: #293a4b;" />
       <Pane layoutX="20.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="760.0" style="-fx-background-color: #293a4b; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);">
@@ -16,7 +15,7 @@
                   <Insets />
                </opaqueInsets>
                <font>
-                  <Font size="13.0" />
+                  <Font name="DejaVu Serif" size="13.0" />
                </font>
             </Button>
             <Button fx:id="stockButton" focusTraversable="false" layoutX="131.0" layoutY="5.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="Stock" textFill="#293a4b">
@@ -24,15 +23,15 @@
                   <Insets />
                </opaqueInsets>
                <font>
-                  <Font size="13.0" />
+                  <Font name="DejaVu Serif" size="13.0" />
                </font>
             </Button>
-            <Button fx:id="expenseButton" focusTraversable="false" layoutX="257.0" layoutY="5.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="Expense | Gross" textFill="#293a4b">
+            <Button fx:id="expenseButton" focusTraversable="false" layoutX="257.0" layoutY="5.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="Expense" textFill="#293a4b">
                <opaqueInsets>
                   <Insets />
                </opaqueInsets>
                <font>
-                  <Font size="13.0" />
+                  <Font name="DejaVu Serif" size="13.0" />
                </font>
             </Button>
             <Button fx:id="billButton" focusTraversable="false" layoutX="383.0" layoutY="5.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="Bills" textFill="#293a4b">
@@ -40,7 +39,7 @@
                   <Insets />
                </opaqueInsets>
                <font>
-                  <Font size="13.0" />
+                  <Font name="DejaVu Serif" size="13.0" />
                </font>
             </Button>
             <Button fx:id="accountButton" focusTraversable="false" layoutX="509.0" layoutY="5.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #293a4b; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="Account" textFill="#ededed">
@@ -48,7 +47,7 @@
                   <Insets />
                </opaqueInsets>
                <font>
-                  <Font size="13.0" />
+                  <Font name="DejaVu Serif" size="13.0" />
                </font>
             </Button>
             <Button fx:id="profileButton" focusTraversable="false" layoutX="635.0" layoutY="5.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="Profile" textFill="#293a4b">
@@ -56,7 +55,7 @@
                   <Insets />
                </opaqueInsets>
                <font>
-                  <Font size="13.0" />
+                  <Font name="DejaVu Serif" size="13.0" />
                </font>
             </Button>
          </children>
@@ -65,56 +64,56 @@
          <children>
             <Label layoutX="25.0" layoutY="68.0" text="Select An Account" textFill="#293a4b">
                <font>
-                  <Font name="DejaVu Sans" size="12.0" />
+                  <Font name="DejaVu Serif" size="12.0" />
                </font>
             </Label>
             <Pane layoutX="25.0" layoutY="88.0" prefHeight="2.0" prefWidth="700.0" style="-fx-background-color: #293a4b;" />
             <Pane layoutX="495.0" layoutY="100.0" prefHeight="106.0" prefWidth="215.0" style="-fx-background-color: #ededed; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8),2, 0 ,0, 0); -fx-border-width: 0;">
                <children>
-                  <Button fx:id="select2" layoutX="155.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="60.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 1, 0, 0, 0);" text="Select ↪" textFill="#293a4b">
+                  <Button fx:id="select2" layoutX="155.0" mnemonicParsing="false" onAction="#handlePress" onMouseClicked="#gotoSendMoney3" prefHeight="30.0" prefWidth="60.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 1, 0, 0, 0);" text="Select ↪" textFill="#293a4b">
                      <font>
-                        <Font name="DejaVu Sans" size="10.0" />
+                        <Font name="DejaVu Serif" size="10.0" />
                      </font>
                   </Button>
                   <Label layoutX="5.0" layoutY="18.0" text="Bank Account-Drawing" textFill="#ae0000">
                      <font>
-                        <Font name="DejaVu Sans" size="11.0" />
+                        <Font name="DejaVu Serif" size="11.0" />
                      </font>
                   </Label>
                   <Label layoutX="5.0" layoutY="5.0" text="Halk Bank" textFill="#293a4b">
                      <font>
-                        <Font name="DejaVu Sans" size="11.0" />
+                        <Font name="DejaVu Serif" size="11.0" />
                      </font>
                   </Label>
                   <Pane layoutY="31.0" prefHeight="0.5" prefWidth="215.0" style="-fx-background-color: #293a4b;" />
                   <Label layoutX="5.0" layoutY="48.0" text="Account ID : 123" textFill="#293a4b">
                      <font>
-                        <Font name="DejaVu Sans" size="11.0" />
+                        <Font name="DejaVu Serif" size="11.0" />
                      </font>
                   </Label>
                   <Label layoutX="5.0" layoutY="33.0" text="Name: Konya" textFill="#293a4b">
                      <font>
-                        <Font name="DejaVu Sans" size="11.0" />
+                        <Font name="DejaVu Serif" size="11.0" />
                      </font>
                   </Label>
                   <Label layoutX="5.0" layoutY="68.0" text="Amount" textFill="#293a4b">
                      <font>
-                        <Font name="DejaVu Sans" size="11.0" />
+                        <Font name="DejaVu Serif" size="11.0" />
                      </font>
                   </Label>
                   <Label layoutX="150.0" layoutY="82.0" text="\$1.000" textFill="#293a4b">
                      <font>
-                        <Font name="DejaVu Sans" size="11.0" />
+                        <Font name="DejaVu Serif" size="11.0" />
                      </font>
                   </Label>
                   <Label layoutX="5.0" layoutY="82.0" text="Aviable Amount" textFill="#293a4b">
                      <font>
-                        <Font name="DejaVu Sans" size="11.0" />
+                        <Font name="DejaVu Serif" size="11.0" />
                      </font>
                   </Label>
                   <Label layoutX="150.0" layoutY="68.0" text="\$100.000" textFill="#293a4b">
                      <font>
-                        <Font name="DejaVu Sans" size="11.0" />
+                        <Font name="DejaVu Serif" size="11.0" />
                      </font>
                   </Label>
                   <Pane layoutY="65.0" prefHeight="0.5" prefWidth="215.0" style="-fx-background-color: #293a4b;" />
@@ -122,50 +121,50 @@
             </Pane>
             <Pane layoutX="25.0" layoutY="100.0" prefHeight="106.0" prefWidth="215.0" style="-fx-background-color: #ededed; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8),2, 0 ,0, 0); -fx-border-width: 0;">
                <children>
-                  <Button fx:id="select" layoutX="155.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="60.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 1, 0, 0, 0);" text="Select ↪" textFill="#293a4b">
+                  <Button fx:id="select" layoutX="155.0" mnemonicParsing="false" onAction="#handlePress" onMouseClicked="#gotoSendMoney3" prefHeight="30.0" prefWidth="60.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 1, 0, 0, 0);" text="Select ↪" textFill="#293a4b">
                      <font>
-                        <Font name="DejaVu Sans" size="10.0" />
+                        <Font name="DejaVu Serif" size="10.0" />
                      </font>
                   </Button>
                   <Label layoutX="5.0" layoutY="18.0" text="Bank Account-Drawing" textFill="#ae0000">
                      <font>
-                        <Font name="DejaVu Sans" size="11.0" />
+                        <Font name="DejaVu Serif" size="11.0" />
                      </font>
                   </Label>
                   <Label layoutX="5.0" layoutY="5.0" text="Ziraat Bankası" textFill="#293a4b">
                      <font>
-                        <Font name="DejaVu Sans" size="11.0" />
+                        <Font name="DejaVu Serif" size="11.0" />
                      </font>
                   </Label>
                   <Pane layoutY="31.0" prefHeight="0.5" prefWidth="215.0" style="-fx-background-color: #293a4b;" />
                   <Label layoutX="5.0" layoutY="48.0" text="Account ID : 123" textFill="#293a4b">
                      <font>
-                        <Font name="DejaVu Sans" size="11.0" />
+                        <Font name="DejaVu Serif" size="11.0" />
                      </font>
                   </Label>
                   <Label layoutX="5.0" layoutY="33.0" text="Name: Beşiktaş" textFill="#293a4b">
                      <font>
-                        <Font name="DejaVu Sans" size="11.0" />
+                        <Font name="DejaVu Serif" size="11.0" />
                      </font>
                   </Label>
                   <Label layoutX="5.0" layoutY="68.0" text="Amount" textFill="#293a4b">
                      <font>
-                        <Font name="DejaVu Sans" size="11.0" />
+                        <Font name="DejaVu Serif" size="11.0" />
                      </font>
                   </Label>
                   <Label layoutX="150.0" layoutY="82.0" text="\$140.000" textFill="#293a4b">
                      <font>
-                        <Font name="DejaVu Sans" size="11.0" />
+                        <Font name="DejaVu Serif" size="11.0" />
                      </font>
                   </Label>
                   <Label layoutX="5.0" layoutY="82.0" text="Aviable Amount" textFill="#293a4b">
                      <font>
-                        <Font name="DejaVu Sans" size="11.0" />
+                        <Font name="DejaVu Serif" size="11.0" />
                      </font>
                   </Label>
                   <Label layoutX="150.0" layoutY="68.0" text="\$600.000" textFill="#293a4b">
                      <font>
-                        <Font name="DejaVu Sans" size="11.0" />
+                        <Font name="DejaVu Serif" size="11.0" />
                      </font>
                   </Label>
                   <Pane layoutY="65.0" prefHeight="0.5" prefWidth="215.0" style="-fx-background-color: #293a4b;" />
@@ -173,75 +172,75 @@
             </Pane>
             <Pane layoutX="260.0" layoutY="100.0" prefHeight="106.0" prefWidth="215.0" style="-fx-background-color: #ededed; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8),2, 0 ,0, 0); -fx-border-width: 0;">
                <children>
-                  <Button fx:id="select1" layoutX="155.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="60.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 1, 0, 0, 0);" text="Select ↪" textFill="#293a4b">
+                  <Button fx:id="select1" layoutX="155.0" mnemonicParsing="false" onAction="#handlePress" onMouseClicked="#gotoSendMoney3" prefHeight="30.0" prefWidth="60.0" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 1, 0, 0, 0);" text="Select ↪" textFill="#293a4b">
                      <font>
-                        <Font name="DejaVu Sans" size="10.0" />
+                        <Font name="DejaVu Serif" size="10.0" />
                      </font>
                   </Button>
                   <Label layoutX="5.0" layoutY="18.0" text="Bank Account-Drawing" textFill="#ae0000">
                      <font>
-                        <Font name="DejaVu Sans" size="11.0" />
+                        <Font name="DejaVu Serif" size="11.0" />
                      </font>
                   </Label>
                   <Label layoutX="5.0" layoutY="5.0" text="QNB Finans" textFill="#293a4b">
                      <font>
-                        <Font name="DejaVu Sans" size="11.0" />
+                        <Font name="DejaVu Serif" size="11.0" />
                      </font>
                   </Label>
                   <Pane layoutY="31.0" prefHeight="0.5" prefWidth="215.0" style="-fx-background-color: #293a4b;" />
                   <Label layoutX="5.0" layoutY="48.0" text="Account ID : 123" textFill="#293a4b">
                      <font>
-                        <Font name="DejaVu Sans" size="11.0" />
+                        <Font name="DejaVu Serif" size="11.0" />
                      </font>
                   </Label>
                   <Label layoutX="5.0" layoutY="33.0" text="Name: Washington DC" textFill="#293a4b">
                      <font>
-                        <Font name="DejaVu Sans" size="11.0" />
+                        <Font name="DejaVu Serif" size="11.0" />
                      </font>
                   </Label>
                   <Label layoutX="5.0" layoutY="68.0" text="Amount" textFill="#293a4b">
                      <font>
-                        <Font name="DejaVu Sans" size="11.0" />
+                        <Font name="DejaVu Serif" size="11.0" />
                      </font>
                   </Label>
                   <Label layoutX="150.0" layoutY="82.0" text="\$10.000" textFill="#293a4b">
                      <font>
-                        <Font name="DejaVu Sans" size="11.0" />
+                        <Font name="DejaVu Serif" size="11.0" />
                      </font>
                   </Label>
                   <Label layoutX="5.0" layoutY="82.0" text="Aviable Amount" textFill="#293a4b">
                      <font>
-                        <Font name="DejaVu Sans" size="11.0" />
+                        <Font name="DejaVu Serif" size="11.0" />
                      </font>
                   </Label>
                   <Label layoutX="150.0" layoutY="68.0" text="\$6540.000" textFill="#293a4b">
                      <font>
-                        <Font name="DejaVu Sans" size="11.0" />
+                        <Font name="DejaVu Serif" size="11.0" />
                      </font>
                   </Label>
                   <Pane layoutY="65.0" prefHeight="0.5" prefWidth="215.0" style="-fx-background-color: #293a4b;" />
                </children>
             </Pane>
-            <Button fx:id="pageLeftButton1" layoutX="25.0" layoutY="24.0" mnemonicParsing="false" onAction="#handlePress" style="-fx-background-color: #ededed; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1); -fx-border-radius: 0; -fx-background-radius: 0;" text="↩ Back" textFill="#293a4b">
+            <Button fx:id="pageLeftButton1" layoutX="25.0" layoutY="24.0" mnemonicParsing="false" onAction="#handlePress" onMouseClicked="#gotoSendMoney1" style="-fx-background-color: #ededed; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1); -fx-border-radius: 0; -fx-background-radius: 0;" text="↩ Back" textFill="#293a4b">
                <font>
-                  <Font name="DejaVu Sans" size="13.0" />
+                  <Font name="DejaVu Serif" size="13.0" />
                </font>
             </Button>
             <Label layoutX="312.0" layoutY="27.0" text="Send Money" textFill="#293a4b">
                <font>
-                  <Font name="DejaVu Sans" size="18.0" />
+                  <Font name="DejaVu Serif" size="18.0" />
                </font>
             </Label>
          </children>
       </Pane>
       <Button fx:id="pageLeftButton" layoutX="20.0" layoutY="410.0" mnemonicParsing="false" onAction="#handlePress" style="-fx-background-color: #293a4b; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="↩" textFill="#ededed">
          <font>
-            <Font name="DejaVu Sans" size="13.0" />
+            <Font name="DejaVu Serif" size="13.0" />
          </font>
       </Button>
-      <Button fx:id="pageRightButton" layoutX="746.7" layoutY="410.0" mnemonicParsing="false" onAction="#handlePress" style="-fx-background-color: #293a4b; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="↪" textFill="#ededed">
+      <Button fx:id="pageRightButton" layoutX="751" layoutY="410" mnemonicParsing="false" onAction="#handlePress" style="-fx-background-color: #293a4b; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="↪" textFill="#ededed">
          <font>
-            <Font name="DejaVu Sans" size="13.0" />
+            <Font name="DejaVu Serif" size="13.0" />
          </font>
       </Button>
    </children>
