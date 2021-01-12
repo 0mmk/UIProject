@@ -61,7 +61,7 @@
             </Button>
          </children>
       </Pane>
-      <Pane layoutX="21.0" layoutY="55.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="360.0" prefWidth="760.0" style="-fx-background-color: #ededed; -fx-border-color: #293a4b; -fx-border-width: 5; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);">
+      <Pane layoutX="20.0" layoutY="50.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="360.0" prefWidth="760.0" style="-fx-background-color: #ededed; -fx-border-color: #293a4b; -fx-border-width: 5; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);">
          <children>
             <Pane layoutX="249.0" layoutY="88.0" prefHeight="220.0" prefWidth="300.0" style="-fx-border-color: #dddddd; -fx-border-width: 2;">
                <children>

@@ -79,7 +79,7 @@
                <children>
                   <VBox layoutX="27.0" layoutY="13.0" prefHeight="232.0" prefWidth="205.0" spacing="8.0">
                      <children>
-                        <Button fx:id="homeButton1" alignment="BASELINE_LEFT" focusTraversable="false" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="203.0" style="-fx-background-color: white; -fx-border-radius: 0; -fx-background-radius: 3;" text="Security Preferences     &gt;" textFill="#293a4b">
+                        <Button fx:id="homeButton1" alignment="BASELINE_LEFT" focusTraversable="false" mnemonicParsing="false" onAction="#handlePress" onMouseClicked="#gotoSecurityPageFunc" prefHeight="30.0" prefWidth="203.0" style="-fx-background-color: white; -fx-border-radius: 0; -fx-background-radius: 3;" text="Security Preferences     &gt;" textFill="#293a4b">
                            <opaqueInsets>
                               <Insets />
                            </opaqueInsets>
@@ -94,7 +94,7 @@
                               </ImageView>
                            </graphic>
                         </Button>
-                        <Button fx:id="homeButton11" alignment="BASELINE_LEFT" focusTraversable="false" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="203.0" style="-fx-background-color: white; -fx-border-radius: 0; -fx-background-radius: 3;" text="Change Password          &gt;" textFill="#293a4b">
+                        <Button fx:id="homeButton11" alignment="BASELINE_LEFT" focusTraversable="false" mnemonicParsing="false" onAction="#handlePress" onMouseClicked="#gotoChangePasswordPageFunc" prefHeight="30.0" prefWidth="203.0" style="-fx-background-color: white; -fx-border-radius: 0; -fx-background-radius: 3;" text="Change Password          &gt;" textFill="#293a4b">
                            <opaqueInsets>
                               <Insets />
                            </opaqueInsets>
@@ -109,7 +109,7 @@
                               </ImageView>
                            </graphic>
                         </Button>
-                        <Button fx:id="homeButton12" alignment="BASELINE_LEFT" focusTraversable="false" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="203.0" style="-fx-background-color: white; -fx-border-radius: 0; -fx-background-radius: 3;" text="Change Email                &gt;" textFill="#293a4b">
+                        <Button fx:id="homeButton12" alignment="BASELINE_LEFT" focusTraversable="false" mnemonicParsing="false" onAction="#handlePress" onMouseClicked="#gotoChangeEmailPageFunc" prefHeight="30.0" prefWidth="203.0" style="-fx-background-color: white; -fx-border-radius: 0; -fx-background-radius: 3;" text="Change Email                &gt;" textFill="#293a4b">
                            <opaqueInsets>
                               <Insets />
                            </opaqueInsets>
@@ -139,7 +139,7 @@
                               </ImageView>
                            </graphic>
                         </Button>
-                        <Button fx:id="homeButton122" alignment="BASELINE_LEFT" focusTraversable="false" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="203.0" style="-fx-background-color: white; -fx-border-radius: 0; -fx-background-radius: 3;" text="Backup Data                  &gt;" textFill="#293a4b">
+                        <Button fx:id="homeButton122" alignment="BASELINE_LEFT" focusTraversable="false" mnemonicParsing="false" onAction="#handlePress" onMouseClicked="#gotoBackupPageFunc" prefHeight="30.0" prefWidth="203.0" style="-fx-background-color: white; -fx-border-radius: 0; -fx-background-radius: 3;" text="Backup Data                  &gt;" textFill="#293a4b">
                            <opaqueInsets>
                               <Insets />
                            </opaqueInsets>
@@ -182,7 +182,7 @@
                <children>
                   <VBox layoutX="27.0" layoutY="13.0" prefHeight="225.0" prefWidth="205.0" spacing="10.0">
                      <children>
-                        <Button fx:id="homeButton124" alignment="BASELINE_LEFT" focusTraversable="false" mnemonicParsing="false" onAction="#handlePress" prefHeight="30.0" prefWidth="203.0" style="-fx-background-color: white; -fx-border-radius: 0; -fx-background-radius: 3;" text="Menu Design                 &gt;" textFill="#293a4b">
+                        <Button fx:id="homeButton124" alignment="BASELINE_LEFT" focusTraversable="false" mnemonicParsing="false" onAction="#handlePress" onMouseClicked="#gotoMenuDesignPageFunc" prefHeight="30.0" prefWidth="203.0" style="-fx-background-color: white; -fx-border-radius: 0; -fx-background-radius: 3;" text="Menu Design                 &gt;" textFill="#293a4b">
                            <opaqueInsets>
                               <Insets />
                            </opaqueInsets>

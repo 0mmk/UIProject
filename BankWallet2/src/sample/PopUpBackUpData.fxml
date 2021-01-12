@@ -8,7 +8,7 @@
    <children>
       <Text layoutX="21.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your data has been successfully backed up to &quot;backUp&quot; folder." textAlignment="CENTER" wrappingWidth="318.0">
          <font>
-            <Font size="32.0" />
+            <Font name="DejaVu Serif" size="32.0" />
          </font>
       </Text>
    </children>

@@ -172,9 +172,9 @@
                      </children>
                   </VBox>
                   <Text fill="GREEN" layoutX="324.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="50%" />
-                  <Button fx:id="bankAdd" layoutX="293.0" layoutY="328.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="36.0">
+                  <Button fx:id="bankAdd" layoutX="133.0" layoutY="321.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="38.0" style="-fx-background-color: #ededed;">
                      <graphic>
-                        <ImageView fitHeight="23.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fitHeight="30.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@add_box.png" />
                            </image>
@@ -184,7 +184,7 @@
                         <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Button>
-                  <Button fx:id="bankRemove" layoutX="336.0" layoutY="328.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="26.0">
+                  <Button fx:id="bankRemove" layoutX="205.0" layoutY="325.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="26.0" style="-fx-background-color: #ededed;">
                      <graphic>
                         <ImageView fitHeight="27.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -215,51 +215,51 @@
                         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                     </rowConstraints>
                      <children>
-                        <Button fx:id="monthJan" mnemonicParsing="false" onMouseClicked="#gotoExpensePage3Func" prefHeight="86.0" prefWidth="100.0" style="-fx-background-radius: 5; -fx-border-radius: 5;" text="JAN" textAlignment="CENTER">
+                        <Button fx:id="monthJan" mnemonicParsing="false" onMouseClicked="#gotoExpensePage3Func" prefHeight="86.0" prefWidth="100.0" style="-fx-background-color: #ededed; -fx-border-color: #293a4b; -fx-border-width: 2; -fx-border-radius: 10; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 5, 0, 0, 1); -fx-background-radius: 10;" text="JAN" textAlignment="CENTER">
                            <font>
                               <Font name="DejaVu Serif" size="13.0" />
                            </font></Button>
-                        <Button mnemonicParsing="false" onMouseClicked="#gotoExpensePage3Func" prefHeight="121.0" prefWidth="100.0" style="-fx-background-radius: 5; -fx-border-radius: 5;" text="FEB" GridPane.columnIndex="1">
+                        <Button mnemonicParsing="false" onMouseClicked="#gotoExpensePage3Func" prefHeight="121.0" prefWidth="100.0" style="-fx-background-color: #ededed; -fx-border-color: #293a4b; -fx-border-width: 2; -fx-border-radius: 10; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 5, 0, 0, 1); -fx-background-radius: 10;" text="FEB" GridPane.columnIndex="1">
                            <font>
                               <Font name="DejaVu Serif" size="13.0" />
                            </font></Button>
-                        <Button mnemonicParsing="false" onMouseClicked="#gotoExpensePage3Func" prefHeight="65.0" prefWidth="184.0" style="-fx-background-radius: 5; -fx-border-radius: 5;" text="MAR" GridPane.columnIndex="2">
+                        <Button mnemonicParsing="false" onMouseClicked="#gotoExpensePage3Func" prefHeight="65.0" prefWidth="184.0" style="-fx-background-color: #ededed; -fx-border-color: #293a4b; -fx-border-width: 2; -fx-border-radius: 10; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 5, 0, 0, 1); -fx-background-radius: 10;" text="MAR" GridPane.columnIndex="2">
                            <font>
                               <Font name="DejaVu Serif" size="13.0" />
                            </font></Button>
-                        <Button mnemonicParsing="false" onMouseClicked="#gotoExpensePage3Func" prefHeight="80.0" prefWidth="100.0" style="-fx-background-radius: 5; -fx-border-radius: 5;" text="APR" GridPane.rowIndex="1">
+                        <Button mnemonicParsing="false" onMouseClicked="#gotoExpensePage3Func" prefHeight="80.0" prefWidth="100.0" style="-fx-background-color: #ededed; -fx-border-color: #293a4b; -fx-border-width: 2; -fx-border-radius: 10; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 5, 0, 0, 1); -fx-background-radius: 10;" text="APR" GridPane.rowIndex="1">
                            <font>
                               <Font name="DejaVu Serif" size="13.0" />
                            </font></Button>
-                        <Button mnemonicParsing="false" onMouseClicked="#gotoExpensePage3Func" prefHeight="67.0" prefWidth="148.0" style="-fx-background-radius: 5; -fx-border-radius: 5;" text="MAY" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                        <Button mnemonicParsing="false" onMouseClicked="#gotoExpensePage3Func" prefHeight="67.0" prefWidth="148.0" style="-fx-background-color: #ededed; -fx-border-color: #293a4b; -fx-border-width: 2; -fx-border-radius: 10; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 5, 0, 0, 1); -fx-background-radius: 10;" text="MAY" GridPane.columnIndex="1" GridPane.rowIndex="1">
                            <font>
                               <Font name="DejaVu Serif" size="13.0" />
                            </font></Button>
-                        <Button mnemonicParsing="false" onMouseClicked="#gotoExpensePage3Func" prefHeight="73.0" prefWidth="199.0" style="-fx-background-radius: 5; -fx-border-radius: 5;" text="JUN" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                        <Button mnemonicParsing="false" onMouseClicked="#gotoExpensePage3Func" prefHeight="73.0" prefWidth="199.0" style="-fx-background-color: #ededed; -fx-border-color: #293a4b; -fx-border-width: 2; -fx-border-radius: 10; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 5, 0, 0, 1); -fx-background-radius: 10;" text="JUN" GridPane.columnIndex="2" GridPane.rowIndex="1">
                            <font>
                               <Font name="DejaVu Serif" size="13.0" />
                            </font></Button>
-                        <Button mnemonicParsing="false" onMouseClicked="#gotoExpensePage3Func" prefHeight="73.0" prefWidth="100.0" style="-fx-background-radius: 5; -fx-border-radius: 5;" text="JUL" GridPane.rowIndex="2">
+                        <Button mnemonicParsing="false" onMouseClicked="#gotoExpensePage3Func" prefHeight="73.0" prefWidth="100.0" style="-fx-background-color: #ededed; -fx-border-color: #293a4b; -fx-border-width: 2; -fx-border-radius: 10; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 5, 0, 0, 1); -fx-background-radius: 10;" text="JUL" GridPane.rowIndex="2">
                            <font>
                               <Font name="DejaVu Serif" size="13.0" />
                            </font></Button>
-                        <Button mnemonicParsing="false" onMouseClicked="#gotoExpensePage3Func" prefHeight="91.0" prefWidth="181.0" style="-fx-background-radius: 5; -fx-border-radius: 5;" text="OCT" GridPane.rowIndex="3">
+                        <Button mnemonicParsing="false" onMouseClicked="#gotoExpensePage3Func" prefHeight="91.0" prefWidth="181.0" style="-fx-background-color: #ededed; -fx-border-color: #293a4b; -fx-border-width: 2; -fx-border-radius: 10; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 5, 0, 0, 1); -fx-background-radius: 10;" text="OCT" GridPane.rowIndex="3">
                            <font>
                               <Font name="DejaVu Serif" size="13.0" />
                            </font></Button>
-                        <Button mnemonicParsing="false" onMouseClicked="#gotoExpensePage3Func" prefHeight="70.0" prefWidth="177.0" style="-fx-background-radius: 5; -fx-border-radius: 5;" text="AUG" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                        <Button mnemonicParsing="false" onMouseClicked="#gotoExpensePage3Func" prefHeight="70.0" prefWidth="177.0" style="-fx-background-color: #ededed; -fx-border-color: #293a4b; -fx-border-width: 2; -fx-border-radius: 10; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 5, 0, 0, 1); -fx-background-radius: 10;" text="AUG" GridPane.columnIndex="1" GridPane.rowIndex="2">
                            <font>
                               <Font name="DejaVu Serif" size="13.0" />
                            </font></Button>
-                        <Button mnemonicParsing="false" onMouseClicked="#gotoExpensePage3Func" prefHeight="90.0" prefWidth="160.0" style="-fx-background-radius: 5; -fx-border-radius: 5;" text="NOV" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                        <Button mnemonicParsing="false" onMouseClicked="#gotoExpensePage3Func" prefHeight="90.0" prefWidth="160.0" style="-fx-background-color: #ededed; -fx-border-color: #293a4b; -fx-border-width: 2; -fx-border-radius: 10; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 5, 0, 0, 1); -fx-background-radius: 10;" text="NOV" GridPane.columnIndex="1" GridPane.rowIndex="3">
                            <font>
                               <Font name="DejaVu Serif" size="13.0" />
                            </font></Button>
-                        <Button mnemonicParsing="false" onMouseClicked="#gotoExpensePage3Func" prefHeight="78.0" prefWidth="148.0" style="-fx-background-radius: 5; -fx-border-radius: 5;" text="SEP" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                        <Button mnemonicParsing="false" onMouseClicked="#gotoExpensePage3Func" prefHeight="78.0" prefWidth="148.0" style="-fx-background-color: #ededed; -fx-border-color: #293a4b; -fx-border-width: 2; -fx-border-radius: 10; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 5, 0, 0, 1); -fx-background-radius: 10;" text="SEP" GridPane.columnIndex="2" GridPane.rowIndex="2">
                            <font>
                               <Font name="DejaVu Serif" size="13.0" />
                            </font></Button>
-                        <Button mnemonicParsing="false" onMouseClicked="#gotoExpensePage3Func" prefHeight="95.0" prefWidth="166.0" style="-fx-background-radius: 5; -fx-border-radius: 5;" text="DEC" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                        <Button mnemonicParsing="false" onMouseClicked="#gotoExpensePage3Func" prefHeight="95.0" prefWidth="166.0" style="-fx-background-color: #ededed; -fx-border-color: #293a4b; -fx-border-width: 2; -fx-border-radius: 10; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 5, 0, 0, 1); -fx-background-radius: 10;" text="DEC" GridPane.columnIndex="2" GridPane.rowIndex="3">
                            <font>
                               <Font name="DejaVu Serif" size="13.0" />
                            </font></Button>
@@ -270,7 +270,7 @@
                         <Font name="DejaVu Serif" size="16.0" />
                      </font>
                   </Text>
-                  <Button fx:id="yearInc" layoutX="212.0" layoutY="13.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="0.0">
+                  <Button fx:id="yearInc" layoutX="212.0" layoutY="13.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="0.0" style="-fx-background-color: #ededed;">
                      <graphic>
                         <ImageView fitHeight="14.0" fitWidth="12.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -282,7 +282,7 @@
                         <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Button>
-                  <Button layoutX="141.0" layoutY="12.0" mnemonicParsing="false">
+                  <Button layoutX="141.0" layoutY="12.0" mnemonicParsing="false" style="-fx-background-color: #ededed;">
                      <graphic>
                         <ImageView fx:id="yearDec" fitHeight="14.0" fitWidth="9.0" pickOnBounds="true" preserveRatio="true">
                            <image>

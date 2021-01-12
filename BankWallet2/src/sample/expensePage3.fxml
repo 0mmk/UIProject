@@ -169,9 +169,9 @@
                      <font>
                         <Font name="DejaVu Serif" size="13.0" />
                      </font></Text>
-                  <Button fx:id="bankAdd" layoutX="294.0" layoutY="327.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="36.0">
+                  <Button fx:id="bankAdd" layoutX="149.0" layoutY="317.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="36.0" style="-fx-background-color: #ededed;" textFill="#293a4b">
                      <graphic>
-                        <ImageView fitHeight="23.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fitHeight="26.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@add_box.png" />
                            </image>
@@ -181,7 +181,7 @@
                         <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Button>
-                  <Button fx:id="bankRemove" layoutX="336.0" layoutY="327.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="36.0">
+                  <Button fx:id="bankRemove" layoutX="223.0" layoutY="318.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="36.0" style="-fx-background-color: #ededed;" textFill="#293a4b">
                      <graphic>
                         <ImageView fitHeight="27.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -193,7 +193,7 @@
                         <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Button>
-                  <Text layoutX="264.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$2.500,00">
+                  <Text layoutX="255.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$2.500,00">
                      <font>
                         <Font name="DejaVu Serif" size="13.0" />
                      </font></Text>
@@ -298,18 +298,18 @@
          <font>
             <Font name="DejaVu Serif" size="13.0" />
          </font></Button>
-      <Button fx:id="yearInc" layoutX="614.0" layoutY="70.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="0.0">
+      <Button fx:id="yearInc" layoutX="616.0" layoutY="70.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="0.0" style="-fx-background-color: #ededed;" textFill="#293a4b">
          <graphic>
-            <ImageView fitHeight="11.0" fitWidth="8.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="12.0" fitWidth="14.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@chevron-right.png" />
                </image>
             </ImageView>
          </graphic>
       </Button>
-      <Button fx:id="yearDec" layoutX="543.0" layoutY="69.0" mnemonicParsing="false">
+      <Button fx:id="yearDec" layoutX="541.0" layoutY="69.0" mnemonicParsing="false" prefWidth="21.0" style="-fx-background-color: #ededed;" textFill="#293a4b">
          <graphic>
-            <ImageView fitHeight="8.0" fitWidth="9.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="13.0" fitWidth="11.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@chevron-left.png" />
                </image>

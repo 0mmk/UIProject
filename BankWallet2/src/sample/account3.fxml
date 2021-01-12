@@ -403,9 +403,9 @@
                   <Font name="DejaVu Serif" size="12.0" />
                </font>
             </Label>
-            <ImageView fitHeight="52.0" fitWidth="163.0" layoutX="375.0" layoutY="134.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="83.0" fitWidth="166.0" layoutX="276.0" layoutY="136.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@85964e955839ddc8d94f39f20734df0a.png" />
+                  <Image url="@imza.png" />
                </image>
             </ImageView>
          </children>
