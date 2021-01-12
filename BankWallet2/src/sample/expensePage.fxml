@@ -172,25 +172,11 @@
                      </children>
                   </VBox>
                   <Button fx:id="bankAdd" layoutX="148.0" layoutY="318.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="36.0" style="-fx-background-color: #ededed;">
-                     <graphic>
-                        <ImageView fitHeight="26.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@add_box.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
                      <font>
                         <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Button>
                   <Button fx:id="bankRemove" layoutX="213.0" layoutY="320.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="36.0" style="-fx-background-color: #ededed;">
-                     <graphic>
-                        <ImageView fitHeight="27.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@trash-alt.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
                      <font>
                         <Font name="DejaVu Serif" size="13.0" />
                      </font>
@@ -274,25 +260,11 @@
                      </font>
                   </Text>
                   <Button fx:id="expenseAdd" layoutX="119.0" layoutY="308.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="36.0" style="-fx-background-color: #ededed;">
-                     <graphic>
-                        <ImageView fitHeight="27.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@add_box.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
                      <font>
                         <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Button>
                   <Button fx:id="expenseRemove" layoutX="191.0" layoutY="309.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="36.0" style="-fx-background-color: #ededed;">
-                     <graphic>
-                        <ImageView fitHeight="27.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@trash-alt.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
                      <font>
                         <Font name="DejaVu Serif" size="13.0" />
                      </font>

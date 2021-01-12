@@ -173,25 +173,11 @@
                   </VBox>
                   <Text fill="GREEN" layoutX="324.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="50%" />
                   <Button fx:id="bankAdd" layoutX="133.0" layoutY="321.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="38.0" style="-fx-background-color: #ededed;">
-                     <graphic>
-                        <ImageView fitHeight="30.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@add_box.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
                      <font>
                         <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Button>
                   <Button fx:id="bankRemove" layoutX="205.0" layoutY="325.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="26.0" style="-fx-background-color: #ededed;">
-                     <graphic>
-                        <ImageView fitHeight="27.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@trash-alt.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
                      <font>
                         <Font name="DejaVu Serif" size="13.0" />
                      </font>

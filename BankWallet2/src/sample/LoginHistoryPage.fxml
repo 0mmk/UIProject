@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.layout.HBox?>
-<?import javafx.scene.layout.Pane?>
-<?import javafx.scene.layout.VBox?>
-<?import javafx.scene.text.Font?>
-<?import javafx.scene.text.Text?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="800.0" style="-fx-background-color: #ededed;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="800.0" style="-fx-background-color: #ededed;" xmlns="http://javafx.com/javafx/11.0.3-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
       <Pane fx:id="profilePane" prefHeight="150.0" prefWidth="800.0" style="-fx-background-color: #293a4b;" />
       <Pane layoutX="20.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="760.0" style="-fx-background-color: #293a4b; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);">
@@ -76,74 +73,146 @@
                      <children>
                         <HBox prefHeight="20.0" prefWidth="616.0">
                            <children>
-                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="192.168.1.254   -  Succesfuly Logged In" wrappingWidth="480.0" />
-                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="12-01-2021  /  10:26 AM" wrappingWidth="182.93665266036987" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="192.168.1.254   -  Succesfuly Logged In" wrappingWidth="450.0">
+                                 <font>
+                                    <Font name="DejaVu Serif" size="13.0" />
+                                 </font></Text>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="12-01-2021  /  10:26 AM" wrappingWidth="182.93665266036987">
+                                 <font>
+                                    <Font name="DejaVu Serif" size="13.0" />
+                                 </font></Text>
                            </children>
                         </HBox>
                         <HBox prefHeight="20.0" prefWidth="616.0">
                            <children>
-                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="192.168.1.254   -  Succesfuly Logged In" wrappingWidth="480.0" />
-                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="10-01-2021  /  07:43 AM" wrappingWidth="182.93665266036987" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="192.168.1.254   -  Succesfuly Logged In" wrappingWidth="450.0">
+                                 <font>
+                                    <Font name="DejaVu Serif" size="13.0" />
+                                 </font></Text>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="10-01-2021  /  07:43 AM" wrappingWidth="182.93665266036987">
+                                 <font>
+                                    <Font name="DejaVu Serif" size="13.0" />
+                                 </font></Text>
                            </children>
                         </HBox>
                         <HBox prefHeight="20.0" prefWidth="616.0">
                            <children>
-                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="192.168.1.201   -  Failed to Log In" wrappingWidth="480.0" />
-                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="09-01-2021  /  08:42 PM" wrappingWidth="182.93665266036987" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="192.168.1.201   -  Failed to Log In" wrappingWidth="450.0">
+                                 <font>
+                                    <Font name="DejaVu Serif" size="13.0" />
+                                 </font></Text>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="09-01-2021  /  08:42 PM" wrappingWidth="182.93665266036987">
+                                 <font>
+                                    <Font name="DejaVu Serif" size="13.0" />
+                                 </font></Text>
                            </children>
                         </HBox>
                         <HBox prefHeight="20.0" prefWidth="616.0">
                            <children>
-                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="192.168.23.25   -  Failed to Log In" wrappingWidth="480.0" />
-                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="17-12-2020  /  11:56 AM" wrappingWidth="182.93665266036987" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="192.168.23.25   -  Failed to Log In" wrappingWidth="450.0">
+                                 <font>
+                                    <Font name="DejaVu Serif" size="13.0" />
+                                 </font></Text>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="17-12-2020  /  11:56 AM" wrappingWidth="182.93665266036987">
+                                 <font>
+                                    <Font name="DejaVu Serif" size="13.0" />
+                                 </font></Text>
                            </children>
                         </HBox>
                         <HBox prefHeight="20.0" prefWidth="616.0">
                            <children>
-                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="192.168.1.123   -  Failed to Log In" wrappingWidth="480.0" />
-                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="15-01-2020  /  06:28 AM" wrappingWidth="163.73664045333862" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="192.168.1.123   -  Failed to Log In" wrappingWidth="450.0">
+                                 <font>
+                                    <Font name="DejaVu Serif" size="13.0" />
+                                 </font></Text>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="15-01-2020  /  06:28 AM" wrappingWidth="163.73664045333862">
+                                 <font>
+                                    <Font name="DejaVu Serif" size="13.0" />
+                                 </font></Text>
                            </children>
                         </HBox>
                         <HBox prefHeight="20.0" prefWidth="616.0">
                            <children>
-                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="192.168.1.254   -  Succesfuly Logged In" wrappingWidth="480.0" />
-                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="12-12-2020  /  04:26 AM" wrappingWidth="182.93665266036987" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="192.168.1.254   -  Succesfuly Logged In" wrappingWidth="450.0">
+                                 <font>
+                                    <Font name="DejaVu Serif" size="13.0" />
+                                 </font></Text>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="12-12-2020  /  04:26 AM" wrappingWidth="182.93665266036987">
+                                 <font>
+                                    <Font name="DejaVu Serif" size="13.0" />
+                                 </font></Text>
                            </children>
                         </HBox>
                         <HBox prefHeight="20.0" prefWidth="616.0">
                            <children>
-                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="192.168.1.254   -  Succesfuly Logged In" wrappingWidth="480.0" />
-                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="09-12-2020  /  10:21 AM" wrappingWidth="182.93665266036987" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="192.168.1.254   -  Succesfuly Logged In" wrappingWidth="450.0">
+                                 <font>
+                                    <Font name="DejaVu Serif" size="13.0" />
+                                 </font></Text>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="09-12-2020  /  10:21 AM" wrappingWidth="182.93665266036987">
+                                 <font>
+                                    <Font name="DejaVu Serif" size="13.0" />
+                                 </font></Text>
                            </children>
                         </HBox>
                         <HBox prefHeight="20.0" prefWidth="616.0">
                            <children>
-                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="192.168.1.254   -  Succesfuly Logged In" wrappingWidth="480.0" />
-                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="07-12-2020  /  09:33 PM" wrappingWidth="182.93665266036987" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="192.168.1.254   -  Succesfuly Logged In" wrappingWidth="450.0">
+                                 <font>
+                                    <Font name="DejaVu Serif" size="13.0" />
+                                 </font></Text>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="07-12-2020  /  09:33 PM" wrappingWidth="182.93665266036987">
+                                 <font>
+                                    <Font name="DejaVu Serif" size="13.0" />
+                                 </font></Text>
                            </children>
                         </HBox>
                         <HBox prefHeight="20.0" prefWidth="616.0">
                            <children>
-                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="192.168.1.254   -  Failed to Log In" wrappingWidth="480.0" />
-                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="05-12-2020  /  03:29 PM" wrappingWidth="182.93665266036987" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="192.168.1.254   -  Failed to Log In" wrappingWidth="450.0">
+                                 <font>
+                                    <Font name="DejaVu Serif" size="13.0" />
+                                 </font></Text>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="05-12-2020  /  03:29 PM" wrappingWidth="182.93665266036987">
+                                 <font>
+                                    <Font name="DejaVu Serif" size="13.0" />
+                                 </font></Text>
                            </children>
                         </HBox>
                         <HBox prefHeight="20.0" prefWidth="616.0">
                            <children>
-                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="192.168.1.254   -  Succesfuly Logged In" wrappingWidth="480.0" />
-                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="29-11-2020  /  06:26 AM" wrappingWidth="182.93665266036987" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="192.168.1.254   -  Succesfuly Logged In" wrappingWidth="450.0">
+                                 <font>
+                                    <Font name="DejaVu Serif" size="13.0" />
+                                 </font></Text>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="29-11-2020  /  06:26 AM" wrappingWidth="182.93665266036987">
+                                 <font>
+                                    <Font name="DejaVu Serif" size="13.0" />
+                                 </font></Text>
                            </children>
                         </HBox>
                         <HBox prefHeight="20.0" prefWidth="616.0">
                            <children>
-                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="192.168.1.254   -  Succesfuly Logged In" wrappingWidth="480.0" />
-                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="28-11-2020  /  10:37 AM" wrappingWidth="182.93665266036987" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="192.168.1.254   -  Succesfuly Logged In" wrappingWidth="450.0">
+                                 <font>
+                                    <Font name="DejaVu Serif" size="13.0" />
+                                 </font></Text>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="28-11-2020  /  10:37 AM" wrappingWidth="182.93665266036987">
+                                 <font>
+                                    <Font name="DejaVu Serif" size="13.0" />
+                                 </font></Text>
                            </children>
                         </HBox>
                         <HBox prefHeight="20.0" prefWidth="616.0">
                            <children>
-                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="192.168.2.234   -  Succesfuly Logged In" wrappingWidth="480.0" />
-                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="25-11-2020  /  09:11 AM" wrappingWidth="182.93665266036987" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="192.168.2.234   -  Succesfuly Logged In" wrappingWidth="450.0">
+                                 <font>
+                                    <Font name="DejaVu Serif" size="13.0" />
+                                 </font></Text>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="25-11-2020  /  09:11 AM" wrappingWidth="182.93665266036987">
+                                 <font>
+                                    <Font name="DejaVu Serif" size="13.0" />
+                                 </font></Text>
                            </children>
                         </HBox>
                      </children>

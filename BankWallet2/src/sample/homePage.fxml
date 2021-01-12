@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.*?>
-<?import javafx.scene.chart.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.image.*?>
-<?import javafx.scene.layout.*?>
-<?import javafx.scene.shape.*?>
-<?import javafx.scene.text.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="800.0" style="-fx-background-color: #ededed;" xmlns="http://javafx.com/javafx/11.0.3-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="800.0" style="-fx-background-color: #ededed;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
       <Pane fx:id="homePane" prefHeight="150.0" prefWidth="800.0" style="-fx-background-color: #293a4b;" />
       <Pane layoutX="20.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="760.0" style="-fx-background-color: #293a4b; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);">
@@ -88,19 +92,11 @@
                   <Font name="DejaVu Serif" size="17.0" />
                </font>
             </Text>
-            <Text fill="#293a4b" layoutX="599.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Net Gross">
+            <Text fill="#293a4b" layoutX="589.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Net Gross">
                <font>
                   <Font name="DejaVu Serif" size="17.0" />
                </font>
             </Text>
-            <BarChart alternativeColumnFillVisible="true" alternativeRowFillVisible="false" barGap="1.0" horizontalGridLinesVisible="false" layoutX="504.0" layoutY="41.0" prefHeight="269.0" prefWidth="232.0">
-              <xAxis>
-                <CategoryAxis side="BOTTOM" />
-              </xAxis>
-              <yAxis>
-                <NumberAxis prefHeight="187.0" prefWidth="28.0" side="LEFT" />
-              </yAxis>
-            </BarChart>
             <VBox layoutX="270.0" layoutY="34.0" prefHeight="130.0" prefWidth="220.0" spacing="6.0">
                <children>
                   <Pane onMouseClicked="#gotoStockFunc" prefHeight="26.0" prefWidth="221.0" style="-fx-border-color: #293a4b; -fx-border-radius: 2;">
@@ -369,6 +365,11 @@
                   </Pane>
                </children>
             </VBox>
+            <ImageView fitHeight="207.0" fitWidth="220.0" layoutX="532.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@chart-new.png" />
+               </image>
+            </ImageView>
          </children>
       </Pane>
       <Button fx:id="pageLeftButton" layoutX="20.0" layoutY="410.0" mnemonicParsing="false" onAction="#handlePress" style="-fx-background-color: #293a4b; -fx-border-radius: 0; -fx-background-radius: 0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);" text="↩" textFill="#ededed">

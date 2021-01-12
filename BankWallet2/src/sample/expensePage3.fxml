@@ -202,7 +202,7 @@
             <HBox layoutX="376.0" prefHeight="360.0" prefWidth="7.0" style="-fx-background-color: #293a4b;" />
             <Pane layoutX="383.0" layoutY="7.0" prefHeight="350.0" prefWidth="372.0">
                <children>
-                  <Text fx:id="spentInText" layoutX="120.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Spent in January">
+                  <Text fx:id="spentInText" layoutX="117.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Spent in Jan 2020">
                      <font>
                         <Font name="DejaVu Serif" size="18.0" />
                      </font>

@@ -75,7 +75,7 @@
                   </ImageView>
                </children>
             </Pane>
-            <Button focusTraversable="false" layoutX="319.0" layoutY="-38.0" mnemonicParsing="false" prefHeight="113.0" prefWidth="117.0" style="-fx-background-radius: 10000; -fx-border-radius: 10000; -fx-border-color: #293a4b; -fx-border-width: 3;">
+            <Button fx:id="selam" focusTraversable="false" layoutX="319.0" layoutY="-38.0" mnemonicParsing="false" prefHeight="113.0" prefWidth="117.0" style="-fx-background-radius: 10000; -fx-border-radius: 10000; -fx-border-color: #293a4b; -fx-border-width: 3;">
                <graphic>
                   <ImageView fitHeight="71.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true">
                      <image>
