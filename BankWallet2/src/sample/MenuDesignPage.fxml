@@ -83,7 +83,7 @@
             </ImageView>
             <Text layoutX="237.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Home Page Design" wrappingWidth="283.68048095703125">
                <font>
-                  <Font size="33.0" />
+                  <Font name="DejaVu Serif" size="33.0" />
                </font>
             </Text>
             <CheckBox layoutX="98.0" layoutY="257.0" mnemonicParsing="false" selected="true" text="Design 1" />
