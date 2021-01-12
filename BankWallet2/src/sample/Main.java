@@ -46,10 +46,12 @@ public class Main extends Application {
             new DTuple("sendMoney3.fxml", "Send Money"), // 25
             new DTuple("SendMoney4.fxml", "Send Money"), /// 26
             new DTuple("SecurityPreferencesPage.fxml", "Security Preferences"), // 27
-            new DTuple("PopUpBackUpData.fxml", "Backup Data"), // 28
+            new DTuple("profilePageExtra.fxml", "Backup Data"), // 28
             new DTuple("changeEmailPage.fxml", "Change Email"), // 29
             new DTuple("changePasswordPage.fxml", "Change Password"), // 30
             new DTuple("MenuDesignPage.fxml", "Menu Design"), // 31
+            new DTuple("changePhoneNumberPage.fxml", "Change Phone Number"), // 32
+            new DTuple("LoginHistoryPage.fxml", "Login History") // 33
     };
 
     private static final DTuple[] itPages = new DTuple[] {

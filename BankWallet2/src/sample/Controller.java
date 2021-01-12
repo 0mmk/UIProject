@@ -59,7 +59,9 @@ public class Controller {
             gotoBill3_3,
             gotoHistoryButton,
             gotoExpenseButton,
-            gotoSendMoney;
+            gotoSendMoney,
+            changePhoneNumberButton,
+            loginHistoryButton;
     
     @FXML
     Hyperlink
@@ -112,7 +114,9 @@ public class Controller {
                     new TTuple(gotoBill3_3,             Main.getDTuple(19)),
                     new TTuple(gotoHistoryButton,       Main.getDTuple(12)),
                     new TTuple(gotoExpenseButton,       Main.getDTuple(5)),
-                    new TTuple(gotoSendMoney,           Main.getDTuple(22))
+                    new TTuple(gotoSendMoney,           Main.getDTuple(22)),
+                    new TTuple(changePhoneNumberButton, Main.getDTuple(32)),
+                    new TTuple(loginHistoryButton,      Main.getDTuple(33))
         	    )
         );
     }
