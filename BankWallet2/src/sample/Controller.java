@@ -51,7 +51,16 @@ public class Controller {
             buy1DetailButton,
             order1DetailButton,
             sell1DetailButton,
-            exitButton;
+            exitButton,
+            gotoLangPage,
+            gotoTimePage,
+            gotoBill3_1,
+            gotoBill3_2,
+            gotoBill3_3,
+            gotoHistoryButton,
+            gotoExpenseButton,
+            gotoSendMoney;
+    
     @FXML
     Hyperlink
             gotoLoginLink,
@@ -95,9 +104,85 @@ public class Controller {
                     new TTuple(order3Button,            Main.getDTuple(10)),
                     new TTuple(sell1DetailButton,       Main.getDTuple(11)),
                     new TTuple(order1DetailButton,      Main.getDTuple(11)),
-                    new TTuple(buy1DetailButton,        Main.getDTuple(11))
+                    new TTuple(buy1DetailButton,        Main.getDTuple(11)),
+                    new TTuple(gotoLangPage,            Main.getDTuple(14)),
+                    new TTuple(gotoTimePage,            Main.getDTuple(15)),
+                    new TTuple(gotoBill3_1,             Main.getDTuple(19)),
+                    new TTuple(gotoBill3_2,             Main.getDTuple(19)),
+                    new TTuple(gotoBill3_3,             Main.getDTuple(19)),
+                    new TTuple(gotoHistoryButton,       Main.getDTuple(12)),
+                    new TTuple(gotoExpenseButton,       Main.getDTuple(5)),
+                    new TTuple(gotoSendMoney,           Main.getDTuple(22))
         	    )
         );
+    }
+
+    public void gotoProfilePageFunc() {
+        Main.gotoPage(Main.getDTuple(8));
+    }
+
+    public void gotoExpensePage3Func() {
+        Main.gotoPage(Main.getDTuple(13));
+    }
+
+    public void gotoAccount2PageFunc() {
+        Main.gotoPage(Main.getDTuple(16));
+    }
+
+    public void gotoAccount3PageFunc() {
+        Main.gotoPage(Main.getDTuple(17));
+    }
+
+    public void gotoSendMoney1b() {
+        Main.gotoPage(Main.getDTuple(23));
+    }
+
+    public void gotoSendMoney1() {
+        Main.gotoPage(Main.getDTuple(22));
+    }
+
+    public void gotoSendMoney2() {
+        Main.gotoPage(Main.getDTuple(24));
+    }
+
+    public void gotoStockPageButton() {
+        Main.gotoPage(Main.getDTuple(4));
+    }
+
+    public void gotoAccountButton() {
+        Main.gotoPage(Main.getDTuple(7));
+    }
+
+    public void gotoBillPage() {
+        Main.gotoPage(Main.getDTuple(6));
+    }
+
+    public void gotoSendMoney3() {
+        Main.gotoPage(Main.getDTuple(25));
+    }
+
+    public void gotoSendMoney4() {
+        Main.gotoPage(Main.getDTuple(26));
+    }
+
+    public void gotoSecurityPageFunc() {
+        Main.gotoPage(Main.getDTuple(27));
+    }
+
+    public void gotoChangePasswordPageFunc() {
+        Main.gotoPage(Main.getDTuple(30));
+    }
+
+    public void gotoChangeEmailPageFunc() {
+        Main.gotoPage(Main.getDTuple(29));
+    }
+
+    public void gotoBackupPageFunc() {
+        Main.gotoPage(Main.getDTuple(28));
+    }
+
+    public void gotoMenuDesignPageFunc() {
+        Main.gotoPage(Main.getDTuple(31));
     }
 
     public void handlePress(ActionEvent event) throws Exception {
@@ -117,6 +202,14 @@ public class Controller {
         } else if (src == pageRightButton) {
             Main.iteratePages(false);
         }
+    }
+
+    public void gotoBillPage4Func() {
+        Main.gotoPage(Main.getDTuple(20));
+    }
+
+    public void gotoBillPage2Func() {
+        Main.gotoPage(Main.getDTuple(18));
     }
 
     public void handleLoginClick() throws Exception {
