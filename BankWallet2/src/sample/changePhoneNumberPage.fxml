@@ -35,59 +35,49 @@
             </Pane>
             <Pane layoutX="407.5" layoutY="30.0" prefHeight="300.0" prefWidth="322.5" style="-fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1); -fx-background-color: #ededef;">
                <children>
-                  <Button fx:id="forgotPasswordButton" layoutX="123.0" layoutY="242.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="27.0" prefWidth="187.0" style="-fx-background-radius: 0; -fx-border-radius: 0; -fx-background-color: #293a4b;" text="Change Email" textFill="#ededed">
+                  <Button fx:id="forgotPasswordButton" layoutX="123.0" layoutY="245.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="27.0" prefWidth="187.0" style="-fx-background-radius: 0; -fx-border-radius: 0; -fx-background-color: #293a4b;" text="Change Phone Number" textFill="#ededed">
                      <font>
                         <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Button>
-                  <Button fx:id="profileButton" layoutX="14.0" layoutY="241.0" mnemonicParsing="false" onAction="#handlePress" onMouseClicked="#gotoProfilePageFunc" prefHeight="30.0" prefWidth="100.0" style="-fx-background-radius: 0; -fx-border-radius: 0; -fx-background-color: #ededed; -fx-border-color: #293a4b; -fx-border-width: 2;" text="Back     ⏎" textFill="#293a4b">
+                  <Button fx:id="profileButton" layoutX="14.0" layoutY="244.0" mnemonicParsing="false" onAction="#handlePress" onMouseClicked="#gotoProfilePageFunc" prefHeight="30.0" prefWidth="100.0" style="-fx-background-radius: 0; -fx-border-radius: 0; -fx-background-color: #ededed; -fx-border-color: #293a4b; -fx-border-width: 2;" text="Back     ⏎" textFill="#293a4b">
                      <font>
                         <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Button>
-                  <TextField layoutX="13.0" layoutY="65.0" prefHeight="27.0" prefWidth="297.0" promptText="Old Email">
+                  <TextField layoutX="13.0" layoutY="74.0" prefHeight="27.0" prefWidth="297.0" promptText="Email">
                      <font>
                         <Font name="DejaVu Serif" size="13.0" />
                      </font></TextField>
-                  <ImageView fitHeight="150.0" fitWidth="20.0" layoutX="285.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="150.0" fitWidth="20.0" layoutX="279.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@email.png" />
                      </image>
                   </ImageView>
-                  <Text fill="#293a4b" layoutX="75.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Change Email" wrappingWidth="187.02465820312494">
+                  <Text fill="#293a4b" layoutX="14.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Change Phone Number" wrappingWidth="297.0">
                      <font>
                         <Font name="DejaVu Serif" size="25.0" />
                      </font>
                   </Text>
-                  <Button fx:id="sendCodeButton" layoutX="13.0" layoutY="98.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="27.0" prefWidth="297.0" style="-fx-background-radius: 0; -fx-border-radius: 0; -fx-background-color: #293a4b;" text="Send Code" textFill="#ededed">
+                  <Button fx:id="sendCodeButton" layoutX="13.0" layoutY="107.0" mnemonicParsing="false" onAction="#handlePress" prefHeight="27.0" prefWidth="297.0" style="-fx-background-radius: 0; -fx-border-radius: 0; -fx-background-color: #293a4b;" text="Send Code" textFill="#ededed">
                      <font>
                         <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </Button>
-                  <TextField layoutX="13.0" layoutY="134.0" prefHeight="27.0" prefWidth="297.0" promptText="Code">
+                  <TextField layoutX="13.0" layoutY="143.0" prefHeight="27.0" prefWidth="297.0" promptText="Code">
                      <font>
                         <Font name="DejaVu Serif" size="13.0" />
                      </font></TextField>
-                  <TextField layoutX="13.0" layoutY="167.0" prefHeight="27.0" prefWidth="297.0" promptText="New Email">
+                  <TextField layoutX="13.0" layoutY="177.0" prefHeight="27.0" prefWidth="297.0" promptText="New Phone Number">
                      <font>
                         <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </TextField>
-                  <TextField layoutX="13.0" layoutY="201.0" prefHeight="27.0" prefWidth="297.0" promptText="Confirm New Email">
+                  <TextField layoutX="13.0" layoutY="210.0" prefHeight="27.0" prefWidth="297.0" promptText="Confirm New Phone Number">
                      <font>
                         <Font name="DejaVu Serif" size="13.0" />
                      </font>
                   </TextField>
-                  <ImageView fitHeight="150.0" fitWidth="20.0" layoutX="285.0" layoutY="171.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@email.png" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="150.0" fitWidth="20.0" layoutX="285.0" layoutY="205.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@email.png" />
-                     </image>
-                  </ImageView>
                </children>
             </Pane>
          </children></Pane>
